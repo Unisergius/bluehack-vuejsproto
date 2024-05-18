@@ -15,11 +15,11 @@
 <script>
 import backgroundUrl from '@/assets/images/maksym-kaharlytskyi-QQcLNBQ6i_A-unsplash.jpg';
 export default {
-  data() {
-    return {
-      backgroundUrl,
-    };
-  },
+    data() {
+        return {
+            backgroundUrl,
+        };
+    },
 };
 
 </script>

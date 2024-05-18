@@ -1,14 +1,12 @@
 <script>
 import Header from '@/components/Header.vue'
 import Footer from '@/components/Footer.vue'
-import Index from '@/pages/Index.vue'
 export default {
     name: 'MainLayout',
     // Your component logic goes here
     components: {
         Header,
-        Footer,
-        Index
+        Footer
     }
 }
 </script>
@@ -16,11 +14,11 @@ export default {
 
 <template>
     <div class="flex flex-col min-h-screen">
-        <Header/>
+        <Header />
         <main class="flex-grow">
-            <Index/>
+            <RouterView />
         </main>
-        <Footer/>
+        <Footer />
     </div>
 </template>
 
