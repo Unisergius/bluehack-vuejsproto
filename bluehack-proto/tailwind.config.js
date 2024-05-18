@@ -6,7 +6,7 @@ export default {
     },
     plugins: [require("daisyui")],
     daisyui: {
-        themes: ["corporate", "synthwave", "cmyk"],
+        themes: ["corporate", "synthwave"],
     },
 }
 
