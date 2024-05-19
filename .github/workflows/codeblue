@@ -45,7 +45,7 @@ jobs:
         uses: actions/upload-pages-artifact@v3
         with:
           # Upload dist folder
-          path: './dist'  # Ensure this matches your Vite build output directory
+          path: './bluehack-proto/dist'  # Ensure this matches your Vite build output directory
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
