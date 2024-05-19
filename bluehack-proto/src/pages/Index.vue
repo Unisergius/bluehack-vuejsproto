@@ -4,17 +4,27 @@
     </div>
     <div class="hero-content text-center text-neutral-content">
         <div class="max-w-md">
-            <h1 class="mb-5 text-5xl font-bold">Welcome to BlueHack</h1>
-            <p class="mb-5">29th 30th June 2024</p>
-            <button class="btn btn-primary">Don't miss out</button>
+            <h1 class="mb-5 text-5xl font-bold">Code Blue Hackathon</h1>
+            <Countdown class="p-20 justify-center" />
+            <div class="flex flex-row gap-2 justify-center">
+                <button class="btn  text-neutral-content btn-primary">Tickets coming soon</button>
+                <EventInfoButton />
+            </div>
         </div>
     </div>
 </div>
 </template>
 
 <script>
+import Countdown from '@/components/Countdown.vue';
+import EventInfoButton from '@/components/buttons/EventInfoButton.vue';
 import backgroundUrl from '@/assets/images/maksym-kaharlytskyi-QQcLNBQ6i_A-unsplash.jpg';
 export default {
+    name: 'Index',
+    components: {
+        Countdown,
+        EventInfoButton,
+    },
     data() {
         return {
             backgroundUrl,
