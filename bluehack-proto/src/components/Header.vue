@@ -4,7 +4,7 @@
             <div class="navbar-start">
                 <div class="navbar-start">
                     <a class="btn btn-ghost text-xl h-10" >
-                        <RouterLink to="/about"><img id="logo" class="h-6" src="@/assets/images/logo.png" /></RouterLink>
+                        <RouterLink to="/about"><img id="logo" class="h-10" src="@/assets/images/CODE_BLUE_Hackaton-02.png" /></RouterLink>
                         </a>
                 </div>
             </div>
