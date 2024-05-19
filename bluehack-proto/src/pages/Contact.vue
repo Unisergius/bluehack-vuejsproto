@@ -6,7 +6,11 @@
     <div class="hero-content flex-col lg:flex-row-reverse text-neutral-content">
         <div class="text-center lg:text-left">
             <h1 class="text-5xl font-bold">Contact Us</h1>
-            <p class="py-6">Sponsors can present their problems, mentor teams, and advertise. Please contact <a class="text text-primary" href="mailto:dpalecek@ualg.pt">dpalecek@ualg.pt</a> to join us in delivering the best possible hackathon which drives sustainable blue economy development and technology.</p>
+            <p class="py-6"><b>Sponsors</b> have the opportunity to present their challenges, mentor participating teams, and advertise their brand. 
+                To become a sponsor and help us deliver an exceptional hackathon focused on sustainable blue economy 
+                development and technological advancement, please contact us at
+                <a class="text text-primary" href="mailto:dpalecek@ualg.pt">dpalecek@ualg.pt</a>.
+            </p>
         </div>
         <div v-if="formEnabled" class="card shrink-0 w-full max-w-sm shadow-2xl bg-base-100 d-none">
             <form class="card-body" @submit.prevent="sendEmail">

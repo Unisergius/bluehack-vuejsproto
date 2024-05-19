@@ -53,7 +53,7 @@
             </div>
         </nav>
         <aside>
-            <p>---CHECK THIS FIRST--- Copyright © 2024 - All right reserved by Code Blue</p>
+            <p>Copyright © 2024 - All right reserved by Code Blue</p>
         </aside>
         </footer>
     </template>
