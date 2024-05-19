@@ -8,10 +8,10 @@
             <section class="bg-base-200 p-6 rounded-lg shadow-lg mb-6">
                 <h2 class="text-3xl font-bold mb-4">Our philosophy</h2>
                 <p class="mb-4">
-                    <em>Code Blue</em> takes prides in tackling multifacet and complicated challenges
-                    of the current world, which need contributions from as many angles as possible.
-                    We believe everyone knows something we could use towards humanity progress. We focus on science, knowledge transfer,
-                    sustainability, and innovation.
+                    <b>Code Blue</b> takes prides in tackling multifaceted and complex challenges of today's world, 
+                    recognizing that solutions require diverse perspectives and collaborative efforts. We believe 
+                    that everyone has valuable insights that can contribute to the advancement of humanity. 
+                    Our focus is on science, knowledge transfer, software development, sustainability, and innovation.
                 </p>
             </section>
 
@@ -25,7 +25,7 @@
                     Lenz Gschwendtner
                 </p>
                 <p class="mb-4">
-                    Sergio Henriques
+                    Sérgio Henriques
                 </p>
                 <p class="mb-4">
                     David Paleček

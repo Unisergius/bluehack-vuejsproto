@@ -11,7 +11,7 @@
             <div class="navbar-center hidden lg:flex">
                 <ul class="menu menu-horizontal px-2 rounded-box">
                     <li v-for="link in links" :key="link.text">
-                        <RouterLink :to="link.to">{{ link.text }}</RouterLink>
+                        <RouterLink :to="link.to"><b>{{ link.text }}</b></RouterLink>
                     </li>
                 </ul>
             </div>
