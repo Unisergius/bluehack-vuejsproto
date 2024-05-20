@@ -42,7 +42,7 @@
                 </div>
             </form>
         </div>
-        <img v-if="!formEnabled" :src="codeBlueHackatonImg" class="max-w-sm rounded-lg shadow-2xl bg-current" />
+        <img v-if="!formEnabled" :src="codeBlueHackatonImg" class="rounded-lg shadow-2xl bg-current" />
     </div>
 </div>
 
