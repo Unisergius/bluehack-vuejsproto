@@ -52,7 +52,7 @@ export default {
                 },
                 {
                     name: 'GreenColab',
-                    description: 'Joining the Pieces in Algal Biotechnology<br>A collaborative platform to bridge the transfer of knowledge from academia, industry, stakeholders, and consumers.',
+                    description: 'Joining the Pieces in Algal Biotechnology. A collaborative platform to bridge the transfer of knowledge from academia, industry, stakeholders, and consumers.',
                     image: greenColabImage,
                     website: 'https://www.greencolab.com/',
                     linkedin: 'https://www.linkedin.com/company/greencolab/'
@@ -74,6 +74,7 @@ export default {
                     name: 'GeekSessions',
                     description: 'Fostering knowledge exchange and collaboration within the Digital Product community of the Algarve (and beyond!).',
                     image: geekSessionsImage,
+                    linkedin: 'https://www.linkedin.com/company/geek-sessions-faro/',
                     website: 'https://geeksessions.io/',
                 }
             // Add more partner objects as needed
