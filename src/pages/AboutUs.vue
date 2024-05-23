@@ -22,10 +22,16 @@
                     Teresa Correia
                 </p>
                 <p class="mb-4">
+                    Penélope Gonçalves
+                </p>
+                <p class="mb-4">
                     Lenz Gschwendtner
                 </p>
                 <p class="mb-4">
                     Sérgio Henriques
+                </p>
+                <p class="mb-4">
+                    Vanessa v. Nascimento
                 </p>
                 <p class="mb-4">
                     David Paleček

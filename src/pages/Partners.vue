@@ -28,6 +28,8 @@ import greenColabImage from '@/assets/images/green-colab-cores.png';
 import ualgTecCampusImage from '@/assets/images/ualg_tec_campus_logo.jpeg';
 import localFoundationImage from '@/assets/images/local_foundation_logo.jpeg';
 import geekSessionsImage from '@/assets/images/GS_CORES_FUNDO squared.png';
+import algarveEvoImage from '@/assets/images/Algarve-evolution.png';
+import gdgImage from '@/assets/images/Gdg.jpg';
 
 export default {
     components: {
@@ -76,7 +78,22 @@ export default {
                     image: geekSessionsImage,
                     linkedin: 'https://www.linkedin.com/company/geek-sessions-faro/',
                     website: 'https://geeksessions.io/',
-                }
+                },
+                {
+                    name: 'Algarve Evolution',
+                    description: 'A community of entrepreneurs, investors, and professionals who are passionate about the Algarve and its potential.',
+                    image: algarveEvoImage,
+                    linkedin: 'https://www.linkedin.com/company/algarve-evolution/',
+                    website: 'https://algarveevolution.pt/'
+                },
+                {
+                    name: 'GDG Faro',
+                    description: 'Google Developer Group Faro is a community of developers, which organizes events for developers.',
+                    image: gdgImage,
+                    linkedin: 'https://www.linkedin.com/company/gdg-faro/',
+                    website: 'https://www.meetup.com/GDG-Faro/'
+                },
+
             // Add more partner objects as needed
             ]
         };
