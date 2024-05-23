@@ -30,6 +30,16 @@
                         <td>{{ event.event }}</td>
                         <td>{{ event.location }}</td>
                     </tr>
+                    <!-- if event has items array print them -->
+                    <tr v-if="event.items">
+                        <!-- <td></td> -->
+                        <!-- <td></td> -->
+                        <td colspan="4">
+                            <ul class="list-disc list-inside">
+                                <li v-for="(item, index) in event.items"  :key="index">{{ item }}</li>
+                            </ul>
+                        </td>
+                    </tr>
                 </template>
                 </tbody>
                 
