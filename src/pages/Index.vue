@@ -4,10 +4,11 @@
     </div>
     <div class="hero-content p-0 text-center text-neutral-content">
         <div class="max-w-md">
-            <h1 class="mb-10 text-5xl font-bold">Blue Biotech Hackathon</h1>
-            <p class="mb-0 p-2 font-bold">Join us for an inspiring 48-hour hackathon 
-                to innovate and develop solutions for biotechnology, science, 
-                and business case ideas.
+            <h1 class="mb-13 text-5xl font-bold">June 28-30, 2024</h1>
+            <h1 class="mb-10 text-4xl font-bold">Blue Biotech Hackathon</h1>
+            <p class="mb-0 p-2 font-bold">Join us in our 48-hour hackathon 
+                to innovate and develop cutting-edge solutions in biotechnology, 
+                science, and business.
             </p>
             <Countdown class="p-20 justify-center" />
             <div class="flex flex-row gap-2 justify-center">
