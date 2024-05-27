@@ -1,26 +1,17 @@
 <template>
     <div>
-      <button @click="openBrochure" class="btn text-neutral-content btn-primary">
+      <router-link class="btn text-neutral-content btn-primary" :to="{ name: 'DownloadDocument', params: { fileName: file } }">
         Sponsor Us
-      </button>
+      </router-link>
     </div>
   </template>
   
   <script>
   export default {
     name: 'SponsorButton',
-    methods: {
-      openBrochure() {
-        // window.open('./../assets/brochure_code_blue2024.pdf', '_blank');
-        window.open(this.file, '_blank');
-        // this.$router.push('@/assets/brochure_code_blue2024.pdf');
-        
-
-        } 
-      },
     data() {
       return {
-          file: './../assets/brochure_code_blue2024.pdf',
+          file: 'brochure_code_blue2024.pdf',
       };
     },
     }
