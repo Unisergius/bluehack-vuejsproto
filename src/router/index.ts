@@ -33,7 +33,7 @@ const routes = [
   },
   { 
     path: '/:pathMatch(.*)*', 
-    redirect: '/' 
+    redirect: '/'
   
   }
 ]

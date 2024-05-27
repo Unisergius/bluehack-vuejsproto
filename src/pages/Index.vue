@@ -12,9 +12,13 @@
             </p>
             <Countdown class="p-20 justify-center" />
             <div class="flex flex-row gap-2 justify-center">
-                <button class="btn text-neutral-content btn-primary">Tickets coming soon</button>
+                <button class="btn text-neutral-content btn-secondary">Tickets coming soon</button>
                 <EventInfoButton />
+                <!-- <SponsorButton /> -->
             </div>
+            <div class="p-4 flex flex-row gap-2 justify-center">
+                <SponsorButton />
+            </div>  
         </div>
     </div>
 </div>
@@ -23,12 +27,14 @@
 <script>
 import Countdown from '@/components/Countdown.vue';
 import EventInfoButton from '@/components/buttons/EventInfoButton.vue';
+import SponsorButton from '@/components/buttons/SponsorshipButton.vue';
 import backgroundUrl from '@/assets/images/maksym-kaharlytskyi-QQcLNBQ6i_A-unsplash.jpg';
 export default {
     name: 'Index',
     components: {
         Countdown,
         EventInfoButton,
+        SponsorButton,
     },
     data() {
         return {
