@@ -1,12 +1,10 @@
 <template>
-    <div>
-      <router-link class="btn text-neutral-content btn-primary" :to="{ name: 'DownloadDocument', params: { fileName: file } }">
-        Sponsor Us
-      </router-link>
-    </div>
-  </template>
+    <router-link class="btn text-neutral-content btn-primary" :to="{ name: 'DownloadDocument', params: { fileName: file } }">
+      Sponsor Us
+    </router-link>
+</template>
   
-  <script>
+<script>
   export default {
     name: 'SponsorButton',
     data() {
@@ -15,9 +13,9 @@
       };
     },
     }
-  </script>
-  
-  <style scoped>
-  /* Add any custom styles here */
-  </style>
+</script>
+
+<style scoped>
+/* Add any custom styles here */
+</style>
   

@@ -10,14 +10,14 @@
                 to innovate and develop cutting-edge solutions in biotechnology, 
                 science, and business.
             </p>
-            <Countdown class="p-20 justify-center" />
-            <div class="flex flex-row gap-2 justify-center">
-                <button class="btn text-neutral-content btn-secondary">Tickets coming soon</button>
-                <EventInfoButton />
-                <!-- <SponsorButton /> -->
+            <Countdown class="p-10 pb-20 justify-center" />
+            <div class="flex flex-row flex-wrap gap-2 justify-center p-2">
+                <button class="btn text-neutral-content btn-secondary w-full sm:w-auto">Tickets coming soon</button>
+                <EventInfoButton class="w-full sm:w-auto"/>
+                <!-- <SponsorButton /> --> 
             </div>
-            <div class="p-4 flex flex-row gap-2 justify-center">
-                <SponsorButton />
+            <div class="p-2 flex flex-row gap-2 justify-center">
+                <SponsorButton class="w-full sm:w-auto" />
             </div>  
         </div>
     </div>
