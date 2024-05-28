@@ -129,8 +129,9 @@ export default {
                             items: [
                                 'Deborah Power: "Marine Biotechnology"',
                                 'Dario Passos: "Data Science and Machine Learning"',
+                                'João Varela: "TBA"',
                                 'TBA: "Business Case Ideation"',
-                                'TBA: "Software Tools and integration"',
+                                'Lenz Gschwendtner: "Low Code Software Tools and Integration"',
                                 'TBA: "Technology transfer"'
                             ],
                             location: 'Gambelas',
@@ -163,19 +164,19 @@ export default {
                         {
                             icon: foodIcon,
                             time: '08:00',
-                            event: 'Breakfast',
+                            event: 'Venue opens, breakfast',
                             location: 'Algarve Tech Hub',
                         },
                         {
                             icon: judgesIcon,
-                            time: '08:30',
+                            time: '09:00',
                             event: 'Final team assignments',
                             location: 'Algarve Tech Hub',
                         },
                         {
                             icon: codingIcon,
-                            time: '08:30',
-                            event: 'Coding',
+                            time: '09:00',
+                            event: 'Product work',
                             location: 'Algarve Tech Hub',
                         },
                         {
@@ -187,7 +188,7 @@ export default {
                         {
                             icon: codingIcon,
                             time: '14:00',
-                            event: 'Coding',
+                            event: 'Product work',
                             location: 'Algarve Tech Hub',
                         },
                         {
@@ -199,7 +200,7 @@ export default {
                         {
                             icon: codingIcon,
                             time: '19:00',
-                            event: 'Coding',
+                            event: 'Product work',
                             location: 'Algarve Tech Hub',
                         },
                         {
@@ -219,13 +220,13 @@ export default {
                         {
                             icon: foodIcon,
                             time: '08:00',
-                            event: 'Breakfast',
+                            event: 'Venue opens, breakfast',
                             location: 'Algarve Tech Hub',
                         },
                         {
                             icon: codingIcon,
                             time: '08:30',
-                            event: 'Coding',
+                            event: 'Product work',
                             location: 'Algarve Tech Hub',
                         },
                         {
