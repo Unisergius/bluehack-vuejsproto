@@ -30,6 +30,7 @@ import localFoundationImage from '@/assets/images/local_foundation_logo.jpeg';
 import geekSessionsImage from '@/assets/images/GS_CORES_FUNDO squared.png';
 import algarveEvoImage from '@/assets/images/Algarve-evolution.png';
 import gdgImage from '@/assets/images/Gdg.jpg';
+import algarveStpImage from '@/assets/images/algarve-stp-logo.png';
 
 export default {
     components: {
@@ -92,6 +93,13 @@ export default {
                     image: gdgImage,
                     linkedin: 'https://www.linkedin.com/company/gdg-faro/',
                     website: 'https://www.meetup.com/GDG-Faro/'
+                },
+                {
+                    name: 'Algarve STP',
+                    description: 'The Algarve Systems and Technology Partnership Association (Algarve STP) is a non-profit private association that aims to empower the technological ecosystem in the Algarve region to transform it into one of the most competitive in southern Europe.',
+                    image: algarveStpImage,
+                    linkedin: 'https://www.linkedin.com/company/algarvestp/',
+                    website: 'https://www.algarvestp.pt/'
                 },
 
             // Add more partner objects as needed
