@@ -8,25 +8,29 @@
                 <section class="bg-base-200 p-6 rounded-lg shadow-lg mb-6">
                     <h2 class="text-3xl font-bold mb-4">Event Info</h2>
                     <p class="mb-4">
-                    Code Blue Hackathon invites you to learn, code and create solutions for emerging biotechnology, 
-                    science, and business case ideas.
+                    Assemble a team, develop a prototype for an innovative biotechnology, scientific, 
+                    or business solution within the scope of the blue economy, and accomplish it all in just 40 hours. 
+                    Collaborate, learn, and create impactful solutions together.
                     </p>
-                </section>
-            
-                <!-- Special Pitch Section -->
-                <section class="bg-base-200 p-6 rounded-lg shadow-lg mb-6">
-                    <h2 class="text-3xl font-bold mb-4">Special Pitch to You</h2>
+                    <h3 class="text-2xl font-bold mb-4">Scope</h3>
+                    <ul class="list-disc list-inside mb-4">
+                        <li><b>Biotechnology:</b> Innovations in marine biology, sustainable aquaculture, 
+                            bioprospecting, or marine conservation.</li>
+                        <li><b>Science:</b> Data-driven solutions for marine science, environmental monitoring, 
+                            ecosystem restoration, or marine industry.</li>
+                        <li><b>Business:</b> Novel business models that support sustainable use of ocean resources, 
+                            eco-friendly maritime industries, or blue economy startups.</li>
+                    </ul>
+
+                    <h3 class="text-2xl font-bold mb-4">Special Pitch to You</h3>
                     <!-- create bullet point list -->
-                        <ul class="list-disc list-inside">
-                            <li><b>Mentoring</b> on marine science, data, software tools and ideation.</li>
-                            <li>We will provide you with curated <b>repository of resources</b>. </li>
-                            <li>The comprehensive program will foster social and <b>community engagement</b> while introducing you 
-                                to local stakeholders and their challenges. </li>
-                            <li>... More to come</li>
-                        </ul>
+                    <ul class="list-disc list-inside mb-4">
+                        <li>We provide <b>Mentoring</b> on marine science, data, software tools and ideation.</li>
+                        <li>We will provide you with curated <b>repository of resources</b>, including challenges you can tackle. </li>
+                        <li>Program which foster social and <b>community engagement</b> while introducing you 
+                            to local stakeholders and their challenges. </li>
+                    </ul>
                 </section>
-            
-                <!-- Reserve the Date Section -->
                 
                 <!-- subsection for each day -->
                 <section class="bg-base-200 p-6 rounded-lg shadow-lg mb-6">
@@ -48,7 +52,7 @@
                 <section class="bg-base-200 p-6 rounded-lg shadow-lg mb-6">
                     <h2 class="text-3xl font-bold mb-4">Prizes</h2>
                     <ul class="list-disc list-inside">
-                    <li>2 year incubation support from CRIA.</li>
+                    <li>2-year incubation support from CRIA.</li>
                     <li>... More to come</li>
                     </ul>
                 </section>
@@ -64,17 +68,70 @@
                 <!-- rules section -->
                 <section class="bg-base-200 p-6 rounded-lg shadow-lg mb-6">
                     <h2 class="text-3xl font-bold mb-4">Rules</h2>
+                    <h3 class="text-2xl font-bold mb-4">Creating or joining teams</h3>
+                    <!-- create bullet point list -->
+                    <ul class="list-disc list-inside mb-4">
+                        <li>Teams have a minimum of 2 and maximum of 4 members.</li>
+                        <li>Teams will be formed (mostly) on Friday 28/6 after the brainstorming session.</li>
+                        <li>Team members can not participate on different teams. </li>
+                        <li>Teams should start the event without having any previous development work done. 
+                            They can and should discuss/agree on ideas and recruit team members to help the 
+                            development during the hackathon event (especially Friday 28/6).</li>
+                        <li>Even though the competition officially starts on 28/6, <b>final deadline</b> 
+                            to join/form/register a team and its name is <b>9am 29/6</b>, delivered <b>on paper</b>.</li>
+                    </ul>
+
+                    <h3 class="text-2xl font-bold mb-4">Selecting an idea</h3>
+                    <!-- create bullet point list -->
+                    <ul class="list-disc list-inside mb-4">
+                        <li>Any idea you might choose to explore during the hackathon is valid if that idea, 
+                            prototype (functional or not), project is within the scope of <b>Blue Economy</b> 
+                            and/or <b>Biotechnology</b>.</li>
+                        <li>Teams should start the event without having any previous development work done. 
+                            They can and should discuss/agree on ideas and recruit team members to help the 
+                            development (especially on Friday 28/6).</li>
+                        <li>A set of challenges by sponsors and CCMAR will be compiled and presented publicly before the Friday 28/6. </li>
+                    </ul>
+
+                    <h3 class="text-2xl font-bold mb-4">Code of Conduct</h3>
                     <p class="mb-4">
-                    Coming soon.
+                    Code Blue Hackathon is dedicated to providing a safe and comfortable environment 
+                    for all participants. Please find and refer to the Code of Conduct 
+                    <!-- link to the webpage -->
+                    <a href="https://github.com/Py-ualg/2024-code-blue/blob/main/CODE_OF_CONDUCT.md" class="text-primary" target="_blank">here</a>.
+                    </p>
+                    
+                    <h3 class="text-2xl font-bold mb-4">Judging</h3>
+                    <p class="mb-4">
+                    Scores on scale from 1 to 10, with 10 being the highest score. 
+                    Projects will be judged by a panel of experts on the following criteria:
+                    </p>
+                    <ul class="list-disc list-inside mb-4">
+                        <li><b>Impact:</b> Determine the practical applicability of the project and its 
+                            potential impact on society, and the environment.</li>
+                        <li><b>Feasibility:</b> Consider the project's execution and whether it can 
+                            realistically be brought to market or implemented in a real-world setting.</li>
+                        <li><b>Originality:</b> Assess the originality of the idea and the creativity in its application. 
+                            Consider how the project stands out from existing solutions and its potential 
+                            to introduce new paradigms.</li>
+                        <li><b>Rigor:</b> Evaluate the scientific basis of the project, including the accuracy of the data, 
+                            the soundness of the methodology, and the validity of the conclusions.</li>
+                    </ul>
+                    <p class="mb-4">
+                    <i>last updated: 2024-06-01</i>
                     </p>
                 </section>
             
                 <!-- Jury Section -->
                 <section class="bg-base-200 p-6 rounded-lg shadow-lg mb-6">
                     <h2 class="text-3xl font-bold mb-4">Jury</h2>
-                    <p class="mb-4">
-                    Coming soon.
-                    </p>
+                    <!-- bullet point list -->
+                    <ul class="list-disc list-inside">
+                        <li><b>Deborah Power</b>: Professor at CCMAR, leader of Comparative Endocrynology group</li>
+                        <li><b>João Varela</b>: Professor at CCMAR, leader of Marine Biotechnology group</li>
+                        <li><b>Lenz Gschwendtner</b>: Coder, community builder, punk sailor</li>
+                        <li><b>TBA</b>:</li>
+                    </ul>
                 </section>
             </div>
         </div>
