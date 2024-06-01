@@ -78,11 +78,10 @@
                             They can and should discuss/agree on ideas and recruit team members to help the 
                             development during the hackathon event (especially Friday 28/6).</li>
                         <li>Even though the competition officially starts on 28/6, <b>final deadline</b> 
-                            to join/form/register a team and its name is <b>9am 29/6</b>, delivered <b>on paper</b>.</li>
+                            to join/form/register a team and its name is <b>9 a.m. 29/6</b>, delivered <b>on paper</b>.</li>
                     </ul>
 
                     <h3 class="text-2xl font-bold mb-4">Selecting an idea</h3>
-                    <!-- create bullet point list -->
                     <ul class="list-disc list-inside mb-4">
                         <li>Any idea you might choose to explore during the hackathon is valid if that idea, 
                             prototype (functional or not), project is within the scope of <b>Blue Economy</b> 
@@ -92,15 +91,15 @@
                             development (especially on Friday 28/6).</li>
                         <li>A set of challenges by sponsors and CCMAR will be compiled and presented publicly before the Friday 28/6. </li>
                     </ul>
-
-                    <h3 class="text-2xl font-bold mb-4">Code of Conduct</h3>
-                    <p class="mb-4">
-                    Code Blue Hackathon is dedicated to providing a safe and comfortable environment 
-                    for all participants. Please find and refer to the Code of Conduct 
-                    <!-- link to the webpage -->
-                    <a href="https://github.com/Py-ualg/2024-code-blue/blob/main/CODE_OF_CONDUCT.md" class="text-primary" target="_blank">here</a>.
-                    </p>
                     
+                    <h3 class="text-2xl font-bold mb-4">Working the idea</h3>
+                    <ul class="list-disc list-inside mb-4">
+                        <li>Mentors with different expertise will be available for the teams to request help and consultation.</li>
+                        <li>3 debugging sessions will be scheduled, where the teams can share their issues and get input from other teams.</li>
+                        <li>Delivery deadline is expected around 12:00 a.m.,  Sunday 30/6.</li>
+                    </ul>
+
+                    <!-- Judging -->
                     <h3 class="text-2xl font-bold mb-4">Judging</h3>
                     <p class="mb-4">
                     Scores on scale from 1 to 10, with 10 being the highest score. 
@@ -117,6 +116,16 @@
                         <li><b>Rigor:</b> Evaluate the scientific basis of the project, including the accuracy of the data, 
                             the soundness of the methodology, and the validity of the conclusions.</li>
                     </ul>
+
+                    <!-- Code of coduct -->
+                    <h3 class="text-2xl font-bold mb-4">Code of Conduct</h3>
+                    <p class="mb-4">
+                    Code Blue Hackathon is dedicated to providing a safe and comfortable environment 
+                    for all participants. Please find and refer to the Code of Conduct 
+                    <!-- link to the webpage -->
+                    <a href="https://github.com/Py-ualg/2024-code-blue/blob/main/CODE_OF_CONDUCT.md" class="text-primary" target="_blank">here</a>.
+                    </p>
+
                     <p class="mb-4">
                     <i>last updated: 2024-06-01</i>
                     </p>
