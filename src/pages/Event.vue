@@ -34,7 +34,7 @@
                 
                 <!-- subsection for each day -->
                 <section class="bg-base-200 p-6 rounded-lg shadow-lg mb-6">
-                    <h2 class="text-3xl font-bold mb-4">Reserve the Date: June 28-30</h2>
+                    <h2 class="text-3xl font-bold mb-4">Reserve the Date: October 2024</h2>
                     <h3 class="text-2xl font-semibold mb-2">Preliminary Program:</h3>
                     
                     <div class="container mx-auto">
@@ -72,13 +72,13 @@
                     <!-- create bullet point list -->
                     <ul class="list-disc list-inside mb-4">
                         <li>Teams have a minimum of 2 and maximum of 4 members.</li>
-                        <li>Teams will be formed (mostly) on Friday 28/6 after the brainstorming session.</li>
+                        <li>Teams will be formed (mostly) on <em>Day 1</em> after the brainstorming session.</li>
                         <li>Team members can not participate on different teams. </li>
                         <li>Teams should start the event without having any previous development work done. 
                             They can and should discuss/agree on ideas and recruit team members to help the 
-                            development during the hackathon event (especially Friday 28/6).</li>
-                        <li>Even though the competition officially starts on 28/6, <b>final deadline</b> 
-                            to join/form/register a team and its name is <b>9 a.m. 29/6</b>, delivered <b>on paper</b>.</li>
+                            development during the hackathon event (especially on <em>Day 1</em>).</li>
+                        <li>Even though the competition officially starts on <em>Day 1</em>, <b>final deadline</b> 
+                            to join/form/register a team and its name is <b>9 a.m. <em>Day 2</em></b>, delivered <b>on paper</b>.</li>
                     </ul>
 
                     <h3 class="text-2xl font-bold mb-4">Selecting an idea</h3>
@@ -88,15 +88,15 @@
                             and/or <b>Biotechnology</b>.</li>
                         <li>Teams should start the event without having any previous development work done. 
                             They can and should discuss/agree on ideas and recruit team members to help the 
-                            development (especially on Friday 28/6).</li>
-                        <li>A set of challenges by sponsors and CCMAR will be compiled and presented publicly before the Friday 28/6. </li>
+                            development (especially on <em>Day 1</em>).</li>
+                        <li>A set of challenges by sponsors and CCMAR will be compiled and presented publicly before the <em>Day 1</em>. </li>
                     </ul>
                     
                     <h3 class="text-2xl font-bold mb-4">Working the idea</h3>
                     <ul class="list-disc list-inside mb-4">
                         <li>Mentors with different expertise will be available for the teams to request help and consultation.</li>
                         <li>3 debugging sessions will be scheduled, where the teams can share their issues and get input from other teams.</li>
-                        <li>Delivery deadline is expected around 12:00 a.m.,  Sunday 30/6.</li>
+                        <li>Delivery deadline is expected around 12:00 a.m., <em>Day 3</em>.</li>
                     </ul>
 
                     <!-- Judging -->
@@ -127,7 +127,7 @@
                     </p>
 
                     <p class="mb-4">
-                    <i>last updated: 2024-06-01</i>
+                    <i>last updated: 2024-06-07</i>
                     </p>
                 </section>
             
@@ -138,7 +138,7 @@
                     <ul class="list-disc list-inside">
                         <li><b>Deborah Power</b>: Professor at CCMAR, leader of Comparative Endocrynology group</li>
                         <li><b>João Varela</b>: Professor at CCMAR, leader of Marine Biotechnology group</li>
-                        <li><b>Lenz Gschwendtner</b>: Coder, community builder, punk sailor</li>
+                        <li><b>Lenz Gschwendtner</b>: Coder, community builder, punk developer</li>
                         <li><b>TBA</b>:</li>
                     </ul>
                 </section>
@@ -178,7 +178,7 @@ export default {
             backgroundUrl,
             days: [
                 {
-                    name: 'Day 1, Friday 28/6',
+                    name: 'Day 1',
                     description: 'Get to know people, tools and mentors. Brainstorm and form teams.',
                     image: onboardImage,
                     program: [
@@ -186,7 +186,7 @@ export default {
                             icon: arriveIcon,
                             time: '14:00',
                             event: 'Registration',
-                            location: 'Gambelas',
+                            location: 'TBA',
                         },
                         {
                             icon: presentIcon,
@@ -200,19 +200,19 @@ export default {
                                 'Lenz Gschwendtner: "Low Code Software Tools and Integration"',
                                 'TBA: "Technology transfer"'
                             ],
-                            location: 'Gambelas',
+                            location: 'TBA',
                         },
                         {
                             icon: brainstormIcon,
                             time: '17:00',
                             event: 'Brainstorming',
-                            location: 'Gambelas',
+                            location: 'TBA',
                         },
                         {
                             icon: teamsIcon,
                             time: '18:00',
                             event: 'Team formation',
-                            location: 'Gambelas',
+                            location: 'TBA',
                         },
                         {   
                             icon: startIcon,
@@ -223,7 +223,7 @@ export default {
                     ]
                 },
                 {
-                    name: 'Day 2, Saturday 29/6',
+                    name: 'Day 2',
                     description: 'Hard coding day with help of mentors and food breaks.',
                     image: compImage,
                     program: [
@@ -231,54 +231,54 @@ export default {
                             icon: foodIcon,
                             time: '08:00',
                             event: 'Venue opens, breakfast',
-                            location: 'Algarve Tech Hub',
+                            location: 'TBA',
                         },
                         {
                             icon: judgesIcon,
                             time: '09:00',
                             event: 'Final team assignments',
-                            location: 'Algarve Tech Hub',
+                            location: 'TBA',
                         },
                         {
                             icon: codingIcon,
                             time: '09:00',
                             event: 'Product work',
-                            location: 'Algarve Tech Hub',
+                            location: 'TBA',
                         },
                         {
                             icon: foodIcon,
                             time: '13:00',
                             event: 'Lunch',
-                            location: 'Algarve Tech Hub',
+                            location: 'TBA',
                         },
                         {
                             icon: codingIcon,
                             time: '14:00',
                             event: 'Product work',
-                            location: 'Algarve Tech Hub',
+                            location: 'TBA',
                         },
                         {
                             icon: foodIcon,
                             time: '18:00',
                             event: 'Dinner',
-                            location: 'Algarve Tech Hub',
+                            location: 'TBA',
                         },
                         {
                             icon: codingIcon,
                             time: '19:00',
                             event: 'Product work',
-                            location: 'Algarve Tech Hub',
+                            location: 'TBA',
                         },
                         {
                             icon: nightIcon,
                             time: '22:00',
                             event: 'Good night',
-                            location: 'Algarve Tech Hub',
+                            location: 'TBA',
                         }
                     ]
                 },
                 {
-                    name: 'Day 3, Sunday 30/6',
+                    name: 'Day 3',
                     description: 'Finalize your product for submission. Move to the afterparty where demos will be presente, winners announced decompression offered.',
                     image: finalImage,
                     program:
@@ -287,19 +287,19 @@ export default {
                             icon: foodIcon,
                             time: '08:00',
                             event: 'Venue opens, breakfast',
-                            location: 'Algarve Tech Hub',
+                            location: 'TBA',
                         },
                         {
                             icon: codingIcon,
                             time: '08:30',
                             event: 'Product work',
-                            location: 'Algarve Tech Hub',
+                            location: 'TBA',
                         },
                         {
                             icon: compEndIcon,
                             time: '12:30',
                             event: 'Submission and lunch',
-                            location: 'Algarve Tech Hub',
+                            location: 'TBA',
                         },
                         {
                             icon: partyIcon,
