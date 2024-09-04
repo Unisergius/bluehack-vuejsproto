@@ -21,16 +21,21 @@
 <script>
 import PartnerCard from '@/components/PartnerCard.vue';
 
+import apaImage from '@/assets/images/logo_apa.png';
+import algarveEvoImage from '@/assets/images/Algarve-evolution.png';
+import algarveStpImage from '@/assets/images/algarve-stp-logo.png';
 import backgroundUrl from '@/assets/images/maksym-kaharlytskyi-QQcLNBQ6i_A-unsplash.jpg';
 import ccmarImage from '@/assets/images/ccmar.png';
 import criaImage from '@/assets/images/cria.jpeg';
-import greenColabImage from '@/assets/images/green-colab-cores.png';
-import ualgTecCampusImage from '@/assets/images/ualg_tec_campus_logo.jpeg';
-import localFoundationImage from '@/assets/images/local_foundation_logo.jpeg';
-import geekSessionsImage from '@/assets/images/GS_CORES_FUNDO squared.png';
-import algarveEvoImage from '@/assets/images/Algarve-evolution.png';
 import gdgImage from '@/assets/images/Gdg.jpg';
-import algarveStpImage from '@/assets/images/algarve-stp-logo.png';
+import geekSessionsImage from '@/assets/images/GS_CORES_FUNDO squared.png';
+import greenColabImage from '@/assets/images/green-colab-cores.png';
+import inductivaImage from '@/assets/images/inductiva_ai_logo.jpg';
+import ipmaImage from '@/assets/images/logo_ipma_pt.jpg';
+import localFoundationImage from '@/assets/images/local_foundation_logo.jpeg';
+import nectonImage from '@/assets/images/logo_necton02.png';
+import ualgTecCampusImage from '@/assets/images/ualg_tec_campus_logo.jpeg';
+
 
 export default {
     components: {
@@ -40,6 +45,34 @@ export default {
         return {
             backgroundUrl,
             partners: [
+                {
+                    name: 'Necton',
+                    description: 'Necton’s mission is to bring to market innovative products and services resulting from scientific and technological marine knowledge. ',
+                    image: nectonImage,
+                    website: 'https://necton.pt/',
+                    linkedin: 'https://www.linkedin.com/company/salt-by-necton/'
+                },
+                {
+                    name: 'Inductiva.AI',
+                    description: 'Inductiva API helps you take physical simulations to the next level. Use Python to easily run the open‑source simulators you love, on the cloud, at scale.',
+                    image: inductivaImage,
+                    website: 'https://inductiva.ai/',
+                    linkedin: 'https://www.linkedin.com/company/inductiva-ai/'
+                },
+                {
+                    name: 'APA',
+                    description: 'Agência Portuguesa do Ambiente e responsável pela implementação das políticas de ambiente em Portugal. A APA tem como objetivo contribuir para um elevado nível de proteção e valorização do ambiente através da prestação de serviços de qualidade aos cidadãos.',
+                    image: apaImage,
+                    website: 'https://apambiente.pt/',
+                    linkedin: 'https://www.linkedin.com/company/agencia-portuguesa-ambiente/'
+                },
+                {
+                    name: 'IPMA',
+                    description: 'The Instituto Português do Mar e da Atmosfera is the national meteorological, seismic, sea and atmospheric organization of Portugal.',
+                    image: ipmaImage,
+                    website: 'https://www.ipma.pt/pt/index.html',
+                    linkedin: 'https://www.linkedin.com/company/ipma-pt/'
+                },
                 {
                     name: 'CCMAR Algarve',
                     description: 'Non-profit organization located on the Gambelas campus of the University of Algarve and dedicated to R&D in the Marine Sciences. ',
