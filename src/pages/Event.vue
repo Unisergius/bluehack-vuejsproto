@@ -8,9 +8,18 @@
                 <section class="bg-base-200 p-6 rounded-lg shadow-lg mb-6">
                     <h2 class="text-3xl font-bold mb-4">Event Info</h2>
                     <p class="mb-4">
-                    Assemble a team, develop a prototype for an innovative biotechnology, scientific, 
-                    or business solution within the scope of the blue economy, and accomplish it all in just 40 hours. 
-                    Collaborate, learn, and create impactful solutions together.
+                        &#x1F3F4 Where: Sala Azul, Albufeira, Portugal, 
+                        <a href="https://maps.app.goo.gl/N9UTBxEqDbeHoQsE9" class="text-primary" target="_blank">Gmaps</a>
+
+                        <br>
+                        &#x1F51C When: <b>October 18-20, 2024</b>
+
+                        <br>
+                        &#x1F50D Teams: 2-4 (+1 online) members for developing a prototype for an innovative biotechnology, scientific, 
+                        or business solution within the scope of the blue economy, and accomplish it all in 40 hours.
+
+                        <br>
+                        &#x1F9EE Why: Collaborate, learn, and create impactful solutions together.
                     </p>
                     <h3 class="text-2xl font-bold mb-4">Scope</h3>
                     <ul class="list-disc list-inside mb-4">
@@ -18,7 +27,7 @@
                             bioprospecting, or marine conservation.</li>
                         <li><b>Science:</b> Data-driven solutions for marine science, environmental monitoring, 
                             ecosystem restoration, or marine industry.</li>
-                        <li><b>Business:</b> Novel business models that support sustainable use of ocean resources, 
+                        <li><b>Industry:</b> Novel business models that support sustainable use of ocean resources, 
                             eco-friendly maritime industries, or blue economy startups.</li>
                     </ul>
 
@@ -26,7 +35,7 @@
                     <!-- create bullet point list -->
                     <ul class="list-disc list-inside mb-4">
                         <li>We provide <b>Mentoring</b> on marine science, data, software tools and ideation.</li>
-                        <li>We will provide you with curated <b>repository of resources</b>, including challenges you can tackle. </li>
+                        <li>We will provide you with curated <b><a href="https://github.com/Py-ualg/2024-code-blue/tree/main" class="text-primary" target="_blank">repository of resources</a></b>, including challenges you can tackle. </li>
                         <li>Program which foster social and <b>community engagement</b> while introducing you 
                             to local stakeholders and their challenges. </li>
                     </ul>
@@ -34,7 +43,7 @@
                 
                 <!-- subsection for each day -->
                 <section class="bg-base-200 p-6 rounded-lg shadow-lg mb-6">
-                    <h2 class="text-3xl font-bold mb-4">Reserve the Date: October 2024</h2>
+                    <h2 class="text-3xl font-bold mb-4">Reserve the Date: 18-20 Oct 2024</h2>
                     <h3 class="text-2xl font-semibold mb-2">Preliminary Program:</h3>
                     
                     <div class="container mx-auto">
