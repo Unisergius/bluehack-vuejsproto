@@ -21,12 +21,14 @@
 <script>
 import PartnerCard from '@/components/PartnerCard.vue';
 
+import albufeiraImage from '@/assets/images/logo_albufeira.png';
 import apaImage from '@/assets/images/logo_apa.png';
 import algarveEvoImage from '@/assets/images/Algarve-evolution.png';
 import algarveStpImage from '@/assets/images/algarve-stp-logo.png';
 import backgroundUrl from '@/assets/images/maksym-kaharlytskyi-QQcLNBQ6i_A-unsplash.jpg';
 import ccmarImage from '@/assets/images/ccmar.png';
 import criaImage from '@/assets/images/cria.jpeg';
+import feImage from '@/assets/images/logo_ualg_fe.jpg';
 import gdgImage from '@/assets/images/Gdg.jpg';
 import geekSessionsImage from '@/assets/images/GS_CORES_FUNDO squared.png';
 import greenColabImage from '@/assets/images/green-colab-cores.png';
@@ -61,7 +63,8 @@ export default {
                 },
                 {
                     name: 'APA',
-                    description: 'Agência Portuguesa do Ambiente e responsável pela implementação das políticas de ambiente em Portugal. A APA tem como objetivo contribuir para um elevado nível de proteção e valorização do ambiente através da prestação de serviços de qualidade aos cidadãos.',
+                    description: 'Agência Portuguesa do Ambiente is responsible for implementing environmental policies in Portugal. APA aims to contribute to a high level of protection and enhancement of the environment through the provision of quality services to citizens"',
+                    // description: 'Agência Portuguesa do Ambiente e responsável pela implementação das políticas de ambiente em Portugal. A APA tem como objetivo contribuir para um elevado nível de proteção e valorização do ambiente através da prestação de serviços de qualidade aos cidadãos.',
                     image: apaImage,
                     website: 'https://apambiente.pt/',
                     linkedin: 'https://www.linkedin.com/company/agencia-portuguesa-ambiente/'
@@ -72,6 +75,12 @@ export default {
                     image: ipmaImage,
                     website: 'https://www.ipma.pt/pt/index.html',
                     linkedin: 'https://www.linkedin.com/company/ipma-pt/'
+                },
+                {
+                    name: 'Albufeira',
+                    description: 'Albufeira provides precious access to the Sala Azul as our hackathon venue.',
+                    image: albufeiraImage,
+                    website: 'https://www.cm-albufeira.pt/',
                 },
                 {
                     name: 'CCMAR Algarve',
@@ -133,6 +142,12 @@ export default {
                     image: algarveStpImage,
                     linkedin: 'https://www.linkedin.com/company/algarvestp/',
                     website: 'https://www.algarvestp.pt/'
+                },
+                {
+                    name: 'Economics Faculty',
+                    description: "FEUALG's accumulated knowledge of socio-economic reality, coupled with the strong links it holds with the business community and public administration, ensure that the Faculty of Economics seeks to adapt university education to the labour market, and its research to the technical-scientific needs of today's society.",
+                    image: feImage,
+                    website: 'https://fe.ualg.pt/en'
                 },
 
             // Add more partner objects as needed
