@@ -9,16 +9,16 @@
                     <h2 class="text-3xl font-bold mb-4">Event Info</h2>
                     <p class="mb-4">
                         &#x1F6A9 <b>Where:</b> Sala Azul, Albufeira, Portugal, 
-                        <a href="https://maps.app.goo.gl/N9UTBxEqDbeHoQsE9" class="text-primary" target="_blank">Gmaps</a>
+                        <a href="https://maps.app.goo.gl/N9UTBxEqDbeHoQsE9" class="text-primary" target="_blank">Gmaps</a>.
 
                         <br>
-                        &#x1F51C <b>When:</b> October 18-20, 2024
+                        &#x1F51C <b>When:</b> October 18-20, 2024.
 
                         <br>
                         <!-- here needs to go link to challenges -->
-                        &#x1F50D <b>Teams:</b> 2-4 (+1 online) members for tackling any challenge
-                        related to biotechnology, scientific, or industry solution within the scope
-                        of the blue economy. See <a href="/index" class="text-primary">challenges</a> for more.
+                        &#x1F50D <b>Teams:</b> 2-4 (+1 remote) members for tackling any challenge
+                        related to biotechnology and scientific, or industry solution for blue economy. 
+                        See <a href="/index" class="text-primary">challenges</a> for more.
                         
                         <br>
                         &#x1F3C1 <b>Time limit:</b> 40 hours from Friday evening.
@@ -85,7 +85,7 @@
                     <h3 class="text-2xl font-bold mb-4">Creating or joining teams</h3>
                     <!-- create bullet point list -->
                     <ul class="list-disc list-inside mb-4">
-                        <li>Teams have a minimum of 2 and maximum of 4 members.</li>
+                        <li>Teams have a minimum of 2 and maximum of 4 members. Every team can have 1 external member participating remotely.</li>
                         <li>Teams will be formed (mostly) on <em>Day 1</em> after the brainstorming session.</li>
                         <li>Team members can not participate on different teams. </li>
                         <li>Teams should start the event without having any previous development work done. 
@@ -192,7 +192,7 @@ export default {
             backgroundUrl,
             days: [
                 {
-                    name: 'Day 1',
+                    name: 'Oct 18',
                     description: 'Get to know people, tools and mentors. Brainstorm and form teams.',
                     image: onboardImage,
                     program: [
@@ -200,7 +200,7 @@ export default {
                             icon: arriveIcon,
                             time: '14:00',
                             event: 'Registration',
-                            location: 'TBA',
+                            location: 'Gambelas Campus',
                         },
                         {
                             icon: presentIcon,
@@ -212,32 +212,32 @@ export default {
                                 'João Varela: "TBA"',
                                 'TBA: "Business Case Ideation"',
                                 'Lenz Gschwendtner: "Low Code Software Tools and Integration"',
-                                'TBA: "Technology transfer"'
+                                'Luis Costa: "Ground water in Algarve"'
                             ],
-                            location: 'TBA',
+                            location: 'Gambelas Campus',
                         },
                         {
                             icon: brainstormIcon,
                             time: '17:00',
                             event: 'Brainstorming',
-                            location: 'TBA',
+                            location: 'Gambelas Campus',
                         },
                         {
                             icon: teamsIcon,
                             time: '18:00',
                             event: 'Team formation',
-                            location: 'TBA',
+                            location: 'Gambelas Campus',
                         },
                         {   
                             icon: startIcon,
                             time: '19:00',
                             event: 'Competition start',
-                            location: '',
+                            // location: '',
                         }
                     ]
                 },
                 {
-                    name: 'Day 2',
+                    name: 'Oct 19',
                     description: 'Hard coding day with help of mentors and food breaks.',
                     image: compImage,
                     program: [
@@ -245,19 +245,19 @@ export default {
                             icon: foodIcon,
                             time: '08:00',
                             event: 'Venue opens, breakfast',
-                            location: 'TBA',
+                            location: 'Sala Azul',
                         },
                         {
                             icon: judgesIcon,
                             time: '09:00',
                             event: 'Final team assignments',
-                            location: 'TBA',
+                            location: 'Sala Azul',
                         },
                         {
                             icon: codingIcon,
                             time: '09:00',
                             event: 'Product work',
-                            location: 'TBA',
+                            location: 'Sala Azul',
                         },
                         {
                             icon: foodIcon,
@@ -269,7 +269,7 @@ export default {
                             icon: codingIcon,
                             time: '14:00',
                             event: 'Product work',
-                            location: 'TBA',
+                            location: 'Sala Azul',
                         },
                         {
                             icon: foodIcon,
@@ -281,18 +281,17 @@ export default {
                             icon: codingIcon,
                             time: '19:00',
                             event: 'Product work',
-                            location: 'TBA',
+                            location: 'Sala Azul',
                         },
                         {
                             icon: nightIcon,
                             time: '22:00',
                             event: 'Good night',
-                            location: 'TBA',
                         }
                     ]
                 },
                 {
-                    name: 'Day 3',
+                    name: 'Oct 20',
                     description: 'Finalize your product for submission. Move to the afterparty where demos will be presente, winners announced decompression offered.',
                     image: finalImage,
                     program:
@@ -301,19 +300,19 @@ export default {
                             icon: foodIcon,
                             time: '08:00',
                             event: 'Venue opens, breakfast',
-                            location: 'TBA',
+                            location: 'Sala Azul',
                         },
                         {
                             icon: codingIcon,
                             time: '08:30',
                             event: 'Product work',
-                            location: 'TBA',
+                            location: 'Sala Azul',
                         },
                         {
                             icon: compEndIcon,
                             time: '12:30',
                             event: 'Submission and lunch',
-                            location: 'TBA',
+                            location: 'Sala Azul',
                         },
                         {
                             icon: partyIcon,
