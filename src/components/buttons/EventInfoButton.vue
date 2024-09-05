@@ -1,5 +1,5 @@
 <template>
-    <button @click="goToEventInfo" class="btn text-neutral-content btn-secondary">
+    <button @click="goToEventInfo" class="btn text-neutral-content btn-primary">
       More info
     </button>
   </template>
