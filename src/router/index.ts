@@ -2,6 +2,7 @@ import { createRouter, createWebHistory, RouteRecordRaw } from 'vue-router'
 import Index from '@/pages/Index.vue'
 import AboutUs from '@/pages/AboutUs.vue'
 import Event from '@/pages/Event.vue'
+import Challenges from '@/pages/Challenges.vue'
 import Contact from '@/pages/Contact.vue'
 import Partners from '@/pages/Partners.vue'
 
@@ -21,6 +22,11 @@ const routes: Array<RouteRecordRaw> = [
     path: '/eventInfo',
     name: 'Event',
     component: Event
+  },
+  {
+    path: '/challenges',
+    name: 'Challenges',
+    component: Challenges
   },
   {
     path: '/contact',
