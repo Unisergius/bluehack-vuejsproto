@@ -8,25 +8,30 @@
                 <section class="bg-base-200 p-6 rounded-lg shadow-lg mb-6">
                     <h2 class="text-3xl font-bold mb-4">Event Info</h2>
                     <p class="mb-4">
-                        &#x1F3F4 Where: Sala Azul, Albufeira, Portugal, 
+                        &#x1F6A9 <b>Where:</b> Sala Azul, Albufeira, Portugal, 
                         <a href="https://maps.app.goo.gl/N9UTBxEqDbeHoQsE9" class="text-primary" target="_blank">Gmaps</a>
 
                         <br>
-                        &#x1F51C When: <b>October 18-20, 2024</b>
+                        &#x1F51C <b>When:</b> October 18-20, 2024
 
                         <br>
-                        &#x1F50D Teams: 2-4 (+1 online) members for developing a prototype for an innovative biotechnology, scientific, 
-                        or business solution within the scope of the blue economy, and accomplish it all in 40 hours.
+                        <!-- here needs to go link to challenges -->
+                        &#x1F50D <b>Teams:</b> 2-4 (+1 online) members for tackling any challenge
+                        related to biotechnology, scientific, or industry solution within the scope
+                        of the blue economy. See <a href="/index" class="text-primary">challenges</a> for details.
+                        
+                        <br>
+                        &#x1F3C1 <b>Time limit:</b> 40 hours from Friday evening.
 
                         <br>
-                        &#x1F9EE Why: Collaborate, learn, and create impactful solutions together.
+                        &#x1F9EE <b>Why:</b> Collaborate, learn, and create impactful solutions.
                     </p>
                     <h3 class="text-2xl font-bold mb-4">Scope</h3>
                     <ul class="list-disc list-inside mb-4">
-                        <li><b>Biotechnology:</b> Innovations in marine biology, sustainable aquaculture, 
+                        <li><b>Biotechnology:</b> Innovations in marine biology, sustainable fisheries, 
                             bioprospecting, or marine conservation.</li>
-                        <li><b>Science:</b> Data-driven solutions for marine science, environmental monitoring, 
-                            ecosystem restoration, or marine industry.</li>
+                        <li><b>Science:</b> Data-driven solutions for marine science, environmental monitoring 
+                            or marine industry.</li>
                         <li><b>Industry:</b> Novel business models that support sustainable use of ocean resources, 
                             eco-friendly maritime industries, or blue economy startups.</li>
                     </ul>
@@ -35,7 +40,7 @@
                     <!-- create bullet point list -->
                     <ul class="list-disc list-inside mb-4">
                         <li>We provide <b>Mentoring</b> on marine science, data, software tools and ideation.</li>
-                        <li>We will provide you with curated <b><a href="https://github.com/Py-ualg/2024-code-blue/tree/main" class="text-primary" target="_blank">repository of resources</a></b>, including challenges you can tackle. </li>
+                        <li>We provide curated <b><a href="https://github.com/Py-ualg/2024-code-blue/tree/main" class="text-primary" target="_blank">repository of resources</a></b>, including challenges you can tackle. </li>
                         <li>Program which foster social and <b>community engagement</b> while introducing you 
                             to local stakeholders and their challenges. </li>
                     </ul>
@@ -111,7 +116,7 @@
                     <!-- Judging -->
                     <h3 class="text-2xl font-bold mb-4">Judging</h3>
                     <p class="mb-4">
-                    Scores on scale from 1 to 10, with 10 being the highest score. 
+                    Scores on scale from 0 to 10, with 10 being the highest score. 
                     Projects will be judged by a panel of experts on the following criteria:
                     </p>
                     <ul class="list-disc list-inside mb-4">
@@ -136,7 +141,7 @@
                     </p>
 
                     <p class="mb-4">
-                    <i>last updated: 2024-06-07</i>
+                    <i>last updated: 2024-09-05</i>
                     </p>
                 </section>
             
