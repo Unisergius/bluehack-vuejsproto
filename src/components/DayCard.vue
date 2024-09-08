@@ -5,8 +5,8 @@
         </figure>
         <div class="card-body">
             <h2 class="card-title">{{ day.name }}</h2>
-            <p>{{ day.description }}</p>
-            <div class="divider divider-primary">Times</div>
+            <div>{{ day.description }}</div>
+            <div class="divider divider-primary my-4">Times</div>
             <!-- display all fields of day.program -->
             <div class="overflow-x-auto">
             <table class="table table-sm">
@@ -65,4 +65,10 @@ export default {
 
 <style scoped>
 /* Add any custom styles here */
+.non-stretch-div {
+  display: inline-block; /* Prevents the div from stretching */
+  width: auto; /* Adjust width as needed */
+  height: auto; /* Adjust height as needed */
+  /* Add any other styles you need */
+}
 </style>
