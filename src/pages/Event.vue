@@ -18,7 +18,7 @@
                         <!-- here needs to go link to challenges -->
                         &#x1F50D <b>Teams:</b> 2-4 (+1 remote) members for tackling any challenge
                         related to biotechnology and scientific, or industry solution for blue economy. 
-                        See <a href="/index" class="text-primary">challenges</a> for more.
+                        See <a href="/challenges" class="text-primary">challenges</a> for more.
                         
                         <br>
                         &#x1F3C1 <b>Time limit:</b> 40 hours from Friday evening.
