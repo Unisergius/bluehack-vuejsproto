@@ -40,49 +40,52 @@ export default {
             backgroundUrl,
             challenges: [
                 {
-                    name: 'Water Challenge by APA',
+                    name: 'Water Challenge by Luis Costa (APA)',
                     description: 'Algarve and most of the Portugal is experiencing 10 years of droughts. Agência Portuguesa \
                     do Ambiente (APA) in Faro is responsible for monitoring the ground water levels in 7 separate aquifers \
                     which have around 150 probe stations. At some point, water levels of in Algarve west-coast aquifer, \
                     was 40cm from being contaminated by the sea water, which could have unprecedented consequences for the \
                     citizens, businesses and the region as a whole. Find ways to make the data accessible at ease for \
-                    monitoring, public discussion and outreach purposes. Follow up here for more.',
+                    monitoring, public discussion and outreach purposes. Follow up below for more.',
                     image: waterChallImage,
                     website: 'https://github.com/Py-ualg/2024-code-blue/tree/main/challenges/Ground_water',
                 },
                 {
                     name: 'Algae Challenge by CCMAR/GreenColab/Necton',
                     description: "Algae are responsible for around 50% of earth's photosynthetic output, mostly occurring \
-                    underwater. Estimate points to 72 000 different species. They can be unicellular but also 50 m in \
+                    underwater. There are estimated 72 000 algal species. They can be unicellular but also 50 m in \
                     length (kelps). The light-harvesting makes them 'power plants' and 'production plants' at the same time. \
-                    It is used for treating waste water, producing energy, food, fertilizers, high-value compounds etc. \
-                    With hackathon partners Biomartech group at CCMAR, GreenColab and Necton, representing academia, tech \
-                    transfer platform and industry, you can explore the ocean of microalgae opportunities. One suggested \
-                    challenge is to identify new genes with deep-learning models within algal species, which can drive new \
-                    discoveries and innovations in compound production. Follow up here for more.",
+                    It is used for treating waste water, producing energy, food, fertilizers, pharmaceutical and cosmetic \
+                    high-value compounds etc. \
+                    Representing academia, tech transfer platform and industry, you can explore the ocean of microalgae \
+                    tech with Biomartech group at CCMAR, GreenColab and Necton. Suggested challenges tackle the vast databases \
+                    and methods for algal genomics. You can integrate data source, identify new genes with deep-learning models\
+                    and drive new discoveries and innovations in compound production. Follow up the link below for more details.",
                     image: algaeChallImage,
                     website: 'https://github.com/Py-ualg/2024-code-blue/tree/main/challenges/Algae_genes',
                 },
                 {
-                    name: 'Fisheries Challenge by IPMA',
-                    description: 'The correct species identification before sale at auction and registration sheets on every \
-                    sale are very important to the quality of the statistical series on landings, used by IPMA in assessing \
-                    the abundance and status of exploitation of fish stocks. Some species are very similar, making it difficult \
-                    to separate and distinguish them correctly. Examples are Pollack (Pollachius pollachius) and Whiting \
-                    (Merlangius merlangus), Plaice (Pleuronectes platessa) and Flounder (Platichthys flesus) and the various \
-                    species of rays.',
+                    name: 'Fisheries Challenge by Rui Coelho (IPMA)',
+                    description: "This challenge provides and opportunity to work in fisheries, especially related with large migratory \
+                    species that Rui Coelho is an expert. The main objectives would be to collate various datasets on \
+                    catch-and-effort, that could then be used to track species abundance and status of the fishing stocks. \
+                    A final objective would be to develop a visualization tool that is informative not only for scientists,\
+                     but also managers and the general public.",
                     image: fishChallImage,
                     website: 'https://github.com/Py-ualg/2024-code-blue/tree/main/challenges/Fisheries_PT',
                 },
                 {
-                    name: 'Fruity AI Challenge by Dario Passos',
-                    description: 'Fruits offer an abundance of proteins, vitamins, and minerals and are essential for a healthy \
-                    diet (Rizzo et al., 2023). Customers are demanding higher quality and safety in fruits for a \
-                    quality-conscious lifestyle. Fruit quality is influenced by both external appearance and internal \
-                    nutritional factors, such as sweetness, firmness, and acidity levels. Accurately evaluating the internal \
-                    quality of fruits is vital as it helps prevent economic losses at various stages of the fruit supply chain \
-                    (Ali et al., 2023). Therefore, developing contactless and non-destructive technologies for rapid assessment \
-                     of internal fruit quality is of great importance (Palumbo et al., 2023).',
+                    name: 'Fruity AI Challenge by Dario Passos (CEOT)',
+                    description: "Traditionally, 1000s of fruits are sampled and manually analyzed pre-harvest to provide insight into the \
+                    fruit maturation and quality. Internal defects, sugar content, dry matter content, are some of the \
+                    parameters deciding optimal harvest time, resulting profits and customer content. The chemical \
+                    composition translates into optical signal in a non-trivial way and chemometrics models try to do that \
+                    quantitatively. Analytical methods are accurate (Ground truth) but slow and expensive. With advent of AI,\
+                    machine-learning/deep-learning models can do that at scale, non-invasively. Dario Passos is expert in \
+                    designing such models. They are applicable in agriculture, but also in medicine, biotechnology etc. \
+                    This is a perfect opportunity to dive into DL, convolutional neural networks and other machine learning \
+                    techniques, because no unified architecture for chemometrics exists as of today. Moreover the collected \
+                    data are 1D spectra, much easier to work with compared to large 2D images.",
                     image: fruitChallImage,
                     website: 'https://github.com/Py-ualg/2024-code-blue/tree/main/challenges/AI_fruit_QA',
                 },
