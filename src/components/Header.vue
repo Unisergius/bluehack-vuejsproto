@@ -50,6 +50,7 @@
                     { to: '/', text: 'Home' },
                     // { to: '/about', text: 'About Us' },
                     { to: '/eventInfo', text: 'Event Info' },
+                    { to: '/challenges', text: 'Challenges' },
                     { to: '/contact', text: 'Contact' },
                     { to: '/partners', text: 'Partners' }
                 ]
