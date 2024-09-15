@@ -1,7 +1,7 @@
 <template>
     <div class="card w-360 p-0  shadow-xl">
         <figure class="bg-base-600">
-            <img :src="challenge.image" :alt="challenge.name" class="h-32 object-contain" />
+            <img :src="challenge.image" :alt="challenge.name" class="h-72 object-contain" />
         </figure>
         <div class="card-body">
             <h2 class="card-title">{{ challenge.name }}</h2>

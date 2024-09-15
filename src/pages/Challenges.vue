@@ -28,7 +28,8 @@ import ChallengeCard from '@/components/ChallengeCard.vue';
 import backgroundUrl from '@/assets/images/maksym-kaharlytskyi-QQcLNBQ6i_A-unsplash.jpg';
 import waterChallImage from '@/assets/images/challenges/chall_aquifer.png';
 import algaeChallImage from '@/assets/images/challenges/chall_algae.png';
-import fishChallImage from '@/assets/images/challenges/chall_fisheries.jpg';
+// import fishChallImage from '@/assets/images/challenges/chall_fisheries.jpg';
+import fishChallImage from '@/assets/images/challenges/Fisheriesexploited.jpg';
 import fruitChallImage from '@/assets/images/challenges/chall_fruits_DLC2024.png';
 
 export default {
