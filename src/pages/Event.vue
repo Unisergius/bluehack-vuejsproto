@@ -310,21 +310,21 @@ export default {
                         },
                         {
                             icon: compEndIcon,
-                            time: '12:30',
-                            event: 'Submission and lunch',
+                            time: '13:00',
+                            event: 'Final submission',
                             location: 'Sala Azul',
                         },
                         {
                             icon: partyIcon,
                             time: '14:00',
-                            event: 'Party opens',
-                            location: 'TBA',
+                            event: 'Party starts',
+                            location: 'Albufeira Beach',
                         },
                         {
                             icon: winnerIcon,
                             time: '14:30',
-                            event: 'Demo presentations, Winner announcements',
-                            location: 'TBA',
+                            event: 'Results, Demo presentations',
+                            location: 'Albufeira Beach',
                         }
                     ]
                 }
