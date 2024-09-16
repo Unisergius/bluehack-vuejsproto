@@ -292,7 +292,7 @@ export default {
                 },
                 {
                     name: 'Oct 20',
-                    description: 'Finalize your product for submission. Move to the afterparty where demos will be presente, winners announced decompression offered.',
+                    description: 'Finalize your product for submission. Move to the after party where demos will be presented, winners announced, decompression offered.',
                     image: finalImage,
                     program:
                     [
