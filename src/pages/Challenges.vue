@@ -76,17 +76,19 @@ export default {
                     website: 'https://github.com/Py-ualg/2024-code-blue/tree/main/challenges/Fisheries_PT',
                 },
                 {
-                    name: 'Fruity AI Challenge by Dario Passos (CEOT)',
-                    description: "Traditionally, 1000s of fruits are sampled and manually analyzed pre-harvest to provide insight into the \
-                    fruit maturation and quality. Internal defects, sugar content, dry matter content, are some of the \
-                    parameters deciding optimal harvest time, resulting profits and customer content. The chemical \
-                    composition translates into optical signal in a non-trivial way and chemometrics models try to do that \
-                    quantitatively. Analytical methods are accurate (Ground truth) but slow and expensive. With advent of AI,\
-                    machine-learning/deep-learning models can do that at scale, non-invasively. Dario Passos is expert in \
-                    designing such models. They are applicable in agriculture, but also in medicine, biotechnology etc. \
-                    This is a perfect opportunity to dive into DL, convolutional neural networks and other machine learning \
-                    techniques, because no unified architecture for chemometrics exists as of today. Moreover the collected \
-                    data are 1D spectra, much easier to work with compared to large 2D images.",
+                    name: 'Fruity AI Challenge by Dário Passos (CEOT)',
+                    description: "Traditionally,  thousands of fruits are manually sampled and analyzed post-harvest to provide \
+                    insight into the fruit maturation and quality. These analytical laboratory destructive tests aim at \
+                    quantifying internal quality parameters such as sugar content, dry matter content, etc. Alternatively, \
+                    near-infrared spectroscopy provides a non-destructive way of getting the same information by analysing the \
+                    interaction of light with the fruit. The chemical composition of the fruit translates into specific light \
+                    patterns (spectra) that, with the help of chemometrics models, can be mapped back to internal quality \
+                    parameters. Nowadays machine-learning/deep-learning models are being explored as tools to create these \
+                    chemometric models promising new avenues of applications. Dário Passos is an expert in designing such models. \
+                    These models for spectral data analysis, are also applicable in medicine, biotechnology and other areas. \
+                    This is a perfect opportunity to explore machine learning techniques (e.g. DL) aimed at this new data modality \
+                    (1d spectra). Come and participate into this challenge to find good methodologies to use this type of data for \
+                    predictions of fruit quality.",
                     image: fruitChallImage,
                     website: 'https://github.com/Py-ualg/2024-code-blue/tree/main/challenges/AI_fruit_QA',
                 },
