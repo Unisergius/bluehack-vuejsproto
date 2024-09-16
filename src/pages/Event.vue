@@ -311,7 +311,7 @@ export default {
                         {
                             icon: compEndIcon,
                             time: '13:00',
-                            event: 'Final submission',
+                            event: 'Final submissions',
                             location: 'Sala Azul',
                         },
                         {
