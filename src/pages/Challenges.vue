@@ -26,7 +26,7 @@
 import ChallengeCard from '@/components/ChallengeCard.vue';
 
 import backgroundUrl from '@/assets/images/maksym-kaharlytskyi-QQcLNBQ6i_A-unsplash.jpg';
-import waterChallImage from '@/assets/images/challenges/chall_aquifer.png';
+import waterChallImage from '@/assets/images/challenges/chall_aquifer.jpg';
 import algaeChallImage from '@/assets/images/challenges/chall_algae.png';
 // import fishChallImage from '@/assets/images/challenges/chall_fisheries.jpg';
 import fishChallImage from '@/assets/images/challenges/Fisheriesexploited.jpg';
@@ -42,12 +42,14 @@ export default {
             challenges: [
                 {
                     name: 'Water Challenge by Luis Costa (APA)',
-                    description: 'Algarve and most of the Portugal is experiencing 10 years of droughts. Agência Portuguesa \
-                    do Ambiente (APA) in Faro is responsible for monitoring the ground water levels in 7 separate aquifers \
-                    which have around 150 probe stations. At some point, water levels of in Algarve west-coast aquifer, \
-                    was 40cm from being contaminated by the sea water, which could have unprecedented consequences for the \
-                    citizens, businesses and the region as a whole. Find ways to make the data accessible at ease for \
-                    monitoring, public discussion and outreach purposes. Follow up below for more.',
+                    description: "Algarve region in south Portugal is experiencing a multi-year drought of 10 years. Agência Portuguesa do \
+                    Ambiente (APA) in Faro is responsible for monitoring groundwater level (quantity status) and quality \
+                    (Chemical status) in its 25 separate groundwater bodies, which correspond to 17 main aquifers. The monitoring \
+                    of the groundwater levels is usually performed with a monthly frequency in around 150 observation points \
+                    (wells) spread around the groundwater bodies. THe figure shows that during the \
+                    month of September 2023, groundwater levels reached negative values compared to mean-sea-level, thus, \
+                    increasing the risk of sea water intrusion, which could have unprecedented consequences for the citizens, \
+                    businesses and the region as a whole.",
                     image: waterChallImage,
                     website: 'https://github.com/Py-ualg/2024-code-blue/tree/main/challenges/Ground_water',
                 },
