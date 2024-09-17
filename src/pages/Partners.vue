@@ -26,6 +26,7 @@ import apaImage from '@/assets/images/logo_apa.png';
 import algarveEvoImage from '@/assets/images/Algarve-evolution.png';
 import algarveStpImage from '@/assets/images/algarve-stp-logo.png';
 import backgroundUrl from '@/assets/images/maksym-kaharlytskyi-QQcLNBQ6i_A-unsplash.jpg';
+import bluecloudImage from '@/assets/images/logo_blue-cloud.png';
 import ccmarImage from '@/assets/images/ccmar.png';
 import criaImage from '@/assets/images/cria.jpeg';
 import feImage from '@/assets/images/logo_ualg_fe.jpg';
@@ -88,6 +89,13 @@ export default {
                     image: ccmarImage,
                     website: 'https://ccmar.ualg.pt/',
                     linkedin: 'https://www.linkedin.com/company/ccmar/mycompany/'
+                },
+                {
+                    name: 'Blue-Cloud 2026',
+                    description: "Building on existing infrastructures like Copernicus and EMODnet, Blue-Cloud aims to create a federated ecosystem for FAIR and open data in marine research. Through a web-based platform, it offers simplified access to multidisciplinary datasets, analytical services, and computing facilities.",
+                    image: bluecloudImage,
+                    website: 'https://www.blue-cloud.org/',
+                    linkedin: 'https://www.linkedin.com/company/blue-cloud-org/'
                 },
                 {
                     name: 'CRIA',
