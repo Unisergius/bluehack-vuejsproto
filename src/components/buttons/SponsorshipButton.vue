@@ -9,7 +9,7 @@
     name: 'SponsorButton',
     data() {
       return {
-          file: 'brochure_code_blue2024.pdf',
+          file: 'brochure_code_blue.pdf',
       };
     },
     }
