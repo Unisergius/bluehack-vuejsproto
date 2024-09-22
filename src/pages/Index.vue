@@ -4,15 +4,13 @@
     </div>
     <div class="hero-content p-0 text-center text-neutral-content">
         <div class="max-w-md">
-            <h1 class="mb-13 text-5xl font-bold">18-20 Oct, 2024</h1>
-            <h1 class="mb-10 text-4xl font-bold">Blue Biotech Hackathon</h1>
-            <p class="mb-0 p-2 font-bold">Join us in our 40-hour hackathon 
-                to innovate and develop cutting-edge solutions in biotechnology, 
-                science, and industry.
+            <h1 class="mb-13 text-5xl font-bold"> {{ $t('index.date') }}</h1>
+            <h1 class="mb-10 text-4xl font-bold">{{ $t('index.title') }}</h1>
+            <p class="mb-0 p-2 font-bold">{{ $t('index.subtitle') }}
             </p>
             <Countdown class="p-10 pb-20 mb-0 justify-center" />
             <div class="flex flex-row flex-wrap gap-2 justify-center p-2">
-                <button class="btn text-neutral-content btn-secondary w-full sm:w-auto">Tickets coming soon</button>
+                <button class="btn text-neutral-content btn-secondary w-full sm:w-auto">{{ $t('button.tickets') }}</button>
                 <EventInfoButton class="w-full sm:w-auto"/>
                 <!-- <SponsorButton /> --> 
             </div>

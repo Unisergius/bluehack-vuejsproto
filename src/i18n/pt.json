@@ -1,4 +1,203 @@
 {
-    "welcome": "Bom dia",
-    "description": "Esta e versao portuguessa."
+  "button": {
+    "tickets": "Bilhetes em breve",
+    "info": "Mais informações",
+    "sponsor": "Patrocina-nos"
+  },
+  "countdown": {
+    "days": "dias",
+    "hours": "horas",
+    "minutes": "min",
+    "seconds": "seg"
+  },
+  "links": {
+    "home": "Início",
+    "about": "Sobre Nós",
+    "event-info": "Evento",
+    "partners": "Parceiros",
+    "challenges": "Desafios",
+    "contact": "Contacto"
+  },
+  "index": {
+    "date": "18-20 de Out 2024",
+    "title": "Hackathon de Biotecnologia Azul",
+    "subtitle": "Junte-se a nós no nosso hackathon de 40 horas inovar e desenvolver soluções de vanguarda em biotecnologia, ciência e indústria."
+  },
+  "about": {
+    "title": "A nossa filosofia",
+    "subtitle_bold": "A Code Blue",
+    "subtitle": " orgulha-se de enfrentar os desafios multifacetados e complexos do mundo atual, reconhecendo que as soluções requerem diversas perspetivas e esforços colaborativos. Acreditamos que todos tenham insights valiosos que podem contribuir para o avanço da humanidade. O nosso foco está na ciência, transferência de conhecimento, desenvolvimento de software, sustentabilidade e inovação."
+  },
+  "partners": {
+    "title": "Parceiros",
+    "subtitle": "Os nossos parceiros impulsionam a inovação e a excelência, fornecendo apoio e recursos vitais para o avanço das soluções de ciência e tecnologia marinha.",
+    "necton": {
+      "name": "Necton",
+      "description": "Necton é uma empresa de biotecnologia marinha que se dedica à investigação e desenvolvimento de produtos e serviços inovadores para a indústria alimentar, farmacêutica e cosmética. A Necton é uma empresa de biotecnologia marinha que se dedica à investigação e desenvolvimento de produtos e serviços inovadores para a indústria alimentar, farmacêutica e cosmética."
+    },
+    "ccmar": {
+      "name": "CCMAR Algarve",
+      "description": "Organização sem fins lucrativos localizada no campus de Gambelas da Universidade do Algarve e que se dedica à I&D nas Ciências do Mar."
+    },
+    "inductiva": {
+      "name": "Inductiva.AI",
+      "description": "A API da Inductiva ajuda-o a levar as simulações físicas para o próximo nível. Utilize o Python para executar facilmente os simuladores de código aberto que adora, na cloud, em grande escala."
+    },
+    "apa": {
+      "name": "Agência Portuguesa do Ambiente",
+      "description": "A Agência Portuguesa do Ambiente é responsável pela implementação das políticas ambientais em Portugal. A APA pretende contribuir para um elevado nível de proteção e valorização do ambiente através da prestação de serviços de qualidade aos cidadãos."
+    },
+    "ipma": {
+      "name": "Instituto Português do Mar e da Atmosfera",
+      "description": "O Instituto Português do Mar e da Atmosfera é a organização meteorológica, sísmica, marítima e atmosférica nacional de Portugal."
+    },
+    "albufeira": {
+      "name": "Câmara Municipal de Albufeira",
+      "description": "Albufeira proporciona um precioso acesso à Sala Azul como local do nosso hackathon."
+    },
+    "blue-cloud": {
+      "name": "Blue-Cloud 2026",
+      "description": "Com base em infraestruturas existentes como o Copernicus e o EMODnet, a Blue-Cloud pretende criar um ecossistema federado para dados FAIR e abertos na investigação marinha. Através de uma plataforma baseada na web, oferece um acesso simplificado a conjuntos de dados multidisciplinares, serviços analíticos e recursos de computação."
+    },
+    "cria": {
+      "name": "CRIA",
+      "description": "Divisão de Empreendedorismo e Transferência de Tecnologia da Universidade do Algarve."
+    },
+    "green-colab": {
+      "name": "GreenColab",
+      "description": "Juntando as Peças na Biotecnologia das Algas. Uma plataforma colaborativa para unir a transferência de conhecimento da academia, da indústria, das partes interessadas e dos consumidores."
+    },
+    "tech-hub": {
+      "name": "Algarve Tech Hub",
+      "description": "Desenvolver um ecossistema robusto na área das novas tecnologias, atraindo stakeholders internacionais, talentos tecnológicos, investidores e nómadas digitais para o Algarve."
+    },
+    "local-foundation": {
+      "name": "local.foundation",
+      "description": "Fornecer ferramentas e mentalidade certas para trabalharmos em conjunto na construção de melhores comunidades."
+    },
+    "geeksessions": {
+      "name": "Geek Sessions",
+      "description": "Promover a troca de conhecimentos e a colaboração no seio da comunidade de Produtos Digitais do Algarve (e não só!)."
+    },
+    "gdg": {
+      "name": "GDG Faro",
+      "description": "Google Developer Group Faro é uma comunidade de programadores que organiza eventos para programadores."
+    },
+    "econ": {
+      "name": "UAlg Economics Faculty",
+      "description": "O conhecimento acumulado da FEUALG sobre a realidade socioeconómica, aliado às fortes ligações que mantém com o tecido empresarial e a administração pública, garantem que a Faculdade de Economia procura adaptar o ensino universitário ao mercado de trabalho, e a sua investigação às necessidades técnico-científicas dos sociedade de hoje."
+    }
+  },
+  "members": {
+    "tc": {
+      "name": "Teresa Correia",
+      "position": "Investigadora do CCMAR, imagiologia médica e IA"
+    },
+    "pg": {
+      "name": "Penélope Gonçalves",
+      "position": "Líder técnico e de equipa, Contentserv"
+    },
+    "lg": {
+      "name": "Lenz Gschwendtner",
+      "position": "Cofundador, construtor de comunidades, startup punk"
+    },
+    "sh": {
+      "name": "Sérgio Henriques",
+      "position": "Software Developer, Axians Portugal"
+    },
+    "vn": {
+      "name": "Vanessa V. Nascimento",
+      "position": "Consultor, Agile Coach"
+    },
+    "dp": {
+      "name": "David Paleček",
+      "position": "Investigador do CCMAR, pythonista"
+    }
+  },
+  "challenges": {
+    "title": "Desafios",
+    "subtitle": "Os nossos desafios são sugestões dos nossos parceiros, que também podem ajudar na sua orientação. \n Sinta-se à vontade para propor os seus próprios desafios ou desenvolver os nossos exemplos.\n Foram concebidos para abordar problemas do mundo real na ciência e tecnologia marinha.",
+    "challenge1": {
+      "title": "Desafio da Água por Luis Costa (APA)",
+      "description": "A região do Algarve, no sul de Portugal, está a atravessar uma seca plurianual de 10 anos. A Agência Portuguesa do Ambiente (APA) em Faro é responsável pela monitorização do nível (estado de quantidade) e da qualidade (estado químico) das águas subterrâneas nas suas 25 massas de água subterrâneas distintas, que correspondem a 17 aquíferos principais. A monitorização dos níveis freáticos é habitualmente realizada com uma periodicidade mensal em cerca de 150 pontos de observação (poços) espalhados pelos corpos de água subterrâneos. A figura mostra que durante o mês de Setembro de 2023, os níveis das águas subterrâneas atingiram valores negativos face ao nível médio do mar, aumentando assim o risco de intrusão de água do mar, o que poderá ter consequências sem precedentes para os cidadãos, as empresas e a região como um todo."
+    },
+    "challenge2": {
+      "title": "Desafio das Algas por CCMAR/GreenColab/Necton",
+      "description": "As algas são responsáveis por cerca de 50% da produção fotossintética da Terra, ocorrendo principalmente debaixo de água. Estima-se que existam 72 000 espécies de algas. Podem ser unicelulares, mas também podem ter 50 m de comprimento (algas). A captação de luz faz delas “centrais de energia” e “centrais de produção” ao mesmo tempo. É utilizado para tratar águas residuais, produzir energia, alimentos, fertilizantes, compostos farmacêuticos e cosméticos de alto valor, etc. Biomartech no CCMAR, GreenColab e Necton . Os desafios sugeridos abordam as vastas bases de dados e métodos para a genómica de algas. Pode integrar fontes de dados, identificar novos genes com modelos de aprendizagem profunda e impulsionar novas descobertas e inovações na produção de compostos. Siga o link abaixo para mais detalhes."
+    },
+    "challenge3": {
+      "title": "Desafio de Pesca por Rui Coelho (IPMA)",
+      "description": "Este desafio proporciona uma oportunidade de trabalhar nas pescas, especialmente relacionadas com grandes espécies migratórias, das quais Rui Coelho é especialista. Os principais objectivos seriam coligir vários conjuntos de dados sobre captura e esforço, que poderiam depois ser utilizados para rastrear a abundância de espécies e o estado dos stocks pesqueiros. Um objetivo final seria desenvolver uma ferramenta de visualização que fosse informativa não só para os cientistas, mas também para os gestores e para o público em geral."
+    },
+    "challenge4": {
+      "title": "Desafio IA frutado por Dário Passos (CEOT)",
+      "description": "Tradicionalmente, milhares de frutos são amostrados manualmente e analisados ​​após a colheita para fornecer informações sobre a maturação e a qualidade dos frutos. Estes ensaios destrutivos laboratoriais analíticos visam quantificar parâmetros internos de qualidade, como o teor de açúcar, o teor de matéria seca, etc. . A composição química do fruto traduz-se em padrões de luz específicos (espectros) que, com a ajuda de modelos quimiométricos, podem ser mapeados em parâmetros internos de qualidade. Atualmente, os modelos de aprendizagem automática/aprendizagem profunda estão a ser explorados como ferramentas para criar estes modelos quimiométricos, prometendo novos caminhos de aplicações. Dário Passos é especialista na concepção deste tipo de modelos. Estes modelos para análise de dados espectrais são também aplicáveis ​​em medicina, biotecnologia e outras áreas. Esta é uma oportunidade perfeita para explorar técnicas de aprendizagem automática (por exemplo, DL) orientadas para esta nova modalidade de dados (espectros 1d). Venha participar neste desafio para encontrar boas metodologias para utilizar este tipo de dados para previsões de qualidade de frutos."
+    }
+  },
+  "contact": {
+    "title": "Contate-nos",
+    "subtitle_bold": "Os patrocinadores",
+    "subtitle": " têm a oportunidade de apresentar os seus desafios, orientar as equipas participantes e divulgar a sua marca. Para se tornar um patrocinador e nos ajudar a realizar um hackathon excecional focado na economia azul sustentável desenvolvimento e avanço tecnológico, contacte-nos através"
+  },
+  "daycard": {
+    "times": "Horário",
+    "time": "Hora",
+    "program": "Programa",
+    "location": "Local",
+    "event": {
+      "time":"",
+      "event": "",
+      "location": "",
+      "items": {}
+    }
+  },
+  "event-info": {
+    "title": "Event Info",
+    "date-bold": "When",
+    "date": "October 18-20, 2024.",
+    "location-bold": "Where",
+    "location": "Sala Azul, Albufeira, Portugal",
+    "maps": "Google Maps",
+    "teams_bold": "Teams:",
+    "teams": "2-4 (+1 remote) members for tackling any challenge related to biotechnology and scientific, or industry solution for blue economy. See ",
+    "teams_link": "challenges",
+    "teams_end": " for more.",
+    "time_limit_bold": "Time limit:",
+    "time_limit": "40 hours from Friday evening.",
+    "why_bold": "Why participate?",
+    "why": "To collaborate, learn, and create impactful solutions.",
+    "scope": "Scope",
+    "li1_bold": "Biotechnology",
+    "li1": "Innovations in marine biology, sustainable fisheries, bioprospecting, or marine conservation.",
+    "li2_bold": "Science",
+    "li2": "Data-driven solutions for marine science, environmental monitoring or marine industry.",
+    "li3_bold": "Industry",
+    "li3": "Novel business models that support sustainable use of ocean resources, eco-friendly maritime industries, or blue economy startups.",
+    "pitch": "Special Pitch to You",
+    "p1p1": "We provide ",
+    "p1p2": "Mentoring",
+    "p1p3": " on marine science, data, software tools and ideation.",
+    "p2p1": "We provide curated ",
+    "p2p2": "repository of resources",
+    "p2p3": ", including challenges you can tackle.",
+    "p3p1": "Program which foster social and ",
+    "p3p2": "community engagement",
+    "p3p3": " while introducing you to local stakeholders and their challenges.",
+    "reserve-date": "Reserve the Date: 18-20 Oct 2024",
+    "prizes": "Prizes",
+    "p1": "2-year incubation support from CRIA.",
+    "p2": "Goodle development perks.",
+    "p3": "... More to come",
+    "register": "Registration",
+    "register_link": "Coming soon."
+  },
+  "event": {
+    "rules": [
+      "As equipes têm um mínimo de 2 e um máximo de 4 membros. Cada equipe pode ter 1 membro externo participando remotamente.",
+      "As equipes serão formadas (principalmente) no <em>Dia 1</em> após a sessão de brainstorming.",
+      "Os membros da equipe não podem participar de diferentes equipes.",
+      "As equipes devem começar o evento sem ter nenhum trabalho de desenvolvimento anterior feito. Eles podem e devem discutir/acordar ideias e recrutar membros da equipe para ajudar no desenvolvimento durante o evento hackathon (especialmente no <em>Dia 1</em>).",
+      "Embora a competição comece oficialmente no <em>Dia 1</em>, o <b>prazo final</b> para juntar/formar/registrar uma equipe e seu nome é <b>9 a.m. <em>Dia 2</em></b>, entregue <b>em papel</b>."
+    ]
   }
+}

@@ -6,16 +6,16 @@
         <div class="card-body">
             <h2 class="card-title">{{ day.name }}</h2>
             <div>{{ day.description }}</div>
-            <div class="divider divider-primary my-4">Times</div>
+            <div class="divider divider-primary my-4">{{ $t('daycard.times') }}</div>
             <!-- display all fields of day.program -->
             <div class="overflow-x-auto">
             <table class="table table-sm">
                 <thead>
                     <tr>
                     <th></th>
-                    <th>Time</th>
-                    <th>Program</th>
-                    <th>Location</th>
+                    <th>{{ $t('daycard.time') }}</th>
+                    <th>{{ $t('daycard.program') }}</th>
+                    <th>{{ $t('daycard.location') }}</th>
                     </tr>
                 </thead>
                 <tbody>

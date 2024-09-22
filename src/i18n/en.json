@@ -1,4 +1,204 @@
 {
-    "welcome": "Welcome",
-    "description": "This is the English version of the website."
+  "button": {
+    "tickets": "Tickets coming soon",
+    "info": "More info",
+    "sponsor": "Sponsor Us"
+  },
+  "countdown": {
+    "days": "days",
+    "hours": "hours",
+    "minutes": "min",
+    "seconds": "sec"
+  },
+  "links": {
+    "home": "Home",
+    "about": "About Us",
+    "event-info": "Event Info",
+    "partners": "Partners",
+    "challenges": "Challenges",
+    "contact": "Contact"
+  },
+  "index": {
+    "date": "18-20 Oct, 2024",
+    "title": "Blue Biotech Hackathon",
+    "subtitle": "Join us in our 40-hour hackathon to innovate and develop cutting-edge solutions in biotechnology, science, and industry."
+  },
+  "about": {
+    "title": "Our Philosophy",
+    "subtitle_bold": "Code Blue ",
+    "subtitle": "takes prides in tackling multifaceted and complex challenges of today's world, recognizing that solutions require diverse perspectives and collaborative efforts. We believe that everyone has valuable insights that can contribute to the advancement of humanity. Our focus is on science, knowledge transfer, software development, sustainability, and innovation."
+  },
+  "partners": {
+    "title": "Partners",
+    "subtitle": "Our partners drive innovation and excellence, providing vital support and resources to advance marine science and technology solutions.",
+    "necton": {
+      "name": "Necton",
+      "description": "Necton’s mission is to bring to market innovative products and services resulting from scientific and technological marine knowledge."
+    },
+    "ccmar": {
+      "name": "CCMAR Algarve",
+      "description": "Non-profit organization located on the Gambelas campus of the University of Algarve and dedicated to R&D in the Marine Sciences."
+    },
+    "inductiva": {
+      "name": "Inductiva.AI",
+      "description": "Inductiva API helps you take physical simulations to the next level. Use Python to easily run the open-source simulators you love, on the cloud, at scale."
+    },
+    "apa": {
+      "name": "Agência Portuguesa do Ambiente",
+      "description": "Agência Portuguesa do Ambiente is responsible for implementing environmental policies in Portugal. APA aims to contribute to a high level of protection and enhancement of the environment through the provision of quality services to citizens."
+    },
+    "ipma": {
+      "name": "Instituto Português do Mar e da Atmosfera",
+      "description": "The Instituto Português do Mar e da Atmosfera is the national meteorological, seismic, sea and atmospheric organization of Portugal."
+    },
+    "albufeira": {
+      "name": "Câmara Municipal de Albufeira",
+      "description": "Albufeira provides precious access to the Sala Azul as our hackathon venue."
+    },
+    "blue-cloud": {
+      "name": "Blue-Cloud 2026",
+      "description": "Building on existing infrastructures like Copernicus and EMODnet, Blue-Cloud aims to create a federated ecosystem for FAIR and open data in marine research. Through a web-based platform, it offers simplified access to multidisciplinary datasets, analytical services, and computing facilities."
+    },
+    "cria": {
+      "name": "CRIA",
+      "description": "Division of Entrepreneurship and Technology Transfer of the University of Algarve."
+    },
+    "green-colab": {
+      "name": "GreenColab",
+      "description": "Joining the Pieces in Algal Biotechnology. A collaborative platform to bridge the transfer of knowledge from academia, industry, stakeholders, and consumers."
+    },
+    "tech-hub": {
+      "name": "Algarve Tech Hub",
+      "description": "Developing a robust ecosystem in the area of new technologies, attracting international stakeholders, technological talent, investors and digital nomads to the Algarve.."
+    },
+    "local-foundation": {
+      "name": "local.foundation",
+      "description": "Providing right tools and mindset to work together on building better communities."
+    },
+    "geeksessions": {
+      "name": "Geek Sessions",
+      "description": "Fostering knowledge exchange and collaboration within the Digital Product community of the Algarve (and beyond!)."
+    },
+    "gdg": {
+      "name": "GDG Faro",
+      "description": "Google Developer Group Faro is a community of developers, which organizes events for developers."
+    },
+    "econ": {
+      "name": "UAlg Economics Faculty",
+      "description": "FEUALG's accumulated knowledge of socio-economic reality, coupled with the strong links it holds with the business community and public administration, ensure that the Faculty of Economics seeks to adapt university education to the labour market, and its research to the technical-scientific needs of today's society."
+    }
+  },
+  "members": {
+    "tc": {
+      "name": "Teresa Correia",
+      "position": "Scientist at CCMAR, medical imaging and AI"
+    },
+    "pg": {
+      "name": "Penélope Gonçalves",
+      "position": "Technical & Team Lead, Contentserv"
+    },
+    "lg": {
+      "name": "Lenz Gschwendtner",
+      "position": "Co-founder, community builder, startup punk"
+    },
+    "sh": {
+      "name": "Sérgio Henriques",
+      "position": "Software Developer, Axians Portugal"
+    },
+    "vn": {
+      "name": "Vanessa V. Nascimento",
+      "position": "Cunsultant, Agile Coach"
+    },
+    "dp": {
+      "name": "David Paleček",
+      "position": "Scientist at CCMAR, pythonista"
+    }
+  },
+  "challenges": {
+    "title": "Challenges",
+    "subtitle": "Our challenges are suggestions from our partners, which can also help mentoring you. \n Feel free to propose your own challenges or spin out of our samples.\n They are designed to address real-world problems in marine science and technology.",
+    "challenge1": {
+      "title": "Water Challenge by Luis Costa (APA)",
+      "description": "Algarve region in south Portugal is experiencing a multi-year drought of 10 years. Agência Portuguesa do Ambiente (APA) in Faro is responsible for monitoring groundwater level (quantity status) and quality (Chemical status) in its 25 separate groundwater bodies, which correspond to 17 main aquifers. The monitoring of the groundwater levels is usually performed with a monthly frequency in around 150 observation points (wells) spread around the groundwater bodies. THe figure shows that during the month of September 2023, groundwater levels reached negative values compared to mean-sea-level, thus, increasing the risk of sea water intrusion, which could have unprecedented consequences for the citizens, businesses and the region as a whole."
+    },
+    "challenge2": {
+      "title": "Algae Challenge by CCMAR/GreenColab/Necton",
+      "description": "Algae are responsible for around 50% of earth's photosynthetic output, mostly occurring underwater. There are estimated 72 000 algal species. They can be unicellular but also 50 m in length (kelps). The light-harvesting makes them 'power plants' and 'production plants' at the same time. It is used for treating waste water, producing energy, food, fertilizers, pharmaceutical and cosmetic high-value compounds etc. Representing academia, tech transfer platform and industry, you can explore the ocean of microalgae tech with Biomartech group at CCMAR, GreenColab and Necton. Suggested challenges tackle the vast databases and methods for algal genomics. You can integrate data source, identify new genes with deep-learning models and drive new discoveries and innovations in compound production. Follow the link below for more details."
+    },
+    "challenge3": {
+      "title": "Fisheries Challenge by Rui Coelho (IPMA)",
+      "description": "This challenge provides and opportunity to work in fisheries, especially related with large migratory species that Rui Coelho is an expert. The main objectives would be to collate various datasets on catch-and-effort, that could then be used to track species abundance and status of the fishing stocks. A final objective would be to develop a visualization tool that is informative not only for scientists, but also managers and the general public."
+    },
+    "challenge4": {
+      "title": "Fruity AI Challenge by Dário Passos (CEOT)",
+      "description": "Traditionally,  thousands of fruits are manually sampled and analyzed post-harvest to provide insight into the fruit maturation and quality. These analytical laboratory destructive tests aim at quantifying internal quality parameters such as sugar content, dry matter content, etc. Alternatively, near-infrared spectroscopy provides a non-destructive way of getting the same information by analysing the interaction of light with the fruit. The chemical composition of the fruit translates into specific light patterns (spectra) that, with the help of chemometrics models, can be mapped back to internal quality parameters. Nowadays machine-learning/deep-learning models are being explored as tools to create these chemometric models promising new avenues of applications. Dário Passos is an expert in designing such models. These models for spectral data analysis, are also applicable in medicine, biotechnology and other areas. This is a perfect opportunity to explore machine learning techniques (e.g. DL) aimed at this new data modality (1d spectra). Come and participate into this challenge to find good methodologies to use this type of data for predictions of fruit quality."
+    }
+  },
+  "contact": {
+    "title": "Contact Us",
+    "subtitle_bold": "Sponsors",
+    "subtitle": "have the opportunity to present their challenges, mentor participating teams, and advertise their brand. To become a sponsor and help us deliver an exceptional hackathon focused on sustainable blue economy development and technological advancement, please contact us at"
+  },
+  "daycard": {
+    "times": "Schedule",
+    "time": "Time",
+    "program": "Program",
+    "location": "Location",
+    "day-items": {
+      "time":"",
+      "event": "",
+      "location": "",
+      "items": {}
+    }
+  },
+  "event-info": {
+    "title": "Event Info",
+    "date-bold": "When",
+    "date": "October 18-20, 2024.",
+    "location-bold": "Where",
+    "location": "Sala Azul, Albufeira, Portugal",
+    "maps": "Google Maps",
+    "teams_bold": "Teams:",
+    "teams": "2-4 (+1 remote) members for tackling any challenge related to biotechnology and scientific, or industry solution for blue economy. See ",
+    "teams_link": "challenges",
+    "teams_end": " for more.",
+    "time_limit_bold": "Time limit:",
+    "time_limit": "40 hours from Friday evening.",
+    "why_bold": "Why participate?",
+    "why": "To collaborate, learn, and create impactful solutions.",
+    "scope": "Scope",
+    "li1_bold": "Biotechnology",
+    "li1": "Innovations in marine biology, sustainable fisheries, bioprospecting, or marine conservation.",
+    "li2_bold": "Science",
+    "li2": "Data-driven solutions for marine science, environmental monitoring or marine industry.",
+    "li3_bold": "Industry",
+    "li3": "Novel business models that support sustainable use of ocean resources, eco-friendly maritime industries, or blue economy startups.",
+    "pitch": "Special Pitch to You",
+    "p1p1": "We provide ",
+    "p1p2": "Mentoring",
+    "p1p3": " on marine science, data, software tools and ideation.",
+    "p2p1": "We provide curated ",
+    "p2p2": "repository of resources",
+    "p2p3": ", including challenges you can tackle.",
+    "p3p1": "Program which foster social and ",
+    "p3p2": "community engagement",
+    "p3p3": " while introducing you to local stakeholders and their challenges.",
+    "reserve-date": "Reserve the Date: 18-20 Oct 2024",
+    "prizes": "Prizes",
+    "p1": "2-year incubation support from CRIA.",
+    "p2": "Goodle development perks.",
+    "p3": "... More to come",
+    "register": "Registration",
+    "register_link": "Coming soon."
+  },
+  "event": {
+    "rules": [
+      "Teams have a minimum of 2 and maximum of 4 members. Every team can have 1 external member participating remotely.",
+      "Teams will be formed (mostly) on <em>Day 1</em> after the brainstorming session.",
+      "Team members can not participate on different teams.",
+      "Teams should start the event without having any previous development work done. They can and should discuss/agree on ideas and recruit team members to help the development during the hackathon event (especially on <em>Day 1</em>).",
+      "Even though the competition officially starts on <em>Day 1</em>, <b>final deadline</b> to join/form/register a team and its name is <b>9 a.m. <em>Day 2</em></b>, delivered <b>on paper</b>."
+    ]
   }
+
+}

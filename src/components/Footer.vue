@@ -52,9 +52,9 @@
             </a>
             </div>
         </nav>
-        <aside>
+        <!-- <aside>
             <p>Copyright © 2024 - All right reserved by Code Blue</p>
-        </aside>
+        </aside> -->
         </footer>
     </template>
   
@@ -67,14 +67,16 @@
             { id: 'twitter', link: 'https://twitter.com', enabled: false },
             { id: 'youtube', link: 'https://youtube.com', enabled: false },
             { id: 'facebook', link: 'https://facebook.com', enabled: false },
-            ],
-            links: [
-                { to: '/about', text: 'About Us' },
-                { to: '/contact', text: 'Contact' }
             ]
         };
     },
     computed: {
+      links() {
+        return [
+            { to: '/about', text: this.$t('links.about') },
+            { to: '/contact', text: this.$t('links.contact') }
+        ]
+      },
       enabledSocialMedia() {
         return this.socialMedia.filter(media => media.enabled);
       }

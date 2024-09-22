@@ -1,6 +1,6 @@
 <template>
     <router-link class="btn text-neutral-content btn-primary" :to="{ name: 'DownloadDocument', params: { fileName: file } }">
-      Sponsor Us
+      {{ $t('button.sponsor') }}
     </router-link>
 </template>
   

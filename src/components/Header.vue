@@ -31,6 +31,7 @@
                 </a>
             </div>
             <div class="navbar-end">
+                <SelectLang></SelectLang>
                 <ThemeToggle></ThemeToggle>
             </div>
         </div>
@@ -39,24 +40,31 @@
 
 <script>
     import ThemeToggle from '@/components/buttons/ThemeToggle.vue';
+    import SelectLang from '@/components/buttons/LanguageSwitcher.vue';
     export default {
         name: 'Header',
         components: {
-            ThemeToggle
+            ThemeToggle,
+            SelectLang
         },
-        data() {
-            return {
-                links: [
-                    { to: '/', text: 'Home' },
-                    // { to: '/about', text: 'About Us' },
-                    { to: '/eventInfo', text: 'Event Info' },
-                    { to: '/challenges', text: 'Challenges' },
-                    { to: '/contact', text: 'Contact' },
-                    { to: '/partners', text: 'Partners' }
+        computed: {
+            links() {
+                return [
+                    { to: '/', text: this.$t('links.home') },
+                    { to: '/eventInfo', text: this.$t('links.event-info') },
+                    { to: '/challenges', text: this.$t('links.challenges') },
+                    { to: '/contact', text: this.$t('links.contact') },
+                    { to: '/partners', text: this.$t('links.partners')}
                 ]
-            };
+
+            }
+        },
+        watch: {
+            '$i18n.locale'() {
+            // This will trigger the computed property to re-evaluate
+            }
         }
-    }
+    };
 </script>
 
 <style scoped>

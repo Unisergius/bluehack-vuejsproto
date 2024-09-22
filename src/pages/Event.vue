@@ -6,50 +6,44 @@
             <div class="container mx-auto">
                 <!-- Event Info Section -->
                 <section class="bg-base-200 p-6 rounded-lg shadow-lg mb-6">
-                    <h2 class="text-3xl font-bold mb-4">Event Info</h2>
+                    <h2 class="text-3xl font-bold mb-4">{{ $t('event-info.title') }}</h2>
                     <p class="mb-4">
-                        &#x1F6A9 <b>Where:</b> Sala Azul, Albufeira, Portugal, 
-                        <a href="https://maps.app.goo.gl/N9UTBxEqDbeHoQsE9" class="text-primary" target="_blank">Gmaps</a>.
+                        &#x1F6A9 <b>{{ $t('event-info.location-bold') }}</b> {{ $t('event-info.location') }}, 
+                        <a href="https://maps.app.goo.gl/N9UTBxEqDbeHoQsE9" class="text-primary" target="_blank">{{ $t('event-info.maps') }}</a>.
 
                         <br>
-                        &#x1F51C <b>When:</b> October 18-20, 2024.
+                        &#x1F51C <b>{{ $t('event-info.date-bold') }}</b> {{ $t('event-info.date') }}
 
                         <br>
                         <!-- here needs to go link to challenges -->
-                        &#x1F50D <b>Teams:</b> 2-4 (+1 remote) members for tackling any challenge
-                        related to biotechnology and scientific, or industry solution for blue economy. 
-                        See <a href="/challenges" class="text-primary">challenges</a> for more.
+                        &#x1F50D <b>{{ $t('event-info.teams_bold') }}</b> {{ $t('event-info.teams') }} <a href="/challenges" class="text-primary">{{ $t('event-info.teams_link') }}</a> {{ $t('event-info.teams_end') }}
                         
                         <br>
-                        &#x1F3C1 <b>Time limit:</b> 40 hours from Friday evening.
+                        &#x1F3C1 <b>{{ $t('event-info.time_limit_bold') }}</b> {{ $t('event-info.time_limit') }}
 
                         <br>
-                        &#x1F9EE <b>Why:</b> Collaborate, learn, and create impactful solutions.
+                        &#x1F9EE <b>{{ $t('event-info.why_bold') }}</b> {{ $t('event-info.why') }}
                     </p>
-                    <h3 class="text-2xl font-bold mb-4">Scope</h3>
+                    <h3 class="text-2xl font-bold mb-4">{{ $t('event-info.scope') }}</h3>
                     <ul class="list-disc list-inside mb-4">
-                        <li><b>Biotechnology:</b> Innovations in marine biology, sustainable fisheries, 
-                            bioprospecting, or marine conservation.</li>
-                        <li><b>Science:</b> Data-driven solutions for marine science, environmental monitoring 
-                            or marine industry.</li>
-                        <li><b>Industry:</b> Novel business models that support sustainable use of ocean resources, 
-                            eco-friendly maritime industries, or blue economy startups.</li>
+                        <li><b>{{ $t('event-info.li1_bold') }}</b> {{ $t('event-info.li1') }}</li>
+                        <li><b>{{ $t('event-info.li2_bold') }}</b> {{ $t('event-info.li2') }}</li>
+                        <li><b>{{ $t('event-info.li3_bold') }}</b> {{ $t('event-info.li3') }}</li>
                     </ul>
 
-                    <h3 class="text-2xl font-bold mb-4">Special Pitch to You</h3>
+                    <h3 class="text-2xl font-bold mb-4">{{ $t('event-info.pitch') }}</h3>
                     <!-- create bullet point list -->
                     <ul class="list-disc list-inside mb-4">
-                        <li>We provide <b>Mentoring</b> on marine science, data, software tools and ideation.</li>
-                        <li>We provide curated <b><a href="https://github.com/Py-ualg/2024-code-blue/tree/main" class="text-primary" target="_blank">repository of resources</a></b>, including challenges you can tackle. </li>
-                        <li>Program which foster social and <b>community engagement</b> while introducing you 
-                            to local stakeholders and their challenges. </li>
+                        <li>{{ $t('event-info.p1p1') }}<b>{{ $t('event-info.p1p2') }}</b> {{ $t('event-info.p1p3') }}</li>
+                        <li>{{ $t('event-info.p2p1') }}<b><a href="https://github.com/Py-ualg/2024-code-blue/tree/main" class="text-primary" target="_blank">{{ $t('event-info.p2p2') }}</a></b>{{ $t('event-info.p2p3') }} </li>
+                        <li>{{ $t('event-info.p3p1') }}<b>{{ $t('event-info.p3p2') }}</b> {{ $t('event-info.p3p3') }} </li>
                     </ul>
                 </section>
                 
                 <!-- subsection for each day -->
                 <section class="bg-base-200 p-6 rounded-lg shadow-lg mb-6">
-                    <h2 class="text-3xl font-bold mb-4">Reserve the Date: 18-20 Oct 2024</h2>
-                    <h3 class="text-2xl font-semibold mb-2">Preliminary Program:</h3>
+                    <h2 class="text-3xl font-bold mb-4">{{ $t('event-info.reserve-date') }}</h2>
+                    <h3 class="text-2xl font-semibold mb-2">{{ $t('daycard.program') }}:</h3>
                     
                     <div class="container mx-auto">
                         <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-3">
@@ -64,18 +58,19 @@
                 
                 <!-- Prizes Section -->
                 <section class="bg-base-200 p-6 rounded-lg shadow-lg mb-6">
-                    <h2 class="text-3xl font-bold mb-4">Prizes</h2>
+                    <h2 class="text-3xl font-bold mb-4">{{ $t('event-info.prizes') }}</h2>
                     <ul class="list-disc list-inside">
-                    <li>2-year incubation support from CRIA.</li>
-                    <li>... More to come</li>
+                    <li>{{ $t('event-info.p1') }}</li>
+                    <li>{{ $t('event-info.p2') }}</li>
+                    <li>{{ $t('event-info.p3') }}</li>
                     </ul>
                 </section>
 
                 <!-- Registration Section -->
                 <section class="bg-base-200 p-6 rounded-lg shadow-lg mb-6">
-                    <h2 class="text-3xl font-bold mb-4">Registration</h2>
+                    <h2 class="text-3xl font-bold mb-4">{{ $t('event-info.register') }}</h2>
                     <p class="mb-4">
-                    Coming soon.
+                        {{ $t('event-info.register_link') }}
                     </p>
                 </section>
 
@@ -84,6 +79,9 @@
                     <h2 class="text-3xl font-bold mb-4">Rules</h2>
                     <h3 class="text-2xl font-bold mb-4">Creating or joining teams</h3>
                     <!-- create bullet point list -->
+                    <ul class="list-disc list-inside mb-4">
+                        <li v-for="(rule, index) in $t('event.rules', { returnObjects: true })" :key="index" v-html="rule"></li>
+                    </ul>
                     <ul class="list-disc list-inside mb-4">
                         <li>Teams have a minimum of 2 and maximum of 4 members. Every team can have 1 external member participating remotely.</li>
                         <li>Teams will be formed (mostly) on <em>Day 1</em> after the brainstorming session.</li>

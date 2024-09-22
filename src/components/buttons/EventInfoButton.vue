@@ -1,6 +1,6 @@
 <template>
     <button @click="goToEventInfo" class="btn text-neutral-content btn-primary">
-      More info
+      {{ $t('button.info') }}
     </button>
   </template>
   

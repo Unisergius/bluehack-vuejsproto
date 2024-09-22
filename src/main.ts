@@ -11,8 +11,8 @@ import pt from './i18n/pt.json'
 
 const i18n = createI18n({
     // something vue-i18n options here ...
-    locale: 'en', // set locale
-    fallbackLocale: 'en', // set fallback locale
+    locale: 'pt', // set locale
+    fallbackLocale: 'pt', // set fallback locale
     messages: {
         en,
         pt
