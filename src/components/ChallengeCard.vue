@@ -4,7 +4,7 @@
             <img :src="challenge.image" :alt="challenge.name" class="h-72 object-contain" />
         </figure>
         <div class="card-body">
-            <h2 class="card-title">{{ challenge.name }}</h2>
+            <h2 class="card-title">{{ challenge.name }}</h2> <!-- challenge.name -->
                 <div class="card-actions justify-end">
                     <a v-if="challenge.website" :href="challenge.website" class="text text-primary" target="_blank">
                         <svg xmlns="http://www.w3.org/2000/svg" height="32px" fill="currentColor"  viewBox="0 -960 960 960" width="128px">

@@ -5,25 +5,25 @@
       <span class="countdown font-mono text-4xl">
         <span :style="{ '--value': days }"></span>
       </span>
-      days
+      {{ $t('countdown.days') }}
     </div>
     <div>
       <span class="countdown font-mono text-4xl">
         <span :style="{ '--value': hours }"></span>
       </span>
-      hours
+      {{ $t('countdown.hours') }}
     </div>
     <div>
       <span class="countdown font-mono text-4xl">
         <span :style="{ '--value': minutes }"></span>
       </span>
-      min
+      {{ $t('countdown.minutes') }}
     </div>
     <div>
       <span class="countdown font-mono text-4xl">
         <span :style="{ '--value': seconds }"></span>
       </span>
-      sec
+      {{ $t('countdown.seconds') }}
     </div>
   </div>
 </template>

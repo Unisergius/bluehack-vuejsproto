@@ -6,12 +6,9 @@
             <div class="container mx-auto p-6">
                 <!-- Philosophy -->
                 <section class="bg-base-200 p-6 rounded-lg shadow-lg mb-6">
-                    <h2 class="text-3xl font-bold mb-4">Our philosophy</h2>
+                    <h2 class="text-3xl font-bold mb-4">{{ $t('about.title') }}</h2>
                     <p class="mb-4">
-                        <b>Code Blue</b> takes prides in tackling multifaceted and complex challenges of today's world, 
-                        recognizing that solutions require diverse perspectives and collaborative efforts. We believe 
-                        that everyone has valuable insights that can contribute to the advancement of humanity. 
-                        Our focus is on science, knowledge transfer, software development, sustainability, and innovation.
+                        <b>{{ $t('about.subtitle_bold') }} </b>{{ $t('about.subtitle') }}
                     </p>
                 </section>
 
@@ -45,43 +42,65 @@ import sh from '@/assets/images/faces/pers1.jpeg';
 import vn from '@/assets/images/faces/vanessa.jpg';
 import dp from '@/assets/images/faces/pers0.jpeg';
 
-    export default {
-        name: 'AboutUs',
-        components: {
-            MemberCard
+export default {
+    components: {
+        MemberCard
+    },
+    data() {
+        return {
+            backgroundUrl: '',
+            images: {
+                tc,
+                pg,
+                lg,
+                sh,
+                vn,
+                dp
+            }
+        };
+    },
+    computed: {
+        members() {
+            return [
+                {
+                    img: tc,
+                    name: this.$t('members.tc.name'),
+                    description: this.$t('members.tc.position'),
+                },
+                {
+                    img: pg,
+                    name: this.$t('members.pg.name'),
+                    description: this.$t('members.pg.position'),
+                },
+                {
+                    img: lg,
+                    name: this.$t('members.lg.name'),
+                    description: this.$t('members.lg.position'),
+                },
+                {
+                    img: sh,
+                    name: this.$t('members.sh.name'),
+                    description: this.$t('members.sh.position'),
+                },
+                {
+                    img: vn,
+                    name: this.$t('members.vn.name'),
+                    description: this.$t('members.vn.position'),
+                },
+                {
+                    img: dp,
+                    name: this.$t('members.dp.name'),
+                    description: this.$t('members.dp.position'),
+                },
+            ];
         },
-        data() {
-            return {
-                backgroundUrl,
-                members: [
-                    {
-                        img: tc,
-                        name: 'Teresa Correia',
-                        description: 'Scientist at CCMAR, medical imaging and AI'},
-                    {
-                        img: pg,
-                        name: 'Penélope Gonçalves',
-                        description: 'Technical & Team Lead, Contentserv'},
-                    {
-                        img: lg,
-                        name: 'Lenz Gschwendtner',
-                        description: 'Co-founder, community builder, startup punk'},
-                    {
-                        img: sh,
-                        name: 'Sérgio Henriques',
-                        description: 'Software Developer, Axians Portugal'},
-                    {
-                        img: vn,
-                        name: 'Vanessa V. Nascimento',
-                        description: 'Cunsultant, Agile Coach'},
-                    {
-                        img: dp,
-                        name: 'David Paleček',
-                        description: 'Scientist at CCMAR, pythonista'},
-                ],
-            };
-        },
+    },
+    watch: {
+    '$i18n.locale'() {
+      // This will trigger the computed property to re-evaluate
     }
+  }
+};
 </script>
 
 <style scoped>

@@ -6,50 +6,42 @@
             <div class="container mx-auto">
                 <!-- Event Info Section -->
                 <section class="bg-base-200 p-6 rounded-lg shadow-lg mb-6">
-                    <h2 class="text-3xl font-bold mb-4">Event Info</h2>
+                    <h2 class="text-3xl font-bold mb-4">{{ $t('event-info.title') }}</h2>
                     <p class="mb-4">
-                        &#x1F6A9 <b>Where:</b> Sala Azul, Albufeira, Portugal, 
-                        <a href="https://maps.app.goo.gl/N9UTBxEqDbeHoQsE9" class="text-primary" target="_blank">Gmaps</a>.
+                        &#x1F6A9 <b>{{ $t('event-info.location-bold') }}</b> {{ $t('event-info.location') }}, 
+                        <a href="https://maps.app.goo.gl/N9UTBxEqDbeHoQsE9" class="text-primary" target="_blank">{{ $t('event-info.maps') }}</a>.
 
                         <br>
-                        &#x1F51C <b>When:</b> October 18-20, 2024.
+                        &#x1F51C <b>{{ $t('event-info.date-bold') }}</b> {{ $t('event-info.date') }}
 
                         <br>
                         <!-- here needs to go link to challenges -->
-                        &#x1F50D <b>Teams:</b> 2-4 (+1 remote) members for tackling any challenge
-                        related to biotechnology and scientific, or industry solution for blue economy. 
-                        See <a href="/challenges" class="text-primary">challenges</a> for more.
+                        &#x1F50D <b>{{ $t('event-info.teams_bold') }}</b> {{ $t('event-info.teams') }} <a href="/challenges" class="text-primary">{{ $t('event-info.teams_link') }}</a> {{ $t('event-info.teams_end') }}
                         
                         <br>
-                        &#x1F3C1 <b>Time limit:</b> 40 hours from Friday evening.
+                        &#x1F3C1 <b>{{ $t('event-info.time_limit_bold') }}</b> {{ $t('event-info.time_limit') }}
 
                         <br>
-                        &#x1F9EE <b>Why:</b> Collaborate, learn, and create impactful solutions.
+                        &#x1F9EE <b>{{ $t('event-info.why_bold') }}</b> {{ $t('event-info.why') }}
                     </p>
-                    <h3 class="text-2xl font-bold mb-4">Scope</h3>
+                    <h3 class="text-2xl font-bold mb-4">{{ $t('event-info.scope') }}</h3>
                     <ul class="list-disc list-inside mb-4">
-                        <li><b>Biotechnology:</b> Innovations in marine biology, sustainable fisheries, 
-                            bioprospecting, or marine conservation.</li>
-                        <li><b>Science:</b> Data-driven solutions for marine science, environmental monitoring 
-                            or marine industry.</li>
-                        <li><b>Industry:</b> Novel business models that support sustainable use of ocean resources, 
-                            eco-friendly maritime industries, or blue economy startups.</li>
+                        <li v-for="(item, index) in $tm('event-info.scope_list', { returnObjects: true })" :key="index" v-html="item"></li>
                     </ul>
 
-                    <h3 class="text-2xl font-bold mb-4">Special Pitch to You</h3>
+                    <h3 class="text-2xl font-bold mb-4">{{ $t('event-info.pitch') }}</h3>
                     <!-- create bullet point list -->
                     <ul class="list-disc list-inside mb-4">
-                        <li>We provide <b>Mentoring</b> on marine science, data, software tools and ideation.</li>
-                        <li>We provide curated <b><a href="https://github.com/Py-ualg/2024-code-blue/tree/main" class="text-primary" target="_blank">repository of resources</a></b>, including challenges you can tackle. </li>
-                        <li>Program which foster social and <b>community engagement</b> while introducing you 
-                            to local stakeholders and their challenges. </li>
+                        <li>{{ $t('event-info.p1p1') }}<b>{{ $t('event-info.p1p2') }}</b> {{ $t('event-info.p1p3') }}</li>
+                        <li>{{ $t('event-info.p2p1') }}<b><a href="https://github.com/Py-ualg/2024-code-blue/tree/main" class="text-primary" target="_blank">{{ $t('event-info.p2p2') }}</a></b>{{ $t('event-info.p2p3') }} </li>
+                        <li>{{ $t('event-info.p3p1') }}<b>{{ $t('event-info.p3p2') }}</b> {{ $t('event-info.p3p3') }} </li>
                     </ul>
                 </section>
                 
                 <!-- subsection for each day -->
                 <section class="bg-base-200 p-6 rounded-lg shadow-lg mb-6">
-                    <h2 class="text-3xl font-bold mb-4">Reserve the Date: 18-20 Oct 2024</h2>
-                    <h3 class="text-2xl font-semibold mb-2">Preliminary Program:</h3>
+                    <h2 class="text-3xl font-bold mb-4">{{ $t('event-info.reserve-date') }}</h2>
+                    <h3 class="text-2xl font-semibold mb-2">{{ $t('daycard.program') }}:</h3>
                     
                     <div class="container mx-auto">
                         <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-3">
@@ -64,103 +56,72 @@
                 
                 <!-- Prizes Section -->
                 <section class="bg-base-200 p-6 rounded-lg shadow-lg mb-6">
-                    <h2 class="text-3xl font-bold mb-4">Prizes</h2>
+                    <h2 class="text-3xl font-bold mb-4">{{ $t('event-info.prizes') }}</h2>
                     <ul class="list-disc list-inside">
-                    <li>2-year incubation support from CRIA.</li>
-                    <li>... More to come</li>
+                        <li v-for="(prize, index) in $tm('event-info.prize_list', { returnObjects: true })" :key="index" v-html="prize"></li>
                     </ul>
                 </section>
 
                 <!-- Registration Section -->
                 <section class="bg-base-200 p-6 rounded-lg shadow-lg mb-6">
-                    <h2 class="text-3xl font-bold mb-4">Registration</h2>
+                    <h2 class="text-3xl font-bold mb-4">{{ $t('event-info.register') }}</h2>
                     <p class="mb-4">
-                    Coming soon.
+                        {{ $t('event-info.register_link') }}
                     </p>
                 </section>
 
                 <!-- rules section -->
                 <section class="bg-base-200 p-6 rounded-lg shadow-lg mb-6">
-                    <h2 class="text-3xl font-bold mb-4">Rules</h2>
-                    <h3 class="text-2xl font-bold mb-4">Creating or joining teams</h3>
+                    <h2 class="text-3xl font-bold mb-4">{{ $t('event-info.rules') }}</h2>
+                    <h3 class="text-2xl font-bold mb-4">{{ $t('event-info.title2') }}</h3>
                     <!-- create bullet point list -->
                     <ul class="list-disc list-inside mb-4">
-                        <li>Teams have a minimum of 2 and maximum of 4 members. Every team can have 1 external member participating remotely.</li>
-                        <li>Teams will be formed (mostly) on <em>Day 1</em> after the brainstorming session.</li>
-                        <li>Team members can not participate on different teams. </li>
-                        <li>Teams should start the event without having any previous development work done. 
-                            They can and should discuss/agree on ideas and recruit team members to help the 
-                            development during the hackathon event (especially on <em>Day 1</em>).</li>
-                        <li>Even though the competition officially starts on <em>Day 1</em>, <b>final deadline</b> 
-                            to join/form/register a team and its name is <b>9 a.m. <em>Day 2</em></b>, delivered <b>on paper</b>.</li>
+                        <li v-for="(rule, index) in $tm('event.rules', { returnObjects: true })" :key="index" v-html="rule"></li>
                     </ul>
 
-                    <h3 class="text-2xl font-bold mb-4">Selecting an idea</h3>
+                    <h3 class="text-2xl font-bold mb-4">{{ $t('event.ideas.title') }}</h3>
                     <ul class="list-disc list-inside mb-4">
-                        <li>Any idea you might choose to explore during the hackathon is valid if that idea, 
-                            prototype (functional or not), project is within the scope of <b>Blue Economy</b> 
-                            and/or <b>Biotechnology</b>.</li>
-                        <li>Teams should start the event without having any previous development work done. 
-                            They can and should discuss/agree on ideas and recruit team members to help the 
-                            development (especially on <em>Day 1</em>).</li>
-                        <li>A set of challenges by sponsors and CCMAR will be compiled and presented publicly before the <em>Day 1</em>. </li>
+                        <li v-for="(idea, index) in $tm('event.ideas.list', { returnObjects: true })" :key="index" v-html="idea"></li>
                     </ul>
                     
-                    <h3 class="text-2xl font-bold mb-4">Working the idea</h3>
+                    <h3 class="text-2xl font-bold mb-4">{{ $t('event.ideas.title2') }}</h3>
                     <ul class="list-disc list-inside mb-4">
-                        <li>Mentors with different expertise will be available for the teams to request help and consultation.</li>
-                        <li>3 debugging sessions will be scheduled, where the teams can share their issues and get input from other teams.</li>
-                        <li>Delivery deadline is expected around 12:00 a.m., <em>Day 3</em>.</li>
+                        <li v-for="(idea, index) in $tm('event.ideas.list2', { returnObjects: true })" :key="index" v-html="idea"></li>
                     </ul>
 
                     <!-- Judging -->
-                    <h3 class="text-2xl font-bold mb-4">Judging</h3>
+                    <h3 class="text-2xl font-bold mb-4">{{ $t('event.jury.title') }}</h3>
                     <p class="mb-4">
-                    Scores on scale from 0 to 10, with 10 being the highest score. 
-                    Projects will be judged by a panel of experts on the following criteria:
+                        {{ $t('event.jury.subtitle') }}
                     </p>
                     <ul class="list-disc list-inside mb-4">
-                        <li><b>Impact:</b> Determine the practical applicability of the project and its 
-                            potential impact on society, and the environment.</li>
-                        <li><b>Feasibility:</b> Consider the project's execution and whether it can 
-                            realistically be brought to market or implemented in a real-world setting.</li>
-                        <li><b>Originality:</b> Assess the originality of the idea and the creativity in its application. 
-                            Consider how the project stands out from existing solutions and its potential 
-                            to introduce new paradigms.</li>
-                        <li><b>Rigor:</b> Evaluate the scientific basis of the project, including the accuracy of the data, 
-                            the soundness of the methodology, and the validity of the conclusions.</li>
+                        <li v-for="(idea, index) in $tm('event.jury.list', { returnObjects: true })" :key="index" v-html="idea"></li>
                     </ul>
 
                     <!-- Code of coduct -->
-                    <h3 class="text-2xl font-bold mb-4">Code of Conduct</h3>
+                    <h3 class="text-2xl font-bold mb-4">{{ $t('event.jury.title2') }}</h3>
                     <p class="mb-4">
-                    Code Blue Hackathon is dedicated to providing a safe and comfortable environment 
-                    for all participants. Please find and refer to the Code of Conduct 
-                    <!-- link to the webpage -->
-                    <a href="https://github.com/Py-ualg/2024-code-blue/blob/main/CODE_OF_CONDUCT.md" class="text-primary" target="_blank">here</a>.
+                        {{ $t('event.jury.subtitle2') }} <a href='https://github.com/Py-ualg/2024-code-blue/blob/main/CODE_OF_CONDUCT.md' class='text-primary' target='_blank'>{{ $t('event.jury.link') }}</a>.
                     </p>
 
                     <p class="mb-4">
-                    <i>last updated: 2024-09-05</i>
+                    <i>{{ $t('event.jury.text') }}</i>
                     </p>
                 </section>
             
                 <!-- Jury Section -->
                 <section class="bg-base-200 p-6 rounded-lg shadow-lg mb-6">
-                    <h2 class="text-3xl font-bold mb-4">Jury</h2>
+                    <h2 class="text-3xl font-bold mb-4">{{ $t('event.jury.title3') }}</h2>
                     <!-- bullet point list -->
                     <ul class="list-disc list-inside">
-                        <li><b>Deborah Power</b>: Professor at CCMAR, leader of Comparative Endocrynology group</li>
-                        <li><b>João Varela</b>: Professor at CCMAR, leader of Marine Biotechnology group</li>
-                        <li><b>Lenz Gschwendtner</b>: Coder, community builder, punk developer</li>
-                        <li><b>TBA</b>:</li>
+                        <li v-for="(idea, index) in $tm('event.jury.jurylist', { returnObjects: true })" :key="index" v-html="idea"></li>
                     </ul>
                 </section>
             </div>
         </div>
     </div>
 </template>
-  
+
 <script>
 import DayCard from '@/components/DayCard.vue';
 
@@ -189,147 +150,166 @@ export default {
     },
     data() {
         return {
-            backgroundUrl,
-            days: [
+            backgroundUrl: '',
+            images: {
+                onboardImage,
+                compImage,
+                finalImage,
+                arriveIcon,
+                presentIcon,
+                brainstormIcon,
+                teamsIcon,
+                startIcon,
+                foodIcon,
+                judgesIcon,
+                winnerIcon,
+                codingIcon,
+                nightIcon,
+                compEndIcon,
+                partyIcon
+            }
+        };
+    },
+    computed: {
+        days() {
+            return [
                 {
-                    name: 'Oct 18',
-                    description: 'Get to know people, tools and mentors. Brainstorm and form teams.',
+                    name: this.$t('days.day1.name'),
+                    description: this.$t('days.day1.description'),
                     image: onboardImage,
                     program: [
                         {
                             icon: arriveIcon,
-                            time: '14:00',
-                            event: 'Registration',
-                            location: 'Gambelas Campus',
+                            time: this.$t('days.day1.program.item1.time'),
+                            event: this.$t('days.day1.program.item1.event'),
+                            location: this.$t('days.day1.program.item1.location'),
                         },
                         {
                             icon: presentIcon,
-                            time: '14:30',
-                            event: 'Seminar series',
-                            items: [
-                                'Deborah Power: "Marine Biotechnology"',
-                                'Dario Passos: "Data Science and Machine Learning"',
-                                'João Varela: "TBA"',
-                                'TBA: "Business Case Ideation"',
-                                'Lenz Gschwendtner: "Low Code Software Tools and Integration"',
-                                'Luis Costa: "Ground water in Algarve"'
-                            ],
-                            location: 'Gambelas Campus',
+                            time: this.$t('days.day1.program.item2.time'),
+                            event: this.$t('days.day1.program.item2.event'),
+                            items: this.$tm('days.day1.program.item2.items'),
+                            location: this.$t('days.day1.program.item2.location'),
                         },
                         {
                             icon: brainstormIcon,
-                            time: '17:00',
-                            event: 'Brainstorming',
-                            location: 'Gambelas Campus',
+                            time: this.$t('days.day1.program.item3.time'),
+                            event: this.$t('days.day1.program.item3.event'),
+                            location: this.$t('days.day1.program.item3.location'),
                         },
                         {
                             icon: teamsIcon,
-                            time: '18:00',
-                            event: 'Team formation',
-                            location: 'Gambelas Campus',
+                            time: this.$t('days.day1.program.item4.time'),
+                            event: this.$t('days.day1.program.item4.event'),
+                            location: this.$t('days.day1.program.item4.location'),
                         },
                         {   
                             icon: startIcon,
-                            time: '19:00',
-                            event: 'Competition start',
-                            // location: '',
+                            time: this.$t('days.day1.program.item5.time'),
+                            event: this.$t('days.day1.program.item5.event'),
                         }
                     ]
                 },
                 {
-                    name: 'Oct 19',
-                    description: 'Hard coding day with help of mentors and food breaks.',
+                    name: this.$t('days.day2.name'),
+                    description: this.$t('days.day2.description'),
                     image: compImage,
                     program: [
                         {
                             icon: foodIcon,
-                            time: '08:00',
-                            event: 'Venue opens, breakfast',
-                            location: 'Sala Azul',
+                            time: this.$t('days.day2.program.item1.time'),
+                            event: this.$t('days.day2.program.item1.event'),
+                            location: this.$t('days.day2.program.item1.location'),
                         },
                         {
                             icon: judgesIcon,
-                            time: '09:00',
-                            event: 'Final team assignments',
-                            location: 'Sala Azul',
+                            time: this.$t('days.day2.program.item2.time'),
+                            event: this.$t('days.day2.program.item2.event'),
+                            location: this.$t('days.day2.program.item2.location'),
                         },
                         {
                             icon: codingIcon,
-                            time: '09:00',
-                            event: 'Product work',
-                            location: 'Sala Azul',
+                            time: this.$t('days.day2.program.item3.time'),
+                            event: this.$t('days.day2.program.item3.event'),
+                            location: this.$t('days.day2.program.item3.location'),
                         },
                         {
                             icon: foodIcon,
-                            time: '13:00',
-                            event: 'Lunch',
-                            location: 'TBA',
+                            time: this.$t('days.day2.program.item4.time'),
+                            event: this.$t('days.day2.program.item4.event'),
+                            location: this.$t('days.day2.program.item4.location'),
                         },
                         {
                             icon: codingIcon,
-                            time: '14:00',
-                            event: 'Product work',
-                            location: 'Sala Azul',
+                            time: this.$t('days.day2.program.item5.time'),
+                            event: this.$t('days.day2.program.item5.event'),
+                            location: this.$t('days.day2.program.item5.location'),
                         },
                         {
                             icon: foodIcon,
-                            time: '18:00',
-                            event: 'Dinner',
-                            location: 'TBA',
+                            time: this.$t('days.day2.program.item6.time'),
+                            event: this.$t('days.day2.program.item6.event'),
+                            location: this.$t('days.day2.program.item6.location'),
                         },
                         {
                             icon: codingIcon,
-                            time: '19:00',
-                            event: 'Product work',
-                            location: 'Sala Azul',
+                            time: this.$t('days.day2.program.item7.time'),
+                            event: this.$t('days.day2.program.item7.event'),
+                            location: this.$t('days.day2.program.item7.location'),
                         },
                         {
                             icon: nightIcon,
-                            time: '22:00',
-                            event: 'Good night',
+                            time: this.$t('days.day2.program.item8.time'),
+                            event: this.$t('days.day2.program.item8.event'),
                         }
                     ]
                 },
                 {
-                    name: 'Oct 20',
-                    description: 'Finalize your product for submission. Move to the after party where demos will be presented, winners announced, decompression offered.',
+                    name: this.$t('days.day3.name'),
+                    description: this.$t('days.day3.description'),
                     image: finalImage,
                     program:
                     [
                         {
                             icon: foodIcon,
-                            time: '08:00',
-                            event: 'Venue opens, breakfast',
-                            location: 'Sala Azul',
+                            time: this.$t('days.day3.program.item1.time'),
+                            event: this.$t('days.day3.program.item1.event'),
+                            location: this.$t('days.day3.program.item1.location'),
                         },
                         {
                             icon: codingIcon,
-                            time: '08:30',
-                            event: 'Product work',
-                            location: 'Sala Azul',
+                            time: this.$t('days.day3.program.item2.time'),
+                            event: this.$t('days.day3.program.item2.event'),
+                            location: this.$t('days.day3.program.item2.location'),
                         },
                         {
                             icon: compEndIcon,
-                            time: '13:00',
-                            event: 'Final submissions',
-                            location: 'Sala Azul',
+                            time: this.$t('days.day3.program.item3.time'),
+                            event: this.$t('days.day3.program.item3.event'),
+                            location: this.$t('days.day3.program.item3.location'),
                         },
                         {
                             icon: partyIcon,
-                            time: '14:00',
-                            event: 'Party starts',
-                            location: 'Albufeira Beach',
+                            time: this.$t('days.day3.program.item4.time'),
+                            event: this.$t('days.day3.program.item4.event'),
+                            location: this.$t('days.day3.program.item4.location'),
                         },
                         {
                             icon: winnerIcon,
-                            time: '14:30',
-                            event: 'Results, Demo presentations',
-                            location: 'Albufeira Beach',
+                            time: this.$t('days.day3.program.item5.time'),
+                            event: this.$t('days.day3.program.item5.event'),
+                            location: this.$t('days.day3.program.item5.location'),
                         }
                     ]
                 }
             ]
-        };
+        }
+    },
+    watch: {
+        '$i18n.locale'() {
+            // This will trigger the computed property to re-evaluate
+        }
+
     }
 };
 </script>

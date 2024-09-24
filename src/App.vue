@@ -1,7 +1,9 @@
 <script setup>
   import MainLayout from '@/layouts/MainLayout.vue';
+  import LanguageSwitcher from './components/LanguageSwitcher.vue';
   import { ref } from 'vue'
   const count = ref(0)
+
 </script>
 
 <template>
