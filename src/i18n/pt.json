@@ -151,53 +151,207 @@
       "items": {}
     }
   },
+  "days": {
+    "day1": {
+      "name": "Out 18",
+      "description": "Conheça pessoas, ferramentas e mentores. Faça brainstorming e forme equipas.",
+      "program": {
+        "item1":{
+          "time": "15:00",
+          "event": "Inscrição",
+          "location": "Campus Gambelas"
+        },
+        "item2":{
+          "time": "15:20",
+          "event": "Série de seminários",
+          "items": [
+            "Deborah Power: \"Biotecnologia Marinha\"",
+            "TBA: \"Ecossistema de inovação no Algarve\"",
+            "TBA: \"Ferramentas de software de baixo código e a sua integração\"",
+            "Necton: \"Patrocinador do desafio das microalgas\"",
+            "João Varela: \"Desafio das microalgas\"",
+            "Dario Passos: \"Desafio de IA frutado\"",
+            "Luis Costa: \"Águas subterrâneas no Algarve\"",
+            "Rui Coelho: \"Desafio das Pescas\""
+          ],
+          "location": "Campus Gambelas"
+        },
+        "item3":{
+          "time": "17:45",
+          "event": "Brainstorming",
+          "location": "Campus Gambelas"
+        },
+        "item4":{
+          "time": "19:00",
+          "event": "Formação de equipas",
+          "location": "Campus Gambelas"
+        },
+        "item5":{
+          "time": "19:00",
+          "event": "Início da competição"
+        }
+      }
+    },
+    "day2": {
+      "name": "Out 19",
+      "description": "Dia de codificação difícil com ajuda de mentores e intervalos para alimentação.",
+      "program": {
+        "item1":{
+          "time": "08:00",
+          "event": "Local abre, pequeno-almoço",
+          "location": "Sala Azul"
+        },
+        "item2":{
+          "time": "09:00",
+          "event": "Finalização de equipas",
+          "location": "Sala Azul"
+        },
+        "item3":{
+          "time": "09:00",
+          "event": "Trabalho do projeto",
+          "location": "Sala Azul"
+        },
+        "item4":{
+          "time": "13:00",
+          "event": "Almoço",
+          "location": "Sala Azul"
+        },
+        "item5":{
+          "time": "14:00",
+          "event": "Trabalho do projeto",
+          "location": "Sala Azul"
+        },
+        "item6":{
+          "time": "18:00",
+          "event": "Jantar",
+          "location": "Sala Azul"
+        },
+        "item7":{
+          "time": "19:00",
+          "event": "Trabalho do projeto",
+          "location": "Sala Azul"
+        },
+        "item8":{
+          "time": "22:00",
+          "event": "Boa noite"
+        }
+      }
+    },
+    "day3": {
+      "name": "Out 20",
+      "description": "Finalize o seu produto para envio. Dirija-se à festa onde as demonstrações serão apresentadas, os vencedores serão anunciados e será oferecida a descompressão.",
+      "program": {
+        "item1":{
+          "time": "08:00",
+          "event": "Local abre, pequeno-almoço",
+          "location": "Sala Azul"
+        },
+        "item2":{
+          "time": "09:00",
+          "event": "Trabalho do projeto",
+          "location": "Sala Azul"
+        },
+        "item3":{
+          "time": "13:00",
+          "event": "Submissões finais",
+          "location": "Sala Azul"
+        },
+        "item4":{
+          "time": "14:00",
+          "event": "A festa começa",
+          "location": "Praia de Albufeira"
+        },
+        "item5":{
+          "time": "15:00",
+          "event": "Resultados, apresentações de demonstração",
+          "location": "Praia de Albufeira"
+        }
+      }
+    }
+  },
   "event-info": {
-    "title": "Event Info",
-    "date-bold": "When",
-    "date": "October 18-20, 2024.",
-    "location-bold": "Where",
+    "title": "Informações do evento",
+    "date-bold": "Quando",
+    "date": "Outombro 18-20, 2024.",
+    "location-bold": "Onde",
     "location": "Sala Azul, Albufeira, Portugal",
-    "maps": "Google Maps",
-    "teams_bold": "Teams:",
-    "teams": "2-4 (+1 remote) members for tackling any challenge related to biotechnology and scientific, or industry solution for blue economy. See ",
-    "teams_link": "challenges",
-    "teams_end": " for more.",
-    "time_limit_bold": "Time limit:",
-    "time_limit": "40 hours from Friday evening.",
-    "why_bold": "Why participate?",
-    "why": "To collaborate, learn, and create impactful solutions.",
-    "scope": "Scope",
-    "li1_bold": "Biotechnology",
-    "li1": "Innovations in marine biology, sustainable fisheries, bioprospecting, or marine conservation.",
-    "li2_bold": "Science",
-    "li2": "Data-driven solutions for marine science, environmental monitoring or marine industry.",
-    "li3_bold": "Industry",
-    "li3": "Novel business models that support sustainable use of ocean resources, eco-friendly maritime industries, or blue economy startups.",
-    "pitch": "Special Pitch to You",
-    "p1p1": "We provide ",
-    "p1p2": "Mentoring",
-    "p1p3": " on marine science, data, software tools and ideation.",
-    "p2p1": "We provide curated ",
-    "p2p2": "repository of resources",
-    "p2p3": ", including challenges you can tackle.",
-    "p3p1": "Program which foster social and ",
-    "p3p2": "community engagement",
-    "p3p3": " while introducing you to local stakeholders and their challenges.",
-    "reserve-date": "Reserve the Date: 18-20 Oct 2024",
-    "prizes": "Prizes",
-    "p1": "2-year incubation support from CRIA.",
-    "p2": "Goodle development perks.",
-    "p3": "... More to come",
-    "register": "Registration",
-    "register_link": "Coming soon."
+    "maps": "Google Mapas",
+    "teams_bold": "Equipas:",
+    "teams": "2-4 (+1 membro remoto) para enfrentar qualquer desafio relacionado com a biotecnologia e com a solução científica ou industrial para a economia azul. Ver ",
+    "teams_link": "desafios",
+    "teams_end": " para mais.",
+    "time_limit_bold": "Limite de tempo:",
+    "time_limit": "40 horas a partir de sexta-feira à noite.",
+    "why_bold": "Porquê participar??",
+    "why": "Para colaborar, aprender e criar soluções impactantes.",
+    "scope": "Âmbito",
+    "scope_list":[
+      "<b>Biotecnologia:</b> Inovações em biologia marinha, pesca sustentável, bioprospecção ou conservação marinha.",
+      "<b>Ciência:</b> Soluções baseadas em dados para a ciência marinha, monitorização ambiental ou indústria marítima.",
+      "<b>Indústria:</b> Novos modelos de negócio que apoiam a utilização sustentável dos recursos oceânicos, indústrias marítimas ecológicas ou startups da economia azul."
+    ],
+    "pitch": "Proposta especial para si",
+    "p1p1": "Oferecemos ",
+    "p1p2": "orientação",
+    "p1p3": " em ciências marinhas, dados, ferramentas de software e idealização.",
+    "p2p1": "Fornecemos ",
+    "p2p2": "um repositório selecionado de recursos",
+    "p2p3": ", incluindo desafios que pode enfrentar.",
+    "p3p1": "Programa que promove ",
+    "p3p2": "o envolvimento social e comunitário",
+    "p3p3": " ao mesmo tempo que apresenta as partes interessadas locais e os seus desafios.",
+    "reserve-date": "Reserve a data: 18-20 Out 2024",
+    "prizes": "Prémios",
+    "prize_list": [
+      "Apoio de incubação de 2 anos do CRIA.",
+      "Vantagens de desenvolvimento da Google.",
+      "Mais por vir ..."
+    ],
+    "register": "Inscrição",
+    "register_link": "Em breve.",
+    "rules": "Regras",
+    "title2": "Criar ou juntar-se a uma equipa"
   },
   "event": {
     "rules": [
       "As equipes têm um mínimo de 2 e um máximo de 4 membros. Cada equipe pode ter 1 membro externo participando remotamente.",
-      "As equipes serão formadas (principalmente) no <em>Dia 1</em> após a sessão de brainstorming.",
+      "As equipes serão formadas (principalmente) no <em>Seixta, Out 18</em> após a sessão de brainstorming.",
       "Os membros da equipe não podem participar de diferentes equipes.",
-      "As equipes devem começar o evento sem ter nenhum trabalho de desenvolvimento anterior feito. Eles podem e devem discutir/acordar ideias e recrutar membros da equipe para ajudar no desenvolvimento durante o evento hackathon (especialmente no <em>Dia 1</em>).",
-      "Embora a competição comece oficialmente no <em>Dia 1</em>, o <b>prazo final</b> para juntar/formar/registrar uma equipe e seu nome é <b>9 a.m. <em>Dia 2</em></b>, entregue <b>em papel</b>."
-    ]
+      "As equipes devem começar o evento sem ter nenhum trabalho de desenvolvimento anterior feito. Eles podem e devem discutir/acordar ideias e recrutar membros da equipe para ajudar no desenvolvimento durante o evento hackathon (especialmente no <em>Seixta, Out 18</em>).",
+      "Embora a competição comece oficialmente no <em>Seixta, Out 18</em>, o <b>prazo final</b> para juntar/formar/registrar uma equipe e seu nome é <b>9 a.m. <em>Sábado, Out 19</em></b>, entregue <b>em papel</b>."
+    ],
+    "ideas": {
+      "title": "Selecionando uma ideia",
+      "list": [
+        "Qualquer ideia que escolha explorar durante o hackathon é válida se essa ideia, protótipo (funcional ou não), projeto estiver no âmbito da <b>Economia Azul</b> e/ou da <b>Biotecnologia</b>.",
+        "As equipas devem iniciar o evento sem terem realizado qualquer trabalho de desenvolvimento prévio. Podem e devem discutir/concordar sobre ideias e recrutar membros da equipa para ajudar no desenvolvimento (especialmente no <em>Seixta, Out 18</em>).",
+        "Um conjunto de desafios dos patrocinadores e do CCMAR será compilado e apresentado publicamente antes do <em>Seixta, Out 18</em>."
+      ],
+      "title2": "Trabalhando a ideia",
+      "list2": [
+        "Mentores com diferentes expertises estarão à disposição das equipas para solicitar ajuda e consultoria.",
+        "Serão agendadas sessões de depuração, onde as equipas poderão partilhar os seus problemas e obter sugestões de outras equipas.",
+        "O prazo de entrega está previsto para cerca das 13h00 do <em>Domingo, Out 20</em>."
+      ]
+    },
+    "jury":{
+      "title": "Avaliação",
+      "subtitle": "Pontuações numa escala de 0 a 10, sendo 10 a pontuação mais elevada. Os projetos serão julgados por um painel de especialistas com base nos seguintes critérios:",
+      "list": [
+        "<b>Impacto:</b> Determinar a aplicabilidade prática do projeto e o seu potencial impacto na sociedade e no ambiente.",
+        "<b>Viabilidade:</b> Considere a execução do projeto e se pode ser realisticamente levado para o mercado ou implementado num ambiente real.",
+        "<b>Originalidade:</b> Avalie a originalidade da ideia e a criatividade na sua aplicação. Considere como o projeto se destaca das soluções existentes e o seu potencial para introduzir novos paradigmas.",
+        "<b>Rigor:</b> Avaliar a base científica do projeto, incluindo a precisão dos dados, a solidez da metodologia e a validade das conclusões."
+      ],
+      "title2": "Código de Conduta",
+      "subtitle2": "O Code Blue Hackathon dedica-se a proporcionar um ambiente seguro e confortável para todos os participantes. Consulte o ",
+      "link": "Código de Conduta",
+      "text": "última atualização: 2024-09-24",
+      "title3": "Júri",
+      "jurylist": [
+        "<b>Deborah Power</b>: Professor do CCMAR, líder do grupo de Endocrinologia Comparativa",
+        "<b>TBA</b>:"
+      ]
+    }
   }
 }
