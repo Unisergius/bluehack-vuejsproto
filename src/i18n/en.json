@@ -19,7 +19,7 @@
     "contact": "Contact"
   },
   "index": {
-    "date": "18-20 Oct, 2024",
+    "date": "18-20 Oct 2024",
     "title": "Blue Biotech Hackathon",
     "subtitle": "Join us in our 40-hour hackathon to innovate and develop cutting-edge solutions in biotechnology, science, and industry."
   },
@@ -116,14 +116,14 @@
   },
   "challenges": {
     "title": "Challenges",
-    "subtitle": "Our challenges are suggestions from our partners, which can also help mentoring you. \n Feel free to propose your own challenges or spin out of our samples.\n They are designed to address real-world problems in marine science and technology.",
+    "subtitle": "Our challenges are suggestions from our partners, which can also help mentoring you. Feel free to propose your own challenges or spin out of our samples. They are designed to address real-world problems in marine science and technology.",
     "challenge1": {
       "title": "Water Challenge by Luis Costa (APA)",
       "description": "Algarve region in south Portugal is experiencing a multi-year drought of 10 years. Agência Portuguesa do Ambiente (APA) in Faro is responsible for monitoring groundwater level (quantity status) and quality (Chemical status) in its 25 separate groundwater bodies, which correspond to 17 main aquifers. The monitoring of the groundwater levels is usually performed with a monthly frequency in around 150 observation points (wells) spread around the groundwater bodies. THe figure shows that during the month of September 2023, groundwater levels reached negative values compared to mean-sea-level, thus, increasing the risk of sea water intrusion, which could have unprecedented consequences for the citizens, businesses and the region as a whole."
     },
     "challenge2": {
       "title": "Algae Challenge by CCMAR/GreenColab/Necton",
-      "description": "Algae are responsible for around 50% of earth's photosynthetic output, mostly occurring underwater. There are estimated 72 000 algal species. They can be unicellular but also 50 m in length (kelps). The light-harvesting makes them 'power plants' and 'production plants' at the same time. It is used for treating waste water, producing energy, food, fertilizers, pharmaceutical and cosmetic high-value compounds etc. Representing academia, tech transfer platform and industry, you can explore the ocean of microalgae tech with Biomartech group at CCMAR, GreenColab and Necton. Suggested challenges tackle the vast databases and methods for algal genomics. You can integrate data source, identify new genes with deep-learning models and drive new discoveries and innovations in compound production. Follow the link below for more details."
+      "description": "Algae are responsible for around 50% of earth's photosynthetic output, mostly occurring underwater. There are estimated 72 000 algal species. They can be unicellular but also 50 m in length (kelps). The light-harvesting makes them 'power plants' and 'production plants' at the same time. It is used for treating waste water, producing energy, food, fertilizers, pharmaceutical and cosmetic high-value compounds etc. Representing academia, tech transfer platform and industry, you can explore the ocean of microalgae tech with Biomartech group at CCMAR, GreenColab and Necton. Suggested challenges tackle the vast databases and methods for algal genomics. You can integrate data source, identify new genes with deep-learning models and drive new discoveries and innovations in compound production."
     },
     "challenge3": {
       "title": "Fisheries Challenge by Rui Coelho (IPMA)",
@@ -154,7 +154,7 @@
   "days": {
     "day1": {
       "name": "Oct 18",
-      "description": "Get to know people, tools and mentors. Brainstorm and form teams.",
+      "description": "Get to know fellow participants, tools and mentors. Brainstorm and form teams.",
       "program": {
         "item1":{
           "time": "15:00",
@@ -208,7 +208,7 @@
         },
         "item3":{
           "time": "09:00",
-          "event": "Product work",
+          "event": "Challenge work",
           "location": "Sala Azul"
         },
         "item4":{
@@ -218,7 +218,7 @@
         },
         "item5":{
           "time": "14:00",
-          "event": "Product work",
+          "event": "Challenge work",
           "location": "Sala Azul"
         },
         "item6":{
@@ -228,7 +228,7 @@
         },
         "item7":{
           "time": "19:00",
-          "event": "Product work",
+          "event": "Challenge work",
           "location": "Sala Azul"
         },
         "item8":{
@@ -248,7 +248,7 @@
         },
         "item2":{
           "time": "09:00",
-          "event": "Product work",
+          "event": "Challenge work",
           "location": "Sala Azul"
         },
         "item3":{
@@ -271,13 +271,13 @@
   },
   "event-info": {
     "title": "Event Info",
-    "date-bold": "When",
+    "date-bold": "When:",
     "date": "October 18-20, 2024.",
-    "location-bold": "Where",
+    "location-bold": "Where:",
     "location": "Sala Azul, Albufeira, Portugal",
     "maps": "Google Maps",
     "teams_bold": "Teams:",
-    "teams": "2-4 (+1 remote) members for tackling any challenge related to biotechnology and scientific, or industry solution for blue economy. See ",
+    "teams": "2-4 members (+1 remote) for tackling any challenge related to biotechnology and scientific, or industry solution for blue economy. See ",
     "teams_link": "challenges",
     "teams_end": " for more.",
     "time_limit_bold": "Time limit:",
@@ -286,7 +286,7 @@
     "why": "To collaborate, learn, and create impactful solutions.",
     "scope": "Scope",
     "scope_list":[
-      "<b>Biotechnology:</b> Innovations in marine biology, sustainable fisheries, bioprospecting, or marine conservation.",
+      "<b>Biotechnology:</b> Innovations in marine biology, sustainable fisheries, bioprospecting or marine conservation.",
       "<b>Science:</b> Data-driven solutions for marine science, environmental monitoring or marine industry.",
       "<b>Industry:</b> Novel business models that support sustainable use of ocean resources, eco-friendly maritime industries, or blue economy startups."
     ],
@@ -314,17 +314,16 @@
   },
   "event": {
     "rules": [
-      "Teams have a minimum of 2 and maximum of 4 members. Every team can have 1 external member participating remotely.",
+      "Teams have a minimum of 2 and maximum of 4 members. Every team can have 1 extra external member participating remotely.",
       "Teams will be formed (mostly) on <em>Friday, Oct 18</em> after the brainstorming session.",
       "Team members can not participate on different teams.",
-      "Teams should start the event without having any previous development work done. They can and should discuss/agree on ideas and recruit team members to help the development during the hackathon event (especially on <em>Friday, Oct 18</em>).",
-      "Even though the competition officially starts on <em>Friday, Oct 18</em>, <b>final deadline</b> to join/form/register a team and its name is <b>9 a.m. <em>Saturday, Oct 19</em></b>, delivered <b>on paper</b>."
+      "Teams should start the event without having any previous development work done.",
+      "Even though the competition officially starts on <em>Friday, Oct 18</em>, <b>final deadline</b> to register a team and its name is <b>9 a.m. <em>Saturday, Oct 19</em></b>, delivered <b>on paper</b>."
     ],
     "ideas": {
       "title": "Selecting an idea",
       "list": [
         "Any idea you might choose to explore during the hackathon is valid if that idea, prototype (functional or not), project is within the scope of <b>Blue Economy</b> and/or <b>Biotechnology</b>.",
-        "Teams should start the event without having any previous development work done. They can and should discuss/agree on ideas and recruit team members to help the development (especially on <em>Friday, Oct 18</em>).",
         "A set of challenges by sponsors and CCMAR will be compiled and presented publicly before the <em>Friday, Oct 18</em>."
       ],
       "title2": "Working the idea",
@@ -346,7 +345,7 @@
       "title2": "Code of Conduct",
       "subtitle2": "Code Blue Hackathon is dedicated to providing a safe and comfortable environment for all participants. Please refer to the ",
       "link": "Code of Conduct",
-      "text": "last updated: 2024-09-24",
+      "text": "last updated: 2024-09-25",
       "title3": "Jury",
       "jurylist": [
         "<b>Deborah Power</b>: Professor at CCMAR, leader of Comparative Endocrinology group",

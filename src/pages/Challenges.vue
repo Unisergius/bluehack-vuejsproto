@@ -61,16 +61,16 @@ export default {
                     website: 'https://github.com/Py-ualg/2024-code-blue/tree/main/challenges/Algae_genes',
                 },
                 {
-                    name: this.$t('challenges.challenge3.title'),
-                    description: this.$t('challenges.challenge3.description'),
-                    image: fishChallImage,
-                    website: 'https://github.com/Py-ualg/2024-code-blue/tree/main/challenges/Fisheries_PT',
-                },
-                {
                     name: this.$t('challenges.challenge4.title'),
                     description: this.$t('challenges.challenge4.description'),
                     image: fruitChallImage,
                     website: 'https://github.com/Py-ualg/2024-code-blue/tree/main/challenges/AI_fruit_QA',
+                },
+                {
+                    name: this.$t('challenges.challenge3.title'),
+                    description: this.$t('challenges.challenge3.description'),
+                    image: fishChallImage,
+                    website: 'https://github.com/Py-ualg/2024-code-blue/tree/main/challenges/Fisheries_PT',
                 },
             ]
         

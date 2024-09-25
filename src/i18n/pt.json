@@ -2,7 +2,7 @@
   "button": {
     "tickets": "Bilhetes em breve",
     "info": "Mais informações",
-    "sponsor": "Patrocina-nos"
+    "sponsor": "Patrocine-nos"
   },
   "countdown": {
     "days": "dias",
@@ -16,12 +16,12 @@
     "event-info": "Evento",
     "partners": "Parceiros",
     "challenges": "Desafios",
-    "contact": "Contacto"
+    "contact": "Contactos"
   },
   "index": {
-    "date": "18-20 de Out 2024",
+    "date": "18-20 Out 2024",
     "title": "Hackathon de Biotecnologia Azul",
-    "subtitle": "Junte-se a nós no nosso hackathon de 40 horas inovar e desenvolver soluções de vanguarda em biotecnologia, ciência e indústria."
+    "subtitle": "Junte-se a nós no nosso hackathon de 40 horas para inovar e desenvolver soluções de vanguarda em biotecnologia, ciência e indústria."
   },
   "about": {
     "title": "A nossa filosofia",
@@ -33,7 +33,7 @@
     "subtitle": "Os nossos parceiros impulsionam a inovação e a excelência, fornecendo apoio e recursos vitais para o avanço das soluções de ciência e tecnologia marinha.",
     "necton": {
       "name": "Necton",
-      "description": "Necton é uma empresa de biotecnologia marinha que se dedica à investigação e desenvolvimento de produtos e serviços inovadores para a indústria alimentar, farmacêutica e cosmética. A Necton é uma empresa de biotecnologia marinha que se dedica à investigação e desenvolvimento de produtos e serviços inovadores para a indústria alimentar, farmacêutica e cosmética."
+      "description": "Necton é uma empresa de biotecnologia marinha que se dedica à investigação e desenvolvimento de produtos e serviços inovadores para a indústria alimentar, farmacêutica e cosmética."
     },
     "ccmar": {
       "name": "CCMAR Algarve",
@@ -116,28 +116,28 @@
   },
   "challenges": {
     "title": "Desafios",
-    "subtitle": "Os nossos desafios são sugestões dos nossos parceiros, que também podem ajudar na sua orientação. \n Sinta-se à vontade para propor os seus próprios desafios ou desenvolver os nossos exemplos.\n Foram concebidos para abordar problemas do mundo real na ciência e tecnologia marinha.",
+    "subtitle": "Os nossos desafios são sugestões dos nossos parceiros, que também podem ajudar na sua orientação. Sinta-se à vontade para propor os seus próprios desafios ou desenvolver os nossos exemplos. Foram concebidos para abordar problemas do mundo real na ciência e tecnologia marinha.",
     "challenge1": {
       "title": "Desafio da Água por Luis Costa (APA)",
       "description": "A região do Algarve, no sul de Portugal, está a atravessar uma seca plurianual de 10 anos. A Agência Portuguesa do Ambiente (APA) em Faro é responsável pela monitorização do nível (estado de quantidade) e da qualidade (estado químico) das águas subterrâneas nas suas 25 massas de água subterrâneas distintas, que correspondem a 17 aquíferos principais. A monitorização dos níveis freáticos é habitualmente realizada com uma periodicidade mensal em cerca de 150 pontos de observação (poços) espalhados pelos corpos de água subterrâneos. A figura mostra que durante o mês de Setembro de 2023, os níveis das águas subterrâneas atingiram valores negativos face ao nível médio do mar, aumentando assim o risco de intrusão de água do mar, o que poderá ter consequências sem precedentes para os cidadãos, as empresas e a região como um todo."
     },
     "challenge2": {
       "title": "Desafio das Algas por CCMAR/GreenColab/Necton",
-      "description": "As algas são responsáveis por cerca de 50% da produção fotossintética da Terra, ocorrendo principalmente debaixo de água. Estima-se que existam 72 000 espécies de algas. Podem ser unicelulares, mas também podem ter 50 m de comprimento (algas). A captação de luz faz delas “centrais de energia” e “centrais de produção” ao mesmo tempo. É utilizado para tratar águas residuais, produzir energia, alimentos, fertilizantes, compostos farmacêuticos e cosméticos de alto valor, etc. Biomartech no CCMAR, GreenColab e Necton . Os desafios sugeridos abordam as vastas bases de dados e métodos para a genómica de algas. Pode integrar fontes de dados, identificar novos genes com modelos de aprendizagem profunda e impulsionar novas descobertas e inovações na produção de compostos. Siga o link abaixo para mais detalhes."
+      "description": "As algas são responsáveis por cerca de 50% da produção fotossintética da Terra, ocorrendo esta principalmente debaixo de água. Estima-se que existam 72 000 espécies de algas. Podem ser unicelulares, mas também podem ter 50 m de comprimento (algas). A captação de luz faz delas “centrais de energia” e “centrais de produção” ao mesmo tempo. São utilizadas para tratar águas residuais, produzir energia, alimentos, fertilizantes, compostos farmacêuticos e cosméticos de alto valor, etc. Representando a academia, a plataforma de transferência de tecnologia e a indústria, pode explorar o oceano da tecnologia de microalgas com Biomartech no CCMAR, GreenColab e Necton. Os desafios sugeridos abordam as vastas bases de dados e métodos para a genómica de algas. Pode integrar fontes de dados, identificar novos genes com modelos de aprendizagem profunda e impulsionar novas descobertas e inovações na produção de compostos."
     },
     "challenge3": {
       "title": "Desafio de Pesca por Rui Coelho (IPMA)",
-      "description": "Este desafio proporciona uma oportunidade de trabalhar nas pescas, especialmente relacionadas com grandes espécies migratórias, das quais Rui Coelho é especialista. Os principais objectivos seriam coligir vários conjuntos de dados sobre captura e esforço, que poderiam depois ser utilizados para rastrear a abundância de espécies e o estado dos stocks pesqueiros. Um objetivo final seria desenvolver uma ferramenta de visualização que fosse informativa não só para os cientistas, mas também para os gestores e para o público em geral."
+      "description": "Este desafio proporciona uma oportunidade de trabalhar nas pescas, especialmente relacionadas com grandes espécies migratórias, das quais Rui Coelho é especialista. Os principais objectivos seriam agrupar vários conjuntos de dados sobre captura e esforço, que poderiam depois ser utilizados para rastrear a abundância de espécies e o estado dos stocks pesqueiros. Um objetivo final seria desenvolver uma ferramenta de visualização que fosse informativa não só para os cientistas, mas também para os gestores e para o público em geral."
     },
     "challenge4": {
       "title": "Desafio IA frutado por Dário Passos (CEOT)",
-      "description": "Tradicionalmente, milhares de frutos são amostrados manualmente e analisados ​​após a colheita para fornecer informações sobre a maturação e a qualidade dos frutos. Estes ensaios destrutivos laboratoriais analíticos visam quantificar parâmetros internos de qualidade, como o teor de açúcar, o teor de matéria seca, etc. . A composição química do fruto traduz-se em padrões de luz específicos (espectros) que, com a ajuda de modelos quimiométricos, podem ser mapeados em parâmetros internos de qualidade. Atualmente, os modelos de aprendizagem automática/aprendizagem profunda estão a ser explorados como ferramentas para criar estes modelos quimiométricos, prometendo novos caminhos de aplicações. Dário Passos é especialista na concepção deste tipo de modelos. Estes modelos para análise de dados espectrais são também aplicáveis ​​em medicina, biotecnologia e outras áreas. Esta é uma oportunidade perfeita para explorar técnicas de aprendizagem automática (por exemplo, DL) orientadas para esta nova modalidade de dados (espectros 1d). Venha participar neste desafio para encontrar boas metodologias para utilizar este tipo de dados para previsões de qualidade de frutos."
+      "description": "Tradicionalmente, milhares de frutos são amostrados manualmente e analisados após a colheita para fornecer informações sobre a maturação e a qualidade dos frutos. Estes ensaios destrutivos laboratoriais analíticos visam quantificar parâmetros internos de qualidade, como o teor de açúcar, o teor de matéria seca, etc. A composição química do fruto traduz-se em padrões de luz específicos (espectros) que, com a ajuda de modelos quimiométricos, podem ser mapeados em parâmetros internos de qualidade. Atualmente, os modelos de aprendizagem automática/aprendizagem profunda estão a ser explorados como ferramentas para criar estes modelos quimiométricos, prometendo novos caminhos de aplicações. Dário Passos é especialista na concepção deste tipo de modelos. Estes modelos para análise de dados espectrais são também aplicáveis ​​em medicina, biotecnologia e outras áreas. Esta é uma oportunidade perfeita para explorar técnicas de aprendizagem automática (por exemplo, DL) orientadas para esta nova modalidade de dados (espectros 1d). Venha participar neste desafio para encontrar boas metodologias para utilizar este tipo de dados para previsões de qualidade de frutos."
     }
   },
   "contact": {
-    "title": "Contate-nos",
+    "title": "Contacte-nos",
     "subtitle_bold": "Os patrocinadores",
-    "subtitle": " têm a oportunidade de apresentar os seus desafios, orientar as equipas participantes e divulgar a sua marca. Para se tornar um patrocinador e nos ajudar a realizar um hackathon excecional focado na economia azul sustentável desenvolvimento e avanço tecnológico, contacte-nos através"
+    "subtitle": " têm a oportunidade de apresentar os seus desafios, orientar as equipas participantes e divulgar a sua marca. Para se tornar um patrocinador e nos ajudar a realizar um hackathon excecional focado no desenvolvimento da economia azul sustentável e avanço tecnológico, contacte-nos através de"
   },
   "daycard": {
     "times": "Horário",
@@ -154,7 +154,7 @@
   "days": {
     "day1": {
       "name": "Out 18",
-      "description": "Conheça pessoas, ferramentas e mentores. Faça brainstorming e forme equipas.",
+      "description": "Conheça os outros participantes, ferramentas e mentores. Faça <em>brainstorming</em,> e forme equipas.",
       "program": {
         "item1":{
           "time": "15:00",
@@ -198,7 +198,7 @@
       "program": {
         "item1":{
           "time": "08:00",
-          "event": "Local abre, pequeno-almoço",
+          "event": "Abertura, pequeno-almoço",
           "location": "Sala Azul"
         },
         "item2":{
@@ -208,7 +208,7 @@
         },
         "item3":{
           "time": "09:00",
-          "event": "Trabalho do projeto",
+          "event": "Desafio",
           "location": "Sala Azul"
         },
         "item4":{
@@ -218,7 +218,7 @@
         },
         "item5":{
           "time": "14:00",
-          "event": "Trabalho do projeto",
+          "event": "Desafio",
           "location": "Sala Azul"
         },
         "item6":{
@@ -228,7 +228,7 @@
         },
         "item7":{
           "time": "19:00",
-          "event": "Trabalho do projeto",
+          "event": "Desafio",
           "location": "Sala Azul"
         },
         "item8":{
@@ -239,16 +239,16 @@
     },
     "day3": {
       "name": "Out 20",
-      "description": "Finalize o seu produto para envio. Dirija-se à festa onde as demonstrações serão apresentadas, os vencedores serão anunciados e será oferecida a descompressão.",
+      "description": "Finalize o seu produto para submissão. Dirija-se à festa onde as <em>demos</em> serão apresentadas, os vencedores serão anunciados e será oferecida descompressão.",
       "program": {
         "item1":{
           "time": "08:00",
-          "event": "Local abre, pequeno-almoço",
+          "event": "Abertura, pequeno-almoço",
           "location": "Sala Azul"
         },
         "item2":{
           "time": "09:00",
-          "event": "Trabalho do projeto",
+          "event": "Desafio",
           "location": "Sala Azul"
         },
         "item3":{
@@ -263,7 +263,7 @@
         },
         "item5":{
           "time": "15:00",
-          "event": "Resultados, apresentações de demonstração",
+          "event": "Resultados, apresentações de demos",
           "location": "Praia de Albufeira"
         }
       }
@@ -271,35 +271,35 @@
   },
   "event-info": {
     "title": "Informações do evento",
-    "date-bold": "Quando",
-    "date": "Outombro 18-20, 2024.",
-    "location-bold": "Onde",
+    "date-bold": "Quando:",
+    "date": "18-20 Outumbro, 2024.",
+    "location-bold": "Onde:",
     "location": "Sala Azul, Albufeira, Portugal",
     "maps": "Google Mapas",
     "teams_bold": "Equipas:",
-    "teams": "2-4 (+1 membro remoto) para enfrentar qualquer desafio relacionado com a biotecnologia e com a solução científica ou industrial para a economia azul. Ver ",
+    "teams": "2-4 membros (+1 remoto) para enfrentar desafios relacionados com a biotecnologia e com as soluções científicas ou industriais para a economia azul. Ver ",
     "teams_link": "desafios",
-    "teams_end": " para mais.",
+    "teams_end": " para mais informação.",
     "time_limit_bold": "Limite de tempo:",
     "time_limit": "40 horas a partir de sexta-feira à noite.",
-    "why_bold": "Porquê participar??",
+    "why_bold": "Porquê participar?",
     "why": "Para colaborar, aprender e criar soluções impactantes.",
     "scope": "Âmbito",
     "scope_list":[
       "<b>Biotecnologia:</b> Inovações em biologia marinha, pesca sustentável, bioprospecção ou conservação marinha.",
-      "<b>Ciência:</b> Soluções baseadas em dados para a ciência marinha, monitorização ambiental ou indústria marítima.",
-      "<b>Indústria:</b> Novos modelos de negócio que apoiam a utilização sustentável dos recursos oceânicos, indústrias marítimas ecológicas ou startups da economia azul."
+      "<b>Ciência:</b> Soluções baseadas em dados, para ciência marinha, monitorização ambiental ou indústria marítima.",
+      "<b>Indústria:</b> Novos modelos de negócio que apoiam a utilização sustentável dos recursos oceânicos, indústrias marítimas ecológicas ou <em>startups</em> da economia azul."
     ],
     "pitch": "Proposta especial para si",
     "p1p1": "Oferecemos ",
-    "p1p2": "orientação",
-    "p1p3": " em ciências marinhas, dados, ferramentas de software e idealização.",
+    "p1p2": "mentoria",
+    "p1p3": " em ciências marinhas, dados, ferramentas de <em>software</em> e idealização.",
     "p2p1": "Fornecemos ",
     "p2p2": "um repositório selecionado de recursos",
     "p2p3": ", incluindo desafios que pode enfrentar.",
     "p3p1": "Programa que promove ",
     "p3p2": "o envolvimento social e comunitário",
-    "p3p3": " ao mesmo tempo que apresenta as partes interessadas locais e os seus desafios.",
+    "p3p3": " ao mesmo tempo que lhe apresenta parceiros locais e os seus desafios.",
     "reserve-date": "Reserve a data: 18-20 Out 2024",
     "prizes": "Prémios",
     "prize_list": [
@@ -314,39 +314,38 @@
   },
   "event": {
     "rules": [
-      "As equipes têm um mínimo de 2 e um máximo de 4 membros. Cada equipe pode ter 1 membro externo participando remotamente.",
-      "As equipes serão formadas (principalmente) no <em>Seixta, Out 18</em> após a sessão de brainstorming.",
-      "Os membros da equipe não podem participar de diferentes equipes.",
-      "As equipes devem começar o evento sem ter nenhum trabalho de desenvolvimento anterior feito. Eles podem e devem discutir/acordar ideias e recrutar membros da equipe para ajudar no desenvolvimento durante o evento hackathon (especialmente no <em>Seixta, Out 18</em>).",
-      "Embora a competição comece oficialmente no <em>Seixta, Out 18</em>, o <b>prazo final</b> para juntar/formar/registrar uma equipe e seu nome é <b>9 a.m. <em>Sábado, Out 19</em></b>, entregue <b>em papel</b>."
+      "As equipas têm um mínimo de 2 e um máximo de 4 membros. Cada equipa pode ter 1 membro externo extra participando remotamente.",
+      "As equipas serão formadas (principalmente) na <em>seixta-feira, 18 Out</em> após a sessão de brainstorming.",
+      "Os membros não podem participar em mais de uma equipa.",
+      "As equipas devem começar o evento sem ter nenhum trabalho de desenvolvimento feito anteriormente.",
+      "Embora a competição comece oficialmente no <em>seixta-feira, 18 Out</em>, o <b>prazo final</b> para registrar uma equipa e seu nome é <b>9 a.m. <em>sábado, 19 Out</em></b>, entregue <b>em papel</b>."
     ],
     "ideas": {
-      "title": "Selecionando uma ideia",
+      "title": "Selecionar uma ideia",
       "list": [
         "Qualquer ideia que escolha explorar durante o hackathon é válida se essa ideia, protótipo (funcional ou não), projeto estiver no âmbito da <b>Economia Azul</b> e/ou da <b>Biotecnologia</b>.",
-        "As equipas devem iniciar o evento sem terem realizado qualquer trabalho de desenvolvimento prévio. Podem e devem discutir/concordar sobre ideias e recrutar membros da equipa para ajudar no desenvolvimento (especialmente no <em>Seixta, Out 18</em>).",
-        "Um conjunto de desafios dos patrocinadores e do CCMAR será compilado e apresentado publicamente antes do <em>Seixta, Out 18</em>."
+        "Um conjunto de desafios dos patrocinadores e do CCMAR será compilado e apresentado publicamente antes de <em>seixta-feira, 18 Out</em>."
       ],
-      "title2": "Trabalhando a ideia",
+      "title2": "Desenvolver a ideia",
       "list2": [
-        "Mentores com diferentes expertises estarão à disposição das equipas para solicitar ajuda e consultoria.",
-        "Serão agendadas sessões de depuração, onde as equipas poderão partilhar os seus problemas e obter sugestões de outras equipas.",
-        "O prazo de entrega está previsto para cerca das 13h00 do <em>Domingo, Out 20</em>."
+        "Mentores com diferentes expertises estarão à disposição pare as equipas solicitarem ajuda e consultoria.",
+        "Serão agendadas sessões de <em>debugging</em>, onde as equipas poderão partilhar os seus problemas e obter sugestões de outras equipas.",
+        "O prazo de entrega está previsto para as 13h00 de <em>domingo, 20 Out</em>."
       ]
     },
     "jury":{
       "title": "Avaliação",
-      "subtitle": "Pontuações numa escala de 0 a 10, sendo 10 a pontuação mais elevada. Os projetos serão julgados por um painel de especialistas com base nos seguintes critérios:",
+      "subtitle": "Pontuações numa escala de 0 a 10, sendo 10 a pontuação mais elevada. Os projetos serão avaliados por um painel de especialistas com base nos seguintes critérios:",
       "list": [
         "<b>Impacto:</b> Determinar a aplicabilidade prática do projeto e o seu potencial impacto na sociedade e no ambiente.",
-        "<b>Viabilidade:</b> Considere a execução do projeto e se pode ser realisticamente levado para o mercado ou implementado num ambiente real.",
-        "<b>Originalidade:</b> Avalie a originalidade da ideia e a criatividade na sua aplicação. Considere como o projeto se destaca das soluções existentes e o seu potencial para introduzir novos paradigmas.",
+        "<b>Viabilidade:</b> Considerar a execução do projeto e se este pode ser realisticamente levado para o mercado ou implementado num ambiente real.",
+        "<b>Originalidade:</b> Avaliar a originalidade da ideia e a criatividade na sua aplicação. Considerar como o projeto se destaca das soluções existentes e o seu potencial para introduzir novos paradigmas.",
         "<b>Rigor:</b> Avaliar a base científica do projeto, incluindo a precisão dos dados, a solidez da metodologia e a validade das conclusões."
       ],
       "title2": "Código de Conduta",
       "subtitle2": "O Code Blue Hackathon dedica-se a proporcionar um ambiente seguro e confortável para todos os participantes. Consulte o ",
       "link": "Código de Conduta",
-      "text": "última atualização: 2024-09-24",
+      "text": "última atualização: 2024-09-25",
       "title3": "Júri",
       "jurylist": [
         "<b>Deborah Power</b>: Professor do CCMAR, líder do grupo de Endocrinologia Comparativa",
