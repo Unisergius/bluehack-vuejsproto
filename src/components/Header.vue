@@ -13,7 +13,8 @@
                     </div>
                     <ul tabindex="0" class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
                         <li v-for="link in links" :key="link.text">
-                            <RouterLink :to="link.to"> <b>{{ link.text }}</b></RouterLink>
+                            <RouterLink v-if="link.to" :to="link.to"> <b>{{ link.text}}</b></RouterLink>
+                            <a v-else :href="link.href" target="_blank" rel="noopener noreferrer"><b>{{ link.text }}</b></a>
                         </li>
                     </ul>
                 </div>  
@@ -21,7 +22,8 @@
             <div class="navbar-center hidden lg:flex">
                 <ul class="menu menu-horizontal px-2 rounded-box">
                     <li v-for="link in links" :key="link.text">
-                        <RouterLink :to="link.to"><b>{{ link.text }}</b></RouterLink>
+                        <RouterLink v-if="link.to" :to="link.to"><b>{{ link.text }}</b></RouterLink>
+                        <a v-else :href="link.href" target="_blank" rel="noopener noreferrer"><b>{{ link.text }}</b></a>
                     </li>
                 </ul>
             </div>
@@ -52,6 +54,7 @@
                 return [
                     { to: '/', text: this.$t('links.home') },
                     { to: '/eventInfo', text: this.$t('links.event-info') },
+                    { href: 'https://ti.to/algarve-evolution/blue-biotech-hackathon-2024', text: this.$t('links.register') },
                     { to: '/challenges', text: this.$t('links.challenges') },
                     { to: '/contact', text: this.$t('links.contact') },
                     { to: '/partners', text: this.$t('links.partners')}

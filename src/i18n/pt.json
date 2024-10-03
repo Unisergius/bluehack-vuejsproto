@@ -1,6 +1,6 @@
 {
   "button": {
-    "tickets": "Bilhetes em breve",
+    "tickets": "Inscrição",
     "info": "Mais informações",
     "sponsor": "Patrocine-nos"
   },
@@ -12,6 +12,7 @@
   },
   "links": {
     "home": "Início",
+    "register":"Inscrição",
     "about": "Sobre Nós",
     "event-info": "Evento",
     "partners": "Parceiros",

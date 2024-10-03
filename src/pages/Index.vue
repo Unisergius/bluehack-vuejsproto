@@ -10,7 +10,7 @@
             </p>
             <Countdown class="p-10 pb-20 mb-0 justify-center" />
             <div class="flex flex-row flex-wrap gap-2 justify-center p-2">
-                <button class="btn text-neutral-content btn-secondary w-full sm:w-auto">{{ $t('button.tickets') }}</button>
+                <RegisterButton class="w-full sm:w-auto"/>
                 <EventInfoButton class="w-full sm:w-auto"/>
                 <!-- <SponsorButton /> --> 
             </div>
@@ -27,11 +27,13 @@ import Countdown from '@/components/Countdown.vue';
 import EventInfoButton from '@/components/buttons/EventInfoButton.vue';
 import SponsorButton from '@/components/buttons/SponsorshipButton.vue';
 import backgroundUrl from '@/assets/images/maksym-kaharlytskyi-QQcLNBQ6i_A-unsplash.jpg';
+import RegisterButton from '@/components/buttons/RegisterButton.vue';
 export default {
     name: 'Index',
     components: {
         Countdown,
         EventInfoButton,
+        RegisterButton,
         SponsorButton,
     },
     data() {

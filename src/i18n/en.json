@@ -1,6 +1,6 @@
 {
   "button": {
-    "tickets": "Tickets coming soon",
+    "tickets": "Register",
     "info": "More info",
     "sponsor": "Sponsor Us"
   },
@@ -12,6 +12,7 @@
   },
   "links": {
     "home": "Home",
+    "register":"Register",
     "about": "About Us",
     "event-info": "Event Info",
     "partners": "Partners",
