@@ -26,7 +26,7 @@ import ChallengeCard from '@/components/ChallengeCard.vue';
 import backgroundUrl from '@/assets/images/maksym-kaharlytskyi-QQcLNBQ6i_A-unsplash.jpg';
 import waterChallImage from '@/assets/images/challenges/chall_aquifer.jpg';
 import algaeChallImage from '@/assets/images/challenges/chall_algae.png';
-// import fishChallImage from '@/assets/images/challenges/chall_fisheries.jpg';
+import inductivaChallImage from '@/assets/images/challenges/chall_inductiva.jpg';
 import fishChallImage from '@/assets/images/challenges/Fisheriesexploited.jpg';
 import fruitChallImage from '@/assets/images/challenges/chall_fruits_DLC2024.png';
 
@@ -41,7 +41,8 @@ export default {
                 waterChallImage,
                 algaeChallImage,
                 fishChallImage,
-                fruitChallImage
+                fruitChallImage,
+                inductivaChallImage
             }
         };
     },
@@ -71,6 +72,12 @@ export default {
                     description: this.$t('challenges.challenge3.description'),
                     image: fishChallImage,
                     website: 'https://github.com/Py-ualg/2024-code-blue/tree/main/challenges/Fisheries_PT',
+                },
+                {
+                    name: this.$t('challenges.challenge5.title'),
+                    description: this.$t('challenges.challenge5.description'),
+                    image: inductivaChallImage,
+                    website: 'https://github.com/Py-ualg/2024-code-blue/tree/main/challenges/inductivaAI',
                 },
             ]
         

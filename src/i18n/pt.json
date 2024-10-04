@@ -133,7 +133,12 @@
     "challenge4": {
       "title": "Desafio IA frutado por Dário Passos (CEOT)",
       "description": "Tradicionalmente, milhares de frutos são amostrados manualmente e analisados após a colheita para fornecer informações sobre a maturação e a qualidade dos frutos. Estes ensaios destrutivos laboratoriais analíticos visam quantificar parâmetros internos de qualidade, como o teor de açúcar, o teor de matéria seca, etc. A composição química do fruto traduz-se em padrões de luz específicos (espectros) que, com a ajuda de modelos quimiométricos, podem ser mapeados em parâmetros internos de qualidade. Atualmente, os modelos de aprendizagem automática/aprendizagem profunda estão a ser explorados como ferramentas para criar estes modelos quimiométricos, prometendo novos caminhos de aplicações. Dário Passos é especialista na concepção deste tipo de modelos. Estes modelos para análise de dados espectrais são também aplicáveis ​​em medicina, biotecnologia e outras áreas. Esta é uma oportunidade perfeita para explorar técnicas de aprendizagem automática (por exemplo, DL) orientadas para esta nova modalidade de dados (espectros 1d). Venha participar neste desafio para encontrar boas metodologias para utilizar este tipo de dados para previsões de qualidade de frutos."
+    },
+    "challenge5": {
+      "title": "Desafio aberto com recurso a simuladores Inductiva.AI",
+      "description": "As simulações de alto desempenho impulsionam o progresso na engenharia, na ciência ambiental e em muitos outros campos. O Inductiva.AI fornece uma plataforma para a execução de simulações à escala, utilizando Python. Este desafio convida-o a explorar as possibilidades dos simuladores Inductiva.AI sob a orientação do engenheiro da Inductiva Luís Cunha, e a desenvolver novas ferramentas e fluxos de trabalho. O único limite é a sua imaginação!"
     }
+    
   },
   "contact": {
     "title": "Contacte-nos",
