@@ -168,17 +168,19 @@
           "location": "Campus Gambelas"
         },
         "item2":{
-          "time": "15:20",
+          "time": "15:15",
           "event": "Série de seminários",
           "items": [
-            "Deborah Power: \"Biotecnologia Marinha\"",
-            "TBA: \"Ecossistema de inovação no Algarve\"",
-            "TBA: \"Ferramentas de software de baixo código e a sua integração\"",
-            "Necton: \"Patrocinador do desafio das microalgas\"",
-            "João Varela: \"Desafio das microalgas\"",
-            "Dario Passos: \"Desafio de IA frutado\"",
-            "Luis Costa: \"Águas subterrâneas no Algarve\"",
-            "Rui Coelho: \"Desafio das Pescas\""
+            "15:15 David Paleček: \"Introdução ao Hackathon e Blue-Cloud\"",
+            "15:25 Deborah Power: \"Biotecnologia Marinha\"",
+            "15:40 TBA: \"Ecossistema de inovação no Algarve\"",
+            "15:55 Miguel Coquet: \"Ferramentas de software de baixo código e a sua integração\"",
+            "16:10 Luís Cunha: \"Computação de alto desempenho com Inductiva.AI\"",
+            "16:25 Necton: \"Patrocinador do desafio das microalgas\"",
+            "16:35 João Varela: \"Desafio das microalgas\"",
+            "16:50 Dario Passos: \"Desafio de IA frutado\"",
+            "17:05 Luis Costa: \"Águas subterrâneas no Algarve\"",
+            "17:20 Rui Coelho: \"Desafio das Pescas\""
           ],
           "location": "Campus Gambelas"
         },

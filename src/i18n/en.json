@@ -167,17 +167,19 @@
           "location": "Gambelas Campus"
         },
         "item2":{
-          "time": "15:20",
+          "time": "15:15",
           "event": "Seminar series",
           "items": [
-            "Deborah Power: \"Marine Biotechnology\"",
-            "TBA: \"Innovation Ecosystem in Algarve\"",
-            "TBA: \"Low Code Software Tools and Their Integration\"",
-            "Necton: \"Microalgae Challenge Sponsor\"",
-            "João Varela: \"Microalgae Challenge\"",
-            "Dario Passos: \"Fruity AI Challenge\"",
-            "Luis Costa: \"Ground Water in Algarve\"",
-            "Rui Coelho: \"Fisheries Challenge\""
+            "15:15 David Paleček: \"Introduction to Hackathon and Blue-Cloud\"",
+            "15:25 Deborah Power: \"Marine Biotechnology\"",
+            "15:40 TBA: \"Innovation Ecosystem in Algarve\"",
+            "15:55 Miguel Coquet: \"Low Code Software Tools and Their Integration\"",
+            "16:10 Luís Cunha: \"High-Performance computing with Inductiva.AI\"",
+            "16:25 Necton: \"Microalgae Challenge Sponsor\"",
+            "16:35 João Varela: \"Microalgae Challenge\"",
+            "16:50 Dário Passos: \"Fruity AI Challenge\"",
+            "17:05 Luís Costa: \"Ground Water in Algarve\"",
+            "17:20 Rui Coelho: \"Fisheries Challenge\""
           ],
           "location": "Gambelas Campus"
         },
