@@ -160,7 +160,7 @@
   "days": {
     "day1": {
       "name": "Out 18",
-      "description": "Conheça os outros participantes, ferramentas e mentores. Faça <em>brainstorming</em,> e forme equipas.",
+      "description": "Conheça os outros participantes, ferramentas e mentores. Faça \"brainstorming\" e forme equipas.",
       "program": {
         "item1":{
           "time": "15:00",
@@ -247,7 +247,7 @@
     },
     "day3": {
       "name": "Out 20",
-      "description": "Finalize o seu produto para submissão. Dirija-se à festa onde as <em>demos</em> serão apresentadas, os vencedores serão anunciados e será oferecida descompressão.",
+      "description": "Finalize o seu produto para submissão. Dirija-se à festa onde as \"demos\" serão apresentadas, os vencedores serão anunciados e será oferecida descompressão.",
       "program": {
         "item1":{
           "time": "08:00",
@@ -301,7 +301,7 @@
     "pitch": "Proposta especial para si",
     "p1p1": "Oferecemos ",
     "p1p2": "mentoria",
-    "p1p3": " em ciências marinhas, dados, ferramentas de <em>software</em> e idealização.",
+    "p1p3": " em ciências marinhas, dados, ferramentas de software e idealização.",
     "p2p1": "Fornecemos ",
     "p2p2": "um repositório selecionado de recursos",
     "p2p3": ", incluindo desafios que pode enfrentar.",
