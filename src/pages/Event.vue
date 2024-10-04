@@ -64,10 +64,8 @@
 
                 <!-- Registration Section -->
                 <section class="bg-base-200 p-6 rounded-lg shadow-lg mb-6">
-                    <h2 class="text-3xl font-bold mb-4">{{ $t('event-info.register') }}</h2>
-                    <p class="mb-4">
-                        {{ $t('event-info.register_link') }}
-                    </p>
+                    <RegisterButton class="w-full sm:w-auto text-3xl font-bold"/>
+
                 </section>
 
                 <!-- rules section -->
@@ -143,10 +141,13 @@ import nightIcon from '@/assets/icons/night.png';
 import compEndIcon from '@/assets/icons/compend.png';
 import partyIcon from '@/assets/icons/party.png';
 
+import RegisterButton from '@/components/buttons/RegisterButton.vue';
+
 export default {
     name: 'EventInfoPage',
     components: {
-        DayCard
+        DayCard,
+        RegisterButton,
     },
     data() {
         return {
