@@ -38,6 +38,7 @@ import ipmaImage from '@/assets/images/logo_ipma_pt.jpg';
 import localFoundationImage from '@/assets/images/local_foundation_logo.jpeg';
 import nectonImage from '@/assets/images/logo_necton02.png';
 import ualgTecCampusImage from '@/assets/images/ualg_tec_campus_logo.jpeg';
+import alTechHubImage from '@/assets/images/al_tech_hub.jpg';
 
 
 export default {
@@ -63,7 +64,7 @@ export default {
                 ipmaImage,
                 localFoundationImage,
                 nectonImage,
-                ualgTecCampusImage
+                alTechHubImage
             }
         };
     },
@@ -135,9 +136,9 @@ export default {
                 {
                     name: this.$t('partners.tech-hub.name'),
                     description: this.$t('partners.tech-hub.description'),
-                    image: ualgTecCampusImage,
+                    image: alTechHubImage,
                     website: 'https://algarvetechhub.com/',
-                    linkedin: 'https://www.linkedin.com/company/ualg-tec-campus/'
+                    linkedin: 'https://www.linkedin.com/company/algarve-tech-hub/'
                 },
                 {
                     name: this.$t('partners.local-foundation.name'),
