@@ -36,10 +36,6 @@ import MemberCard from '@/components/MemberCard.vue';
 
 import backgroundUrl from '@/assets/images/maksym-kaharlytskyi-QQcLNBQ6i_A-unsplash.jpg';
 import tc from '@/assets/images/faces/teresacorreia.png';
-import pg from '@/assets/images/faces/penelope.jpg';
-import lg from '@/assets/images/faces/pers2.jpeg';
-import sh from '@/assets/images/faces/pers1.jpeg';
-import vn from '@/assets/images/faces/vanessa.jpg';
 import dp from '@/assets/images/faces/pers0.jpeg';
 
 export default {
@@ -51,10 +47,6 @@ export default {
             backgroundUrl: '',
             images: {
                 tc,
-                pg,
-                lg,
-                sh,
-                vn,
                 dp
             }
         };
@@ -66,26 +58,6 @@ export default {
                     img: tc,
                     name: this.$t('members.tc.name'),
                     description: this.$t('members.tc.position'),
-                },
-                {
-                    img: pg,
-                    name: this.$t('members.pg.name'),
-                    description: this.$t('members.pg.position'),
-                },
-                {
-                    img: lg,
-                    name: this.$t('members.lg.name'),
-                    description: this.$t('members.lg.position'),
-                },
-                {
-                    img: sh,
-                    name: this.$t('members.sh.name'),
-                    description: this.$t('members.sh.position'),
-                },
-                {
-                    img: vn,
-                    name: this.$t('members.vn.name'),
-                    description: this.$t('members.vn.position'),
                 },
                 {
                     img: dp,

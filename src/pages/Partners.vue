@@ -27,6 +27,7 @@ import algarveEvoImage from '@/assets/images/Algarve-evolution.png';
 import algarveStpImage from '@/assets/images/algarve-stp-logo.png';
 import backgroundUrl from '@/assets/images/maksym-kaharlytskyi-QQcLNBQ6i_A-unsplash.jpg';
 import bluecloudImage from '@/assets/images/logo_blue-cloud.png';
+import ccdrImage from '@/assets/images/logo_ccdr.jpg';
 import ccmarImage from '@/assets/images/ccmar.png';
 import criaImage from '@/assets/images/cria.jpeg';
 import feImage from '@/assets/images/logo_ualg_fe.jpg';
@@ -54,6 +55,7 @@ export default {
                 algarveEvoImage,
                 algarveStpImage,
                 bluecloudImage,
+                ccdrImage,
                 ccmarImage,
                 criaImage,
                 feImage,
@@ -125,6 +127,13 @@ export default {
                     description: this.$t('partners.cria.description'),
                     image: criaImage,
                     website: 'https://www.cria.pt/cria/presentation',
+                },
+                {
+                    name: this.$t('partners.ccdr.name'),
+                    description: this.$t('partners.ccdr.description'),
+                    image: ccdrImage,
+                    website: 'https://www.ccdr-alg.pt/site/',
+                    linkedin: 'https://www.linkedin.com/company/ccdr-algarve/'
                 },
                 {
                     name: this.$t('partners.green-colab.name'),

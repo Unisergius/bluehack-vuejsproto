@@ -36,6 +36,10 @@
       "name": "Necton",
       "description": "Necton’s mission is to bring to market innovative products and services resulting from scientific and technological marine knowledge."
     },
+    "ccdr": {
+      "name": "CCDR Algarve",
+      "description": "CCDR Algarve facilitates the implementation of environmental policies, territorial and urban planning, regional development, and incentives for social communication within its geographical area, while also providing technical support to local authorities and their associations."
+    },
     "ccmar": {
       "name": "CCMAR Algarve",
       "description": "Non-profit organization located on the Gambelas campus of the University of Algarve and dedicated to R&D in the Marine Sciences."
@@ -93,22 +97,6 @@
     "tc": {
       "name": "Teresa Correia",
       "position": "Scientist at CCMAR, medical imaging and AI"
-    },
-    "pg": {
-      "name": "Penélope Gonçalves",
-      "position": "Technical & Team Lead, Contentserv"
-    },
-    "lg": {
-      "name": "Lenz Gschwendtner",
-      "position": "Co-founder, community builder, startup punk"
-    },
-    "sh": {
-      "name": "Sérgio Henriques",
-      "position": "Software Developer, Axians Portugal"
-    },
-    "vn": {
-      "name": "Vanessa V. Nascimento",
-      "position": "Cunsultant, Agile Coach"
     },
     "dp": {
       "name": "David Paleček",
@@ -172,7 +160,7 @@
           "items": [
             "15:15 David Paleček: \"Introduction to Hackathon and Blue-Cloud\"",
             "15:25 Deborah Power: \"Marine Biotechnology\"",
-            "15:40 TBA: \"Innovation Ecosystem in Algarve\"",
+            "15:40 Paulo Bota: \"Innovation Ecosystem in Algarve\"",
             "15:55 Miguel Coquet: \"Low Code Software Tools and Their Integration\"",
             "16:10 Luís Cunha: \"High-Performance computing with Inductiva.AI\"",
             "16:25 Necton: \"Microalgae Challenge Sponsor\"",
@@ -357,7 +345,10 @@
       "jurylist": [
         "<b>Deborah Power</b>: Professor at CCMAR, leader of Comparative Endocrinology group",
         "<b>Luís Cunha</b>: Engineer at Inductiva.AI",
-        "<b>TBA</b>"
+        "<b>Maria Lurdes Carvalho</b>: CCDR Algarve, Head of Department of Regional Development",
+        "<b>Délio Pescada Guedelha</b>: Municipality of Albufeira, Chief of Staff to the President",
+        "<b>Luís Costa</b>: APA: Environmental Researcher",
+        "<b>Dário Passos</b>: CEOT (UAlg), Researcher in machine learning and AI"
       ]
 
     }

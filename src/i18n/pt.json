@@ -36,6 +36,10 @@
       "name": "Necton",
       "description": "Necton é uma empresa de biotecnologia marinha que se dedica à investigação e desenvolvimento de produtos e serviços inovadores para a indústria alimentar, farmacêutica e cosmética."
     },
+    "ccdr": {
+      "name": "CCDR Algarve",
+      "description": "A CCDR Algarve facilita a implementação de políticas ambientais, de planeamento territorial e urbano, de desenvolvimento regional e de incentivos à comunicação social na sua área geográfica, ao mesmo tempo que presta apoio técnico às autarquias locais e às suas associações."
+    },
     "ccmar": {
       "name": "CCMAR Algarve",
       "description": "Organização sem fins lucrativos localizada no campus de Gambelas da Universidade do Algarve e que se dedica à I&D nas Ciências do Mar."
@@ -93,22 +97,6 @@
     "tc": {
       "name": "Teresa Correia",
       "position": "Investigadora do CCMAR, imagiologia médica e IA"
-    },
-    "pg": {
-      "name": "Penélope Gonçalves",
-      "position": "Líder técnico e de equipa, Contentserv"
-    },
-    "lg": {
-      "name": "Lenz Gschwendtner",
-      "position": "Cofundador, construtor de comunidades, startup punk"
-    },
-    "sh": {
-      "name": "Sérgio Henriques",
-      "position": "Software Developer, Axians Portugal"
-    },
-    "vn": {
-      "name": "Vanessa V. Nascimento",
-      "position": "Consultor, Agile Coach"
     },
     "dp": {
       "name": "David Paleček",
@@ -173,7 +161,7 @@
           "items": [
             "15:15 David Paleček: \"Introdução ao Hackathon e Blue-Cloud\"",
             "15:25 Deborah Power: \"Biotecnologia Marinha\"",
-            "15:40 TBA: \"Ecossistema de inovação no Algarve\"",
+            "15:40 Paulo Bota: \"Ecossistema de inovação no Algarve\"",
             "15:55 Miguel Coquet: \"Ferramentas de software de baixo código e a sua integração\"",
             "16:10 Luís Cunha: \"Computação de alto desempenho com Inductiva.AI\"",
             "16:25 Necton: \"Patrocinador do desafio das microalgas\"",
@@ -358,7 +346,10 @@
       "jurylist": [
         "<b>Deborah Power</b>: Professor do CCMAR, líder do grupo de Endocrinologia Comparativa",
         "<b>Luís Cunha</b>: Engenheiro na Inductiva.AI",
-        "<b>TBA</b>:"
+        "<b>Maria Lurdes Carvalho</b>: CCDR Algarve, Chefe do Departamento de Desenvolvimento Regional",
+        "<b>Délio Pescada Guedelha</b>: Município de Albufeira, Chefe de Gabinete do Presidente",
+        "<b>Luís Costa</b>: APA: Investigador Ambiental",
+        "<b>Dário Passos</b>: CEOT (UAlg), Investigador em aprendizagem de máquina e IA"
       ]
     }
   }
