@@ -147,7 +147,7 @@
   },
   "days": {
     "day1": {
-      "name": "Out 18",
+      "name": "Out 18, entrada livre",
       "description": "Conheça os outros participantes, ferramentas e mentores. Faça \"brainstorming\" e forme equipas.",
       "program": {
         "item1":{
@@ -189,8 +189,8 @@
       }
     },
     "day2": {
-      "name": "Out 19",
-      "description": "Dia de codificação difícil com ajuda de mentores e intervalos para alimentação.",
+      "name": "Out 19, o catering é por nossa conta",
+      "description": "Dia de trabalho difícil com ajuda de mentores e intervalos para alimentação. As equipas decidem o seu horário.",
       "program": {
         "item1":{
           "time": "08:00",
@@ -198,12 +198,12 @@
           "location": "Sala Azul"
         },
         "item2":{
-          "time": "09:00",
+          "time": "09:30",
           "event": "Finalização de equipas",
           "location": "Sala Azul"
         },
         "item3":{
-          "time": "09:00",
+          "time": "09:30",
           "event": "Desafio",
           "location": "Sala Azul"
         },
@@ -235,7 +235,7 @@
     },
     "day3": {
       "name": "Out 20",
-      "description": "Finalize o seu produto para submissão. Dirija-se à festa onde as \"demos\" serão apresentadas, os vencedores serão anunciados e será oferecida descompressão.",
+      "description": "Finalize o seu produto para submissão. Dirija-se à festa onde as \"demos\" serão apresentadas, os prémios serão anunciados e será oferecida descompressão.",
       "program": {
         "item1":{
           "time": "08:00",
@@ -270,8 +270,9 @@
     "date-bold": "Quando:",
     "date": "18-20 Outumbro, 2024.",
     "location-bold": "Onde:",
-    "location": "Sala Azul, Albufeira, Portugal",
-    "maps": "Google Mapas",
+    "location1": "18 Out, Campus Gambelas, Faro, Portugal",
+    "location2": "19-20 Out, Sala Azul, Albufeira, Portugal",
+    "maps1": "Google Mapas",
     "teams_bold": "Equipas:",
     "teams": "2-4 membros (+1 remoto) para enfrentar desafios relacionados com a biotecnologia e com as soluções científicas ou industriais para a economia azul. Ver ",
     "teams_link": "desafios",

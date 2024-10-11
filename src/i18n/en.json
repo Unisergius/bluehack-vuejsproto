@@ -146,7 +146,7 @@
   },
   "days": {
     "day1": {
-      "name": "Oct 18",
+      "name": "Oct 18, free entry",
       "description": "Get to know fellow participants, tools and mentors. Brainstorm and form teams.",
       "program": {
         "item1":{
@@ -188,8 +188,8 @@
       }
     },
     "day2": {
-      "name": "Oct 19",
-      "description": "Hard coding day with help of mentors and food breaks.",
+      "name": "Oct 19, catering is on us",
+      "description": "Hard working day with help of mentors and food breaks. Teams decide their schedule.",
       "program": {
         "item1":{
           "time": "08:00",
@@ -197,12 +197,12 @@
           "location": "Sala Azul"
         },
         "item2":{
-          "time": "09:00",
+          "time": "09:30",
           "event": "Final team assignments",
           "location": "Sala Azul"
         },
         "item3":{
-          "time": "09:00",
+          "time": "09:30",
           "event": "Challenge work",
           "location": "Sala Azul"
         },
@@ -234,7 +234,7 @@
     },
     "day3": {
       "name": "Oct 20",
-      "description": "Finalize your product for submission. Move to the after party where demos will be presented, winners announced, decompression offered.",
+      "description": "Finalize your product for submission. Move to the after party where demos will be presented, prizes announced, decompression offered.",
       "program": {
         "item1":{
           "time": "08:00",
@@ -269,8 +269,9 @@
     "date-bold": "When:",
     "date": "October 18-20, 2024.",
     "location-bold": "Where:",
-    "location": "Sala Azul, Albufeira, Portugal",
-    "maps": "Google Maps",
+    "location1": "18 Oct, Campus Gambelas, Faro, Portugal",
+    "location2": "19-20 Oct, Sala Azul, Albufeira, Portugal",
+    "maps1": "Google Maps",
     "teams_bold": "Teams:",
     "teams": "2-4 members (+1 remote) for tackling any challenge related to biotechnology and scientific, or industry solution for blue economy. See ",
     "teams_link": "challenges",

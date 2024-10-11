@@ -7,11 +7,18 @@
                 <!-- Event Info Section -->
                 <section class="bg-base-200 p-6 rounded-lg shadow-lg mb-6">
                     <h2 class="text-3xl font-bold mb-4">{{ $t('event-info.title') }}</h2>
-                    <p class="mb-4">
-                        &#x1F6A9 <b>{{ $t('event-info.location-bold') }}</b> {{ $t('event-info.location') }}, 
-                        <a href="https://maps.app.goo.gl/N9UTBxEqDbeHoQsE9" class="text-primary" target="_blank">{{ $t('event-info.maps') }}</a>.
-
-                        <br>
+                        &#x1F6A9 <b>{{ $t('event-info.location-bold') }}</b> 
+                        <ul class="list-disc list-inside mb-4">
+                            <li>
+                                {{ $t('event-info.location1') }},
+                                <a href="https://www.google.com/maps/place/Faculdade+De+Economia+FEUALG/@37.0428729,-7.9718423,84m/data=!3m1!1e3!4m14!1m7!3m6!1s0xd1ab3ec01b79b4b:0xfaaaedb876609457!2sFaculdade+de+Ci%C3%AAncias+e+Tecnologia+(FCT)+-+Edif.+8!8m2!3d37.0430114!4d-7.9719975!16s%2Fg%2F11h70_n8z4!3m5!1s0xd1ab2bb1ef3e0bb:0xc43a96398214c8b!8m2!3d37.0429932!4d-7.971697!16s%2Fg%2F11c3809_vm?hl=en-GB&entry=ttu&g_ep=EgoyMDI0MTAwOC4wIKXMDSoASAFQAw%3D%3D" class="text-primary" target="_blank">{{ $t('event-info.maps1') }}</a>.
+                            </li>
+                            <li>
+                                {{ $t('event-info.location2') }}, 
+                                <a href="https://maps.app.goo.gl/N9UTBxEqDbeHoQsE9" class="text-primary" target="_blank">{{ $t('event-info.maps1') }}</a>.
+                            </li>
+                        </ul>
+                        <p class="mb-4">
                         &#x1F51C <b>{{ $t('event-info.date-bold') }}</b> {{ $t('event-info.date') }}
 
                         <br>

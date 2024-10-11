@@ -54,8 +54,8 @@
                 return [
                     { to: '/', text: this.$t('links.home') },
                     { to: '/eventInfo', text: this.$t('links.event-info') },
-                    { href: 'https://ti.to/algarve-evolution/blue-biotech-hackathon-2024', text: this.$t('links.register') },
                     { to: '/challenges', text: this.$t('links.challenges') },
+                    { href: 'https://ti.to/algarve-evolution/blue-biotech-hackathon-2024', text: this.$t('links.register') },
                     { to: '/contact', text: this.$t('links.contact') },
                     { to: '/partners', text: this.$t('links.partners')}
                 ]
