@@ -37,7 +37,7 @@ import greenColabImage from '@/assets/images/green-colab-cores.png';
 import inductivaImage from '@/assets/images/inductiva_ai_logo.jpg';
 import ipmaImage from '@/assets/images/logo_ipma_pt.jpg';
 import localFoundationImage from '@/assets/images/local_foundation_logo.jpeg';
-import nectonImage from '@/assets/images/logo_necton02.png';
+import nectonImage from '@/assets/images/logo_necton.png';
 import ualgTecCampusImage from '@/assets/images/ualg_tec_campus_logo.jpeg';
 import alTechHubImage from '@/assets/images/al_tech_hub.jpg';
 

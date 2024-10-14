@@ -155,19 +155,50 @@
           "location": "Gambelas Campus"
         },
         "item2":{
-          "time": "15:15",
+          "time": "15:09",
           "event": "Seminar series",
           "items": [
-            "15:15 David Paleček: \"Introduction to Hackathon and Blue-Cloud\"",
-            "15:25 Deborah Power: \"Marine Biotechnology\"",
-            "15:40 Paulo Bota: \"Innovation Ecosystem in Algarve\"",
-            "15:55 Miguel Coquet: \"Low Code Software Tools and Their Integration\"",
-            "16:10 Luís Cunha: \"High-Performance computing with Inductiva.AI\"",
-            "16:25 Necton: \"Microalgae Challenge Sponsor\"",
-            "16:35 João Varela: \"Microalgae Challenge\"",
-            "16:50 Dário Passos: \"Fruity AI Challenge\"",
-            "17:05 Luís Costa: \"Ground Water in Algarve\"",
-            "17:20 Rui Coelho: \"Fisheries Challenge\""
+            {
+              "time": "15:10 David Paleček:",
+              "event": "Introduction to the Hackathon and Blue-Cloud"
+
+            },
+            {
+              "time": "15:25 D Power and J Cardoso (CCMAR):",
+              "event": "Marine Biotechnology"
+            },
+            {
+              "time": "15:40 Maria Lurdes Carvalho (CCDR):",
+              "event": "Innovation Ecosystem in Algarve"
+            },
+            {
+              "time": "15:55 Miguel Coquet (GeekSessions):",
+              "event": "How to get from research data to a product"
+            },
+            {
+              "time": "16:10 Luís Cunha (Inductiva.AI):",
+              "event": "High-Performance computing with Inductiva.AI"
+            },
+            {
+              "time": "16:25 Alexandre Rodrigues (Necton):",
+              "event": "Necton, >25 years in the microalgae world"
+            },
+            {
+              "time": "16:35 João Varela (CCMAR, BioMares):",
+              "event": "Microalgae Challenge"
+            },
+            {
+              "time": "16:50 Dário Passos (CEOT, UAlg):",
+              "event": "Fruity AI Challenge"
+            },
+            {
+              "time": "17:05 Luís Costa (APA):",
+              "event": "Ground Water in Algarve"
+            },
+            {
+              "time": "17:20 Rui Coelho (IPMA):",
+              "event": "Fisheries Monitoring"
+            }
           ],
           "location": "Gambelas Campus"
         },

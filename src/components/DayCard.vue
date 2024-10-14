@@ -35,8 +35,8 @@
                         <!-- <td></td> -->
                         <!-- <td></td> -->
                         <td colspan="4">
-                            <ul class="list-disc list-inside">
-                                <li v-for="(item, index) in event.items"  :key="index">{{ item }}</li>
+                            <ul class="list-disc list-inside space-y-1">
+                                <li v-for="(item, index) in event.items"  :key="index"><b>{{ item.time }}</b> <br>&nbsp;&nbsp;&nbsp;&nbsp;{{ item.event }} </li>
                             </ul>
                         </td>
                     </tr>

@@ -156,19 +156,50 @@
           "location": "Campus Gambelas"
         },
         "item2":{
-          "time": "15:15",
+          "time": "15:09",
           "event": "Série de seminários",
           "items": [
-            "15:15 David Paleček: \"Introdução ao Hackathon e Blue-Cloud\"",
-            "15:25 Deborah Power: \"Biotecnologia Marinha\"",
-            "15:40 Paulo Bota: \"Ecossistema de inovação no Algarve\"",
-            "15:55 Miguel Coquet: \"Ferramentas de software de baixo código e a sua integração\"",
-            "16:10 Luís Cunha: \"Computação de alto desempenho com Inductiva.AI\"",
-            "16:25 Necton: \"Patrocinador do desafio das microalgas\"",
-            "16:35 João Varela: \"Desafio das microalgas\"",
-            "16:50 Dario Passos: \"Desafio de IA frutado\"",
-            "17:05 Luis Costa: \"Águas subterrâneas no Algarve\"",
-            "17:20 Rui Coelho: \"Desafio das Pescas\""
+            {
+              "time": "15:10 David Paleček:",
+              "event": "Introdução ao Hackathon e Blue-Cloud"
+
+            },
+            {
+              "time": "15:25 D Power and J Cardoso (CCMAR):",
+              "event": "Biotecnologia Marinha"
+            },
+            {
+              "time": "15:40 Maria Lurdes Carvalho (CCDR):",
+              "event": "Ecossistema de inovação do Algarve"
+            },
+            {
+              "time": "15:55 Miguel Coquet (GeekSessions):",
+              "event": "Como passar dos dados de investigação para um produto"
+            },
+            {
+              "time": "16:10 Luís Cunha (Inductiva.AI):",
+              "event": "Computação de alto desempenho com Inductiva.AI"
+            },
+            {
+              "time": "16:25 Alexandre Rodrigues (Necton):",
+              "event": "Necton, >25 years in the microalgae world"
+            },
+            {
+              "time": "16:35 João Varela (CCMAR, BioMares):",
+              "event": "Necton, >25 anos no mundo das microalgas"
+            },
+            {
+              "time": "16:50 Dário Passos (CEOT, UAlg):",
+              "event": "Desafio de IA frutado"
+            },
+            {
+              "time": "17:05 Luís Costa (APA):",
+              "event": "Águas subterrâneas no Algarve"
+            },
+            {
+              "time": "17:20 Rui Coelho (IPMA):",
+              "event": "Monitorização das Pescas"
+            }
           ],
           "location": "Campus Gambelas"
         },
