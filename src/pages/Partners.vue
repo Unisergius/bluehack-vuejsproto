@@ -37,6 +37,7 @@ import greenColabImage from '@/assets/images/green-colab-cores.png';
 import inductivaImage from '@/assets/images/inductiva_ai_logo.jpg';
 import ipmaImage from '@/assets/images/logo_ipma_pt.jpg';
 import localFoundationImage from '@/assets/images/local_foundation_logo.jpeg';
+import madreFrutaImage from '@/assets/images/madre_fruta.png';
 import nectonImage from '@/assets/images/logo_necton.png';
 import ualgTecCampusImage from '@/assets/images/ualg_tec_campus_logo.jpeg';
 import alTechHubImage from '@/assets/images/al_tech_hub.jpg';
@@ -121,6 +122,13 @@ export default {
                     image: bluecloudImage,
                     website: 'https://www.blue-cloud.org/',
                     linkedin: 'https://www.linkedin.com/company/blue-cloud-org/'
+                },
+                {
+                    name: this.$t('partners.madre-fruta.name'),
+                    description: this.$t('partners.madre-fruta.description'),
+                    image: madreFrutaImage,
+                    website: 'https://www.madrefruta.pt/',
+                    linkedin: 'https://www.linkedin.com/company/madre-fruta-lda/'
                 },
                 {
                     name: this.$t('partners.cria.name'),

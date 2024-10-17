@@ -37,7 +37,7 @@ export default {
       hours: 0,
       minutes: 0,
       seconds: 0,
-      targetDate: new Date('2024-10-18T00:00:00'),
+      targetDate: new Date('2024-10-18T15:00:00'),
     };
   },
   mounted() {

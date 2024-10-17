@@ -80,6 +80,10 @@
       "name": "local.foundation",
       "description": "Providing right tools and mindset to work together on building better communities."
     },
+    "madre-fruta": {
+      "name": "Madre Fruta, Lda",
+      "description": "We help to obtain maximum income for our producing partners, through investment in innovation and the commercialization of high quality products. Together we produce the best red fruits in Europe."
+    },
     "geeksessions": {
       "name": "Geek Sessions",
       "description": "Fostering knowledge exchange and collaboration within the Digital Product community of the Algarve (and beyond!)."
@@ -204,7 +208,7 @@
         },
         "item3":{
           "time": "17:45",
-          "event": "Brainstorming",
+          "event": "Catering + Brainstorming",
           "location": "Gambelas Campus"
         },
         "item4":{
