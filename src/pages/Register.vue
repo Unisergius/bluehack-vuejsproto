@@ -1,3 +1,5 @@
+<!-- NOT in use -->
+<!-- 
 <template>
     <tito-widget
       event="algarve-evolution/blue-biotech-hackathon-2024"
@@ -13,4 +15,4 @@ export default {
         document.body.appendChild(script);
     },
 }
-</script>
+</script> -->

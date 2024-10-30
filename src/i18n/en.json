@@ -15,6 +15,7 @@
     "register":"Register",
     "about": "About Us",
     "event-info": "Event Info",
+    "projects2024": "Projects 2024",
     "partners": "Partners",
     "challenges": "Challenges",
     "contact": "Contact"
@@ -22,12 +23,28 @@
   "index": {
     "date": "18-20 Oct 2024",
     "title": "Blue Biotech Hackathon",
-    "subtitle": "Join us in our 40-hour hackathon to innovate and develop cutting-edge solutions in biotechnology, science, and industry."
+    "subtitle": "stays in our memories. See Projects 2024 for more information about the last edition."
   },
   "about": {
     "title": "Our Philosophy",
     "subtitle_bold": "Code Blue ",
     "subtitle": "takes prides in tackling multifaceted and complex challenges of today's world, recognizing that solutions require diverse perspectives and collaborative efforts. We believe that everyone has valuable insights that can contribute to the advancement of humanity. Our focus is on science, knowledge transfer, software development, sustainability, and innovation."
+  },
+  "projects2024": {
+    "title": "Projects 2024",
+    "subtitle": "2024 hackathon was a great proof of concept, with several teams participating and presenting their projects in a pitch session on Sunday.",
+    "winners": "Winning projects",
+    "podium_list":[
+      "<b>Groundwater Monitoring App:</b> The winning team created a \"hydrological app\" for groundwater levels in Algarve, displaying monthly monitoring data from APA. The app, using fictional data, is live <a href=\"https://aww.fly.dev\" class=\"text-primary\" target=\"_blank\">here</a> (Elixir). Want to <a href=https://github.com/Levin/algarve-water-watch\" class=\"text-primary\" target=\"_blank\">contribute</a>?",
+      "<b>Fisheries Dashboard:</b> Interactive dashboard compiled fish catches and fishing efforts for the Atlantic, using IPMA’s data to highlight overfishing trends. Check the project <a href=\"https://github.com/Py-ualg/2024-code-blue/tree/main/challenges/Fisheries_PT\" class=\"text-primary\" target=\"_blank\">repository</a> (R shiny).",
+      "<b>AI for Agriculture:</b> A deep learning model was developed to predict the sugar content of Pêra Rocha pears, based on non-invasive measurements from CEOT, UAlg. Check the project <a href=\"https://github.com/minhnhattrinh312/AI_fruit_QA\" class=\"text-primary\" target=\"_blank\">repository</a> (PyTorch)."
+    ],
+    "honorary": "Honorary mentions",
+    "honorary_list":[
+      "<b>Seagrass Restoration:</b> Using Inductiva.AI simulators, the team explored optimal locations for restoring seagrass in Ria Formosa.",
+      "<b>Cloud Fish Stock Simulations:</b> In just a few hours, Inductiva engineers together with IPMA’s professor adapted IPMA’s ocean fish stock simulations to high-performance computing on the cloud, opening the door to more efficient policies and better models.",
+      "<b>Food Security:</b> The team designed a proposal to detect bacterial contamination on crops using optical methods and machine learning."
+    ]
   },
   "partners": {
     "title": "Partners",

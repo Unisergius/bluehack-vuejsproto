@@ -7,7 +7,7 @@
         <div class="text-center lg:text-left">
             <h1 class="text-5xl font-bold">{{ $t('contact.title') }}</h1>
             <p class="py-6"><b>{{ $t('contact.subtitle_bold') }}</b> {{ $t('contact.subtitle') }}
-                <a class="text text-primary" href="mailto:dpalecek@ualg.pt">dpalecek@ualg.pt</a>.
+                <a class="text text-primary" href="mailto:ddthumb@gmail.com">ddthumb@gmail.com</a>.
             </p>
         </div>
         <div v-if="formEnabled" class="card shrink-0 w-full max-w-sm shadow-2xl bg-base-100 d-none">

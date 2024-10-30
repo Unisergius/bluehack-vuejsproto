@@ -15,6 +15,7 @@
     "register":"Inscrição",
     "about": "Sobre Nós",
     "event-info": "Evento",
+    "projects2024": "Projetos 2024",
     "partners": "Parceiros",
     "challenges": "Desafios",
     "contact": "Contactos"
@@ -22,12 +23,28 @@
   "index": {
     "date": "18-20 Out 2024",
     "title": "Hackathon de Biotecnologia Azul",
-    "subtitle": "Junte-se a nós no nosso hackathon de 40 horas para inovar e desenvolver soluções de vanguarda em biotecnologia, ciência e indústria."
+    "subtitle": "permanece nas nossas memórias. Consulte Projetos 2024 para mais informações sobre os resultados da ultima edição."
   },
   "about": {
     "title": "A nossa filosofia",
     "subtitle_bold": "A Code Blue",
     "subtitle": " orgulha-se de enfrentar os desafios multifacetados e complexos do mundo atual, reconhecendo que as soluções requerem diversas perspetivas e esforços colaborativos. Acreditamos que todos tenham insights valiosos que podem contribuir para o avanço da humanidade. O nosso foco está na ciência, transferência de conhecimento, desenvolvimento de software, sustentabilidade e inovação."
+  },
+  "projects2024": {
+    "title": "Projetos 2024",
+    "subtitle": "O hackathon de 2024 foi uma grande prova de conceito, com várias equipas a participar e a apresentar os seus projetos numa sessão de pitch no domingo.",
+    "winners": "Projetos vencedores",
+    "podium_list":[
+      "<b>Aplicação de monitorização de águas subterrâneas:</b> A equipa vencedora criou uma \"aplicação hidrológica\" para os níveis das águas subterrâneas no Algarve, exibindo dados de monitorização mensal da APA. A aplicação, utilizando dados fictícios, está disponível <a href=\"https://aww.fly.dev\" class=\"text-primary\" target=\"_blank\">aqui</a> (Elixir). Deseja <a href=https://github.com/Levin/algarve-water-watch\" class=\"text-primary\" target=\"_blank\">contribuir</a>?",
+      "<b>Painel de Pesca:</b> O painel interactivo compilou as capturas de peixe e os esforços de pesca no Atlântico, utilizando os dados do IPMA para realçar as tendências da sobrepesca. Consulte o projeto <a href=\"https://github.com/Py-ualg/2024-code-blue/tree/main/challenges/Fisheries_PT\" class=\"text-primary\" target=\"_blank\">aqui</a> (R shiny).",
+      "<b>IA para a Agricultura:</b> Foi desenvolvido um modelo de aprendizagem profunda para prever o teor de açúcar das peras Pêra Rocha, com base em medições não invasivas do CEOT, UAlg. Consulte o projeto <a href=\"https://github.com/minhnhattrinh312/AI_fruit_QA\" class=\"text-primary\" target=\"_blank\">aqui</a> (PyTorch)."
+    ],
+    "honorary": "Menções honorárias",
+    "honorary_list":[
+      "<b>Restauração de ervas marinhas:</b> Utilizando simuladores Inductiva.AI, a equipa explorou locais ideais para restaurar ervas marinhas na Ria Formosa.",
+      "<b>Simulações de stocks de peixes em nuvem:</b> Em apenas algumas horas, os engenheiros da Inductiva, juntamente com o professor do IPMA, adaptaram as simulações de stocks de peixes oceânicos do IPMA para computação de alto desempenho na nuvem , abrindo a porta a políticas mais eficientes e a melhores modelos.",
+      "<b>Segurança Alimentar:</b> A equipa elaborou uma proposta para detetar a contaminação bacteriana em plantações utilizando métodos óticos e machine learning."
+    ]
   },
   "partners": {
     "title": "Parceiros",

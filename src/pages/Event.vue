@@ -70,10 +70,12 @@
                 </section>
 
                 <!-- Registration Section -->
+                <!-- 
                 <section class="bg-base-200 p-6 rounded-lg shadow-lg mb-6">
                     <RegisterButton class="w-full sm:w-auto text-3xl font-bold"/>
 
                 </section>
+                -->
 
                 <!-- rules section -->
                 <section class="bg-base-200 p-6 rounded-lg shadow-lg mb-6">
